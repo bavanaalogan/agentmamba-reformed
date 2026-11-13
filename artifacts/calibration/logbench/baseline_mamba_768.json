@@ -1,0 +1,22 @@
+{
+  "available": true,
+  "coef": [
+    -0.10880759446834858,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "intercept": -1.8139594912251855,
+  "n_dev": 99,
+  "dev_positive_rate": 0.1313,
+  "features": [
+    "candidate_share",
+    "share_missing",
+    "verified_supported",
+    "verified_partial",
+    "retrieval_triggered"
+  ],
+  "method": "logistic regression on dev split (Platt-style)",
+  "fitted_on": "20261027-000139_context_growth_dev_mamba"
+}

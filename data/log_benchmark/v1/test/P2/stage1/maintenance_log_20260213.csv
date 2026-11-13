@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-02-13T10:15:00,P2-PMP-01,WO-P2-66106,replaced damaged cable gland,M. Okafor,completed
+2026-02-13T12:30:00,P2-CNV-01,WO-P2-48816,replaced cooling fan blade,S. Lindqvist,completed
+2026-02-13T13:10:00,P2-MTR-02,WO-P2-86413,replaced cooling fan blade,R. Iyer,completed

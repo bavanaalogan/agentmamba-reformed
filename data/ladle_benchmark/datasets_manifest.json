@@ -1,0 +1,26 @@
+{
+  "benchmark": "ladle-bench-v1",
+  "seed": 2027,
+  "synthetic": true,
+  "datasets": {
+    "short": {
+      "scenarios": [
+        "SMS1",
+        "SMS2",
+        "SMS3",
+        "SMS4"
+      ],
+      "n_questions": 60
+    },
+    "long": {
+      "scenarios": [
+        "SMS1",
+        "SMS2",
+        "SMS3",
+        "SMS4"
+      ],
+      "n_questions": 60
+    }
+  },
+  "note": "Fictional ladle logs. 'short' = incident shift only; 'long' = the same shift plus thousands of later/older records. Same questions and gold answers in both."
+}

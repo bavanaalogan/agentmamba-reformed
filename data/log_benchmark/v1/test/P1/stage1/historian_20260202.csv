@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-02-02T08:30:00,P1-MTR-02,vibration,5.0,mm/s
+2026-02-02T08:30:00,P1-CNV-02,motor_current,57.4,A
+2026-02-02T08:30:00,P1-MTR-01,current,34.6,A
+2026-02-02T09:30:00,P1-PMP-02,vibration,5.9,mm/s

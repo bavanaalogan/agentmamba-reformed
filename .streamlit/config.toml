@@ -1,0 +1,16 @@
+[server]
+# Streamlit's file watcher walks every loaded module; touching transformers' lazy submodules
+# makes it import unrelated vision models that need torchvision (not a dependency here).
+fileWatcherType = "none"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#f07a35"
+backgroundColor = "#101114"
+secondaryBackgroundColor = "#1a1b20"
+textColor = "#eceae4"
+font = "sans serif"

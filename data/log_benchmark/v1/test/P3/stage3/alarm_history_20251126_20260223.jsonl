@@ -1,0 +1,40 @@
+{"ts": "2025-11-25T10:00:00", "equipment": "P3-PMP-02", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 3}
+{"ts": "2025-11-27T12:00:00", "equipment": "P3-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-05T23:00:00", "equipment": "P3-PMP-01", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-09T05:45:00", "equipment": "P3-MTR-02", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-10T18:15:00", "equipment": "P3-CMP-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-11T23:00:00", "equipment": "P3-CNV-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-12T14:45:00", "equipment": "P3-CNV-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-12T20:15:00", "equipment": "P3-CNV-01", "alarm": "HIGH DISCHARGE PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-26T09:15:00", "equipment": "P3-MTR-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-26T10:15:00", "equipment": "P3-PMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-27T11:45:00", "equipment": "P3-CNV-02", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-29T12:00:00", "equipment": "P3-MTR-02", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-31T03:00:00", "equipment": "P3-CNV-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-31T12:45:00", "equipment": "P3-MTR-01", "alarm": "HIGH DISCHARGE PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-04T07:30:00", "equipment": "P3-CNV-01", "alarm": "HIGH DISCHARGE PRESSURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-05T15:00:00", "equipment": "P3-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-06T21:45:00", "equipment": "P3-CNV-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-07T23:15:00", "equipment": "P3-FAN-01", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-08T23:45:00", "equipment": "P3-PMP-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-12T13:00:00", "equipment": "P3-CNV-02", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-12T23:15:00", "equipment": "P3-MTR-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-13T01:00:00", "equipment": "P3-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-15T18:15:00", "equipment": "P3-FAN-01", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-17T03:45:00", "equipment": "P3-PMP-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-21T18:15:00", "equipment": "P3-MTR-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-22T04:45:00", "equipment": "P3-FAN-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-22T07:45:00", "equipment": "P3-PMP-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-23T21:15:00", "equipment": "P3-PMP-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-30T00:00:00", "equipment": "P3-CMP-01", "alarm": "HIGH DISCHARGE PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-31T23:15:00", "equipment": "P3-PMP-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-03T00:00:00", "equipment": "P3-PMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-04T10:15:00", "equipment": "P3-CMP-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-04T13:15:00", "equipment": "P3-CNV-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-06T16:30:00", "equipment": "P3-CMP-01", "alarm": "HIGH DISCHARGE PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-14T09:30:00", "equipment": "P3-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-14T21:45:00", "equipment": "P3-FAN-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-16T02:15:00", "equipment": "P3-FAN-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-18T16:15:00", "equipment": "P3-FAN-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-02-19T11:30:00", "equipment": "P3-PMP-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-20T04:45:00", "equipment": "P3-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}

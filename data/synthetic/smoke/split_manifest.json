@@ -1,0 +1,31 @@
+{
+  "generator_version": "synth-v1",
+  "seed": 13,
+  "config": {
+    "n_campaigns": 5,
+    "heats_per_campaign": 24,
+    "ladles_per_campaign": 4,
+    "noise_logs_per_heat": 2,
+    "splits": {
+      "train": 3,
+      "val": 1,
+      "test": 1
+    },
+    "seed": 13
+  },
+  "split_unit": "campaign (independent fictional plant history)",
+  "campaign_splits": {
+    "C00": "train",
+    "C01": "train",
+    "C02": "test",
+    "C03": "train",
+    "C04": "val"
+  },
+  "counts": {
+    "events": 1216,
+    "withheld": 5,
+    "questions": 116
+  },
+  "synthetic": true,
+  "disclaimer": "All records are fictional and generated; they are not industrial observations."
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "EVALUATION ONLY. Read by the scorer after both systems have answered; never passed to a model. Evidence is given by source file and line number and resolved to record IDs at scoring time.",
+  "CP17-Q1": {"answer_kind": "value", "expected_answer": "8.4 mm/s", "match": "exact",
+              "required_evidence": [["agentmamba_stage1_small_context.txt", 6]]},
+  "CP17-Q2": {"answer_kind": "value", "expected_answer": "WO-CP17-211", "match": "exact",
+              "required_evidence": [["agentmamba_stage1_small_context.txt", 11]]},
+  "CP17-Q3": {"answer_kind": "value", "expected_answer": "4.1 mm/s", "match": "exact",
+              "required_evidence": [["agentmamba_stage1_small_context.txt", 9]]},
+  "CP17-Q4": {"answer_kind": "abstain", "expected_answer": null, "match": null, "required_evidence": [],
+              "related_evidence": [["agentmamba_stage1_small_context.txt", 6], ["agentmamba_stage1_small_context.txt", 13]],
+              "why": "the logs record the alarm and an inspection being scheduled; no root cause is documented"},
+  "CP17-Q5": {"answer_kind": "abstain", "expected_answer": null, "match": null, "required_evidence": [],
+              "related_evidence": [["agentmamba_stage1_small_context.txt", 13]],
+              "why": "the work note says no repair completion is recorded"}
+}

@@ -1,0 +1,129 @@
+{
+  "model": "state-spaces/mamba-130m-hf",
+  "threads": 12,
+  "device": "CPU (reference PyTorch selective scan)",
+  "part_a": {
+    "points": [
+      {
+        "tokens": 256,
+        "seconds": 1.6672,
+        "runs": [
+          1.8659,
+          1.6672,
+          1.5965
+        ]
+      },
+      {
+        "tokens": 512,
+        "seconds": 3.3585,
+        "runs": [
+          3.4066,
+          3.3585,
+          3.2606
+        ]
+      },
+      {
+        "tokens": 1024,
+        "seconds": 7.1381,
+        "runs": [
+          7.1381,
+          7.3651,
+          7.0322
+        ]
+      },
+      {
+        "tokens": 1536,
+        "seconds": 11.1805,
+        "runs": [
+          11.0342,
+          11.1805,
+          11.738
+        ]
+      },
+      {
+        "tokens": 2048,
+        "seconds": 16.0806,
+        "runs": [
+          16.2588,
+          15.7894,
+          16.0806
+        ]
+      },
+      {
+        "tokens": 3072,
+        "seconds": 22.6919,
+        "runs": [
+          22.9789,
+          22.6438,
+          22.6919
+        ]
+      },
+      {
+        "tokens": 4096,
+        "seconds": 32.2947,
+        "runs": [
+          32.1739,
+          32.2947,
+          35.7499
+        ]
+      }
+    ],
+    "fit": {
+      "seconds_per_token": 0.007917878774578651,
+      "intercept_s": -0.701481621187801,
+      "r2": 0.9975828424082694
+    },
+    "note": "one forward pass of frozen mamba-130m over L tokens of ladle-log text"
+  },
+  "part_b": {
+    "scenario": "SMS1",
+    "window_tokens": 2048,
+    "stages": [
+      {
+        "stage": 1,
+        "records": 20,
+        "history_tokens": 1321,
+        "agent_total_s_median": 8.009,
+        "agent_retrieval_s_median": 0.0,
+        "agent_mamba_tokens_median": 739,
+        "agent_mamba_tokens_max": 1530,
+        "retrieval_rate": 0.4,
+        "full_history_mamba_s_projected": 9.76
+      },
+      {
+        "stage": 2,
+        "records": 333,
+        "history_tokens": 23541,
+        "agent_total_s_median": 6.16,
+        "agent_retrieval_s_median": 0.0473,
+        "agent_mamba_tokens_median": 739,
+        "agent_mamba_tokens_max": 765,
+        "retrieval_rate": 1.0,
+        "full_history_mamba_s_projected": 185.69
+      },
+      {
+        "stage": 3,
+        "records": 495,
+        "history_tokens": 37231,
+        "agent_total_s_median": 5.811,
+        "agent_retrieval_s_median": 0.0629,
+        "agent_mamba_tokens_median": 739,
+        "agent_mamba_tokens_max": 765,
+        "retrieval_rate": 1.0,
+        "full_history_mamba_s_projected": 294.09
+      },
+      {
+        "stage": 4,
+        "records": 3012,
+        "history_tokens": 228273,
+        "agent_total_s_median": 6.795,
+        "agent_retrieval_s_median": 0.2017,
+        "agent_mamba_tokens_median": 739,
+        "agent_mamba_tokens_max": 765,
+        "retrieval_rate": 1.0,
+        "full_history_mamba_s_projected": 1806.74
+      }
+    ],
+    "note": "AgentMamba timings are measured with the score cache disabled. 'full_history_mamba_s_projected' is NOT measured: it applies the Part A linear fit to the token count of the whole history."
+  }
+}

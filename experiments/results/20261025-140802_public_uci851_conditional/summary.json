@@ -1,0 +1,154 @@
+{
+  "n": 63,
+  "answer": {
+    "overall_accuracy": 1.0,
+    "overall_accuracy_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact_match": 1.0,
+    "exact_match_ci95": [
+      1.0,
+      1.0
+    ],
+    "token_f1": 1.0,
+    "n_value": 61,
+    "answerable_accuracy": 1.0,
+    "unanswerable_abstention_accuracy": 1.0,
+    "false_answer_rate": 0.0,
+    "unsupported_answer_rate": 0.0,
+    "correct_abstention_rate": 1.0,
+    "abstention_rate": 0.031746031746031744,
+    "partial_answer_rate": 0.0,
+    "cross_stage_accuracy": null,
+    "n_cross_stage": 0,
+    "temporal_version_accuracy": 1.0,
+    "clarification_accuracy": null
+  },
+  "evidence": {
+    "recall_at_k": 1.0,
+    "precision_at_k": 0.125,
+    "mrr": 1.0,
+    "required_relationship_recall": null,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0,
+    "evidence_f1": 1.0,
+    "invalid_citations": 0
+  },
+  "controller": {
+    "retrieval_trigger_rate": 1.0,
+    "unnecessary_retrieval_rate": null,
+    "correctly_avoided_retrieval_rate": null,
+    "missed_retrieval_rate": 0.0,
+    "initial_support_rate": 0.0,
+    "final_improvement_after_retrieval": 1.0,
+    "n_initial_sufficient": 0,
+    "n_retrieval_required": 63
+  },
+  "verification": {
+    "evidence_grounding_rate": 1.0,
+    "unjustified_causal_claim_rate": null,
+    "incorrect_association_rate": 0.0,
+    "conflict_detection_precision": null,
+    "conflict_detection_recall": null
+  },
+  "discarded_evidence": {
+    "n_value_questions_evidence_lost": 0,
+    "abstain_rate_when_evidence_lost": null,
+    "wrong_answer_rate_when_evidence_lost": null,
+    "em_when_evidence_available": 1.0
+  },
+  "latency": {
+    "controller_s": {
+      "n": 63,
+      "mean": 0.0012,
+      "p50": 0.0012,
+      "p95": 0.0024,
+      "max": 0.003
+    },
+    "final_answer_s": {
+      "n": 63,
+      "mean": 18.5712,
+      "p50": 10.9729,
+      "p95": 14.9583,
+      "max": 521.7025
+    },
+    "initial_answer_s": {
+      "n": 63,
+      "mean": 0.0,
+      "p50": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "parse_s": {
+      "n": 63,
+      "mean": 0.0036,
+      "p50": 0.003,
+      "p95": 0.0053,
+      "max": 0.0301
+    },
+    "retrieval_s": {
+      "n": 63,
+      "mean": 0.0951,
+      "p50": 0.0952,
+      "p95": 0.1382,
+      "max": 0.1484
+    },
+    "total_s": {
+      "n": 63,
+      "mean": 18.672,
+      "p50": 11.0703,
+      "p95": 15.0604,
+      "max": 521.828
+    },
+    "verification_s": {
+      "n": 63,
+      "mean": 0.0002,
+      "p50": 0.0002,
+      "p95": 0.0004,
+      "max": 0.0005
+    }
+  },
+  "by_family": {
+    "P01_public_date_lookup": {
+      "n": 61,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "P02_public_out_of_coverage": {
+      "n": 2,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    }
+  },
+  "method": "public_uci851_conditional",
+  "spec": {
+    "policy": "store_all",
+    "budget": 1.0,
+    "mode": "conditional",
+    "verify": true
+  },
+  "memory": {
+    "retention_ratio_bytes": 1.0,
+    "relevant_evidence_retention": 1.0,
+    "rare_event_retention": null,
+    "useful_rare_retention": null,
+    "retained_records": 365,
+    "sqlite_file_bytes": 1511424,
+    "faiss_file_bytes": 563650
+  },
+  "dataset": {
+    "source": "UCI #851 Steel Industry Energy Consumption (CC BY 4.0), DOI 10.24432/C52G8C",
+    "split_unit": "calendar month (train Jan-Aug, val Sep-Oct, test Nov-Dec 2018)",
+    "campaign_splits": {
+      "UCI851": "mixed-by-month"
+    },
+    "synthetic": false,
+    "questions_templated": true,
+    "seed": 13,
+    "counts": {
+      "events": 365,
+      "questions": 369
+    }
+  }
+}

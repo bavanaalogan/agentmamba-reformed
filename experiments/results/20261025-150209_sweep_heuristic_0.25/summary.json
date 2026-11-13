@@ -1,0 +1,255 @@
+{
+  "n": 192,
+  "answer": {
+    "overall_accuracy": 0.65625,
+    "overall_accuracy_ci95": [
+      0.5938,
+      0.724
+    ],
+    "exact_match": 0.5625,
+    "exact_match_ci95": [
+      0.4792,
+      0.6458
+    ],
+    "token_f1": 0.6111111111111112,
+    "n_value": 144,
+    "answerable_accuracy": 0.5625,
+    "unanswerable_abstention_accuracy": 1.0,
+    "false_answer_rate": 0.08333333333333333,
+    "unsupported_answer_rate": 0.020618556701030927,
+    "correct_abstention_rate": 0.42528735632183906,
+    "abstention_rate": 0.453125,
+    "partial_answer_rate": 0.0,
+    "cross_stage_accuracy": 0.375,
+    "n_cross_stage": 64,
+    "temporal_version_accuracy": 0.44642857142857145,
+    "clarification_accuracy": 1.0
+  },
+  "evidence": {
+    "recall_at_k": 0.4754901960784315,
+    "precision_at_k": 0.0696486928104575,
+    "mrr": 0.4850665266106442,
+    "required_relationship_recall": 0.11772486772486773,
+    "evidence_precision": 0.979381443298969,
+    "evidence_recall": 0.9072164948453608,
+    "evidence_f1": 0.9312714776632305,
+    "invalid_citations": 0
+  },
+  "controller": {
+    "retrieval_trigger_rate": 0.7916666666666666,
+    "unnecessary_retrieval_rate": 0.0,
+    "correctly_avoided_retrieval_rate": 1.0,
+    "missed_retrieval_rate": 0.0,
+    "initial_support_rate": 0.16666666666666666,
+    "final_improvement_after_retrieval": 0.41964285714285715,
+    "n_initial_sufficient": 32,
+    "n_retrieval_required": 152
+  },
+  "verification": {
+    "evidence_grounding_rate": 0.979381443298969,
+    "unjustified_causal_claim_rate": 0.0,
+    "incorrect_association_rate": 0.020618556701030927,
+    "conflict_detection_precision": 1.0,
+    "conflict_detection_recall": 0.625
+  },
+  "discarded_evidence": {
+    "n_value_questions_evidence_lost": 62,
+    "abstain_rate_when_evidence_lost": 0.7580645161290323,
+    "wrong_answer_rate_when_evidence_lost": 0.24193548387096775,
+    "em_when_evidence_available": 0.9878048780487805
+  },
+  "latency": {
+    "controller_s": {
+      "n": 192,
+      "mean": 0.0013,
+      "p50": 0.0012,
+      "p95": 0.0021,
+      "max": 0.0041
+    },
+    "final_answer_s": {
+      "n": 152,
+      "mean": 2.0505,
+      "p50": 0.0004,
+      "p95": 7.9935,
+      "max": 13.8123
+    },
+    "initial_answer_s": {
+      "n": 192,
+      "mean": 0.0001,
+      "p50": 0.0,
+      "p95": 0.0006,
+      "max": 0.0022
+    },
+    "parse_s": {
+      "n": 192,
+      "mean": 0.0027,
+      "p50": 0.0027,
+      "p95": 0.0045,
+      "max": 0.0086
+    },
+    "retrieval_s": {
+      "n": 152,
+      "mean": 0.0479,
+      "p50": 0.0449,
+      "p95": 0.0794,
+      "max": 0.1353
+    },
+    "total_s": {
+      "n": 192,
+      "mean": 1.6666,
+      "p50": 0.0511,
+      "p95": 7.3965,
+      "max": 13.8554
+    },
+    "verification_s": {
+      "n": 152,
+      "mean": 0.0014,
+      "p50": 0.0007,
+      "p95": 0.0049,
+      "max": 0.0118
+    }
+  },
+  "by_family": {
+    "F01_direct_context": {
+      "n": 32,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F02_earlier_stage": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F03_relationship_chain": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F04_rare_warning": {
+      "n": 8,
+      "accuracy": 0.5,
+      "retrieval_rate": 1.0
+    },
+    "F07_maintenance_outcome": {
+      "n": 7,
+      "accuracy": 0.5714,
+      "retrieval_rate": 1.0
+    },
+    "F08_failed_intervention": {
+      "n": 9,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F09_conflicting_records": {
+      "n": 16,
+      "accuracy": 0.6875,
+      "retrieval_rate": 1.0
+    },
+    "F10_outdated_document": {
+      "n": 16,
+      "accuracy": 0.125,
+      "retrieval_rate": 1.0
+    },
+    "F11_missing_identifier": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F12_evidence_never_stored": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F13_unanswerable": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F14_ambiguous": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F15_correlation_not_causation": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F15b_documented_cause": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F16_multi_stage": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F17_similar_irrelevant": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F18_precise_time": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    }
+  },
+  "memory": {
+    "candidates": 4580,
+    "retained_records": 872,
+    "write_rate": 0.1903930131004367,
+    "candidate_bytes": 741312,
+    "retained_bytes": 185302,
+    "retention_ratio_bytes": 0.24996492704826037,
+    "relevant_evidence_retention": 0.3941908713692946,
+    "n_relevant_evidence": 241,
+    "rare_event_retention": 0.8679245283018868,
+    "n_rare": 371,
+    "useful_rare_retention": 0.6145833333333334,
+    "n_useful_rare": 96,
+    "irrelevant_retained_fraction": 0.8910550458715596,
+    "retained_by_type": {
+      "ladle_inspection": 256,
+      "caster_alarm": 246,
+      "coil_inspection": 122,
+      "cast_record": 118,
+      "work_order": 56,
+      "maintenance_followup": 42,
+      "rca_report": 16,
+      "ladle_assignment": 8,
+      "ladle_incident": 8
+    },
+    "sqlite_file_bytes": 3575808,
+    "faiss_file_bytes": 1346458,
+    "ingest_report": {
+      "offered": 4580,
+      "written": 872,
+      "skipped": 3708,
+      "evicted": 1952,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": 185328,
+      "used_bytes": 185302,
+      "policy": "heuristic",
+      "timings": {
+        "embedding_s": 0.0541343999793753,
+        "gate_s": 0.0019514000741764903,
+        "write_s": 0.2781187000218779,
+        "total_s": 3.333684099954553
+      },
+      "decisions": []
+    },
+    "build_or_open_s": 0.17
+  },
+  "method": "sweep_heuristic_0.25",
+  "split": "test",
+  "spec": {
+    "policy": "heuristic",
+    "budget": 0.25,
+    "mode": "conditional",
+    "verify": true
+  },
+  "wall_s": 320.5
+}

@@ -1,0 +1,14 @@
+{
+  "source": "UCI #851 Steel Industry Energy Consumption (CC BY 4.0), DOI 10.24432/C52G8C",
+  "split_unit": "calendar month (train Jan-Aug, val Sep-Oct, test Nov-Dec 2018)",
+  "campaign_splits": {
+    "UCI851": "mixed-by-month"
+  },
+  "synthetic": false,
+  "questions_templated": true,
+  "seed": 13,
+  "counts": {
+    "events": 365,
+    "questions": 369
+  }
+}

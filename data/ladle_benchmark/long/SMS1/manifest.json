@@ -1,0 +1,137 @@
+{
+  "benchmark": "ladle-bench-v1",
+  "dataset": "long",
+  "scenario": "SMS1",
+  "incident_day": "2026-03-02",
+  "roles": {
+    "maint": "LADLE-03",
+    "alarm": "LADLE-14",
+    "sensor": "LADLE-11",
+    "insp": "LADLE-16",
+    "rca": "LADLE-09",
+    "hedge": "LADLE-05",
+    "clear": "LADLE-12",
+    "noclear": "LADLE-07",
+    "conflict": "LADLE-12",
+    "missing": "LADLE-29"
+  },
+  "stages": {
+    "1": {
+      "name": "incident shift (the short dataset)",
+      "files": [
+        {
+          "file": "stage1/ladle_historian_20260302.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/thermography_round_20260302.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/ladle_alarm_log_20260302.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/ladle_maintenance_log_20260302.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/inspection_LADLE-16_20260302.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/rca_LADLE-09_20260302.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/shift_notes_20260302.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/return_to_service_LADLE-12_20260302.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "2": {
+      "name": "following three days of operations",
+      "files": [
+        {
+          "file": "stage2/ladle_historian_20260302_20260304.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage2/ladle_alarm_log_20260302.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage2/ladle_alarm_log_20260303_20260304.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage2/ladle_maintenance_log_20260303_20260304.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage2/shift_notes_20260304.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "3": {
+      "name": "older maintenance history and the ladle care manual",
+      "files": [
+        {
+          "file": "stage3/ladle_maintenance_history_20251102_20260301.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/ladle_alarm_history_20251202_20260301.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage3/inspection_LADLE-16_20260131.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/inspection_LADLE-16_20260101.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/ladle_care_manual_SMS1.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "4": {
+      "name": "six weeks of later ladle cycles",
+      "files": [
+        {
+          "file": "stage4/ladle_historian_20260305_20260416.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage4/ladle_cycle_log_20260305_20260416.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage4/ladle_alarm_log_20260305_20260416.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage4/ladle_maintenance_log_20260306_20260416.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/inspection_LADLE-16_20260322.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/rca_LADLE-05_20260312.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    }
+  },
+  "synthetic": true
+}

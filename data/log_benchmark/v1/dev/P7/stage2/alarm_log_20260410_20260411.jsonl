@@ -1,0 +1,15 @@
+{"ts": "2026-04-09T05:45:00", "equipment": "P7-CNV-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-09T08:30:00", "equipment": "P7-FAN-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-09T08:45:00", "equipment": "P7-CMP-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-09T12:45:00", "equipment": "P7-FAN-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-09T13:45:00", "equipment": "P7-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-10T05:45:00", "equipment": "P7-MTR-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-10T16:45:00", "equipment": "P7-PMP-01", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-10T18:30:00", "equipment": "P7-PMP-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-10T18:45:00", "equipment": "P7-CMP-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-10T19:30:00", "equipment": "P7-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-11T06:00:00", "equipment": "P7-MTR-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-11T08:00:00", "equipment": "P7-FAN-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-04-11T11:15:00", "equipment": "P7-MTR-02", "alarm": "BELT MISALIGNMENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-04-11T12:15:00", "equipment": "P7-PMP-02", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-04-11T22:30:00", "equipment": "P7-CMP-01", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}

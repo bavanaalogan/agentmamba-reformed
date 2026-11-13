@@ -1,0 +1,3 @@
+{"ts": "2026-03-29T08:55:00", "equipment": "P6-MTR-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-29T09:17:00", "equipment": "P6-MTR-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "CLEARED", "priority": 2}
+{"ts": "2026-03-29T14:05:00", "equipment": "P6-FAN-01", "alarm": "UNIT TRIP", "state": "RAISED", "priority": 1}

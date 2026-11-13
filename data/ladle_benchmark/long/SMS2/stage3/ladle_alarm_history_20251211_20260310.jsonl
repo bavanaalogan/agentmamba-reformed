@@ -1,0 +1,50 @@
+{"ts": "2025-12-12T03:30:00", "equipment": "LADLE-07", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-13T10:00:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-13T17:00:00", "equipment": "LADLE-07", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-13T20:30:00", "equipment": "LADLE-11", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-14T11:45:00", "equipment": "LADLE-07", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-15T10:15:00", "equipment": "LADLE-12", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-17T09:00:00", "equipment": "LADLE-11", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-18T19:30:00", "equipment": "LADLE-05", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-18T19:30:00", "equipment": "LADLE-11", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-20T13:00:00", "equipment": "LADLE-12", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-21T17:45:00", "equipment": "LADLE-11", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 1}
+{"ts": "2025-12-24T15:00:00", "equipment": "LADLE-11", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-24T15:45:00", "equipment": "LADLE-03", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-24T22:45:00", "equipment": "LADLE-03", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 3}
+{"ts": "2025-12-25T15:00:00", "equipment": "LADLE-07", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-26T05:15:00", "equipment": "LADLE-11", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-27T17:45:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2025-12-28T03:30:00", "equipment": "LADLE-03", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-01T03:30:00", "equipment": "LADLE-05", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-04T00:45:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-06T03:30:00", "equipment": "LADLE-07", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-06T11:45:00", "equipment": "LADLE-16", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-09T14:30:00", "equipment": "LADLE-03", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-10T12:15:00", "equipment": "LADLE-16", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-10T16:00:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-15T00:45:00", "equipment": "LADLE-07", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-16T21:15:00", "equipment": "LADLE-03", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-16T22:45:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-23T11:00:00", "equipment": "LADLE-07", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-24T12:30:00", "equipment": "LADLE-16", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-25T18:45:00", "equipment": "LADLE-12", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 1}
+{"ts": "2026-01-25T19:15:00", "equipment": "LADLE-11", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 3}
+{"ts": "2026-01-27T19:30:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-01-28T16:00:00", "equipment": "LADLE-14", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-04T22:45:00", "equipment": "LADLE-05", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 2}
+{"ts": "2026-02-09T01:15:00", "equipment": "LADLE-14", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-13T04:30:00", "equipment": "LADLE-12", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-13T08:15:00", "equipment": "LADLE-05", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-15T07:45:00", "equipment": "LADLE-05", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}
+{"ts": "2026-02-15T08:45:00", "equipment": "LADLE-12", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-16T13:00:00", "equipment": "LADLE-03", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2026-02-17T21:30:00", "equipment": "LADLE-11", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-21T21:45:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2026-02-26T00:30:00", "equipment": "LADLE-05", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-28T05:30:00", "equipment": "LADLE-03", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-28T13:30:00", "equipment": "LADLE-11", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-02T14:15:00", "equipment": "LADLE-12", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-02T17:00:00", "equipment": "LADLE-14", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-06T18:45:00", "equipment": "LADLE-14", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-07T23:30:00", "equipment": "LADLE-12", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}

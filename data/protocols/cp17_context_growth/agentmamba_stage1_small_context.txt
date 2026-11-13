@@ -1,0 +1,13 @@
+# SYNTHETIC INDUSTRIAL LOGS — fictional AgentMamba test data, not real plant records
+# Scenario: COOLING-PUMP-17 | Plant: Example Steelworks
+# STAGE 1: small context — target incident only
+2026-10-12 08:14:02.100 +05:30 | INFO | PLC-CP17 | EQUIPMENT=COOLING-PUMP-17 | EVENT=PUMP_START | state=RUNNING | quality=GOOD
+2026-10-12 08:14:05.300 +05:30 | INFO | HISTORIAN | EQUIPMENT=COOLING-PUMP-17 | TAG=CP17_DISCHARGE_PRESSURE | value=5.8 | unit=bar | quality=GOOD
+2026-10-12 08:14:08.000 +05:30 | WARN | PLC-CP17 | EQUIPMENT=COOLING-PUMP-17 | TAG=CP17_VIBRATION | value=8.4 | unit=mm/s | configured_limit=7.0 | EVENT=HIGH_VIBRATION_ALARM | quality=GOOD
+2026-10-12 08:14:09.200 +05:30 | INFO | ALARM-MANAGER | EQUIPMENT=COOLING-PUMP-17 | alarm_id=ALM-CP17-884 | status=ACTIVE | source=CP17_VIBRATION
+2026-10-12 08:16:40.000 +05:30 | INFO | OPERATOR-LOG | EQUIPMENT=COOLING-PUMP-17 | EVENT=OBSERVATION | note="Visible vibration at pump casing; no fluid leak observed."
+2026-10-12 08:19:12.500 +05:30 | INFO | HISTORIAN | EQUIPMENT=COOLING-PUMP-17 | TAG=CP17_VIBRATION | value=4.1 | unit=mm/s | quality=GOOD
+2026-10-12 08:19:13.000 +05:30 | INFO | ALARM-MANAGER | EQUIPMENT=COOLING-PUMP-17 | alarm_id=ALM-CP17-884 | status=CLEARED | clear_reason="vibration reading below configured limit"
+2026-10-12 08:24:00.000 +05:30 | INFO | CMMS-BRIDGE | EQUIPMENT=COOLING-PUMP-17 | work_order=WO-CP17-211 | status=OPENED | description="Inspect pump vibration and coupling alignment"
+2026-10-12 09:02:11.000 +05:30 | INFO | CMMS-BRIDGE | EQUIPMENT=COOLING-PUMP-17 | work_order=WO-CP17-211 | status=ASSIGNED | team=MECHANICAL-MAINTENANCE
+2026-10-12 10:35:45.000 +05:30 | INFO | CMMS-BRIDGE | EQUIPMENT=COOLING-PUMP-17 | work_order=WO-CP17-211 | status=WORK_NOTE_ADDED | note="Coupling alignment inspection scheduled; no repair completion recorded in this log."

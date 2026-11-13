@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-03T10:15:00,LADLE-07,WO-SMS1-69606,repaired argon line coupling,M. Okafor,completed
+2026-03-03T12:30:00,LADLE-14,WO-SMS1-18582,replaced slide gate cylinder seal,J. Moreau,completed
+2026-03-03T15:00:00,LADLE-12,WO-SMS1-50609,replaced slide gate plates,J. Moreau,completed
+2026-03-03T15:30:00,LADLE-05,WO-SMS1-76393,patched impact pad refractory,J. Moreau,completed
+2026-03-04T08:00:00,LADLE-16,WO-SMS1-24578,patched impact pad refractory,J. Moreau,completed
+2026-03-04T08:30:00,LADLE-11,WO-SMS1-36632,replaced trunnion bearing,T. Varga,completed
+2026-03-04T10:00:00,LADLE-09,WO-SMS1-68793,repaired argon line coupling,M. Okafor,completed
+2026-03-04T11:15:00,LADLE-07,WO-SMS1-39033,replaced trunnion bearing,R. Iyer,completed

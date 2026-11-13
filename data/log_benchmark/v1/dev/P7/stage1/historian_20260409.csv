@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-04-09T08:30:00,P7-MTR-01,winding_temp,82.2,degC
+2026-04-09T08:30:00,P7-PMP-02,bearing_temp,45.4,degC
+2026-04-09T10:30:00,P7-PMP-01,bearing_temp,43.5,degC
+2026-04-09T10:30:00,P7-FAN-01,speed,1444,rpm

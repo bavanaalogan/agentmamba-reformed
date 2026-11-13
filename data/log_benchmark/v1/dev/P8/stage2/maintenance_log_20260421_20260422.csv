@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-04-21T08:00:00,P8-PMP-02,WO-P8-62029,re-greased non-drive-end bearing,T. Varga,completed
+2026-04-21T10:30:00,P8-PMP-01,WO-P8-77459,tightened baseplate anchor bolts,J. Moreau,completed
+2026-04-21T16:15:00,P8-FAN-01,WO-P8-12545,tightened baseplate anchor bolts,J. Moreau,completed
+2026-04-21T16:30:00,P8-CNV-01,WO-P8-46275,recalibrated pressure transmitter,J. Moreau,completed
+2026-04-22T07:30:00,P8-MTR-02,WO-P8-60583,tightened baseplate anchor bolts,M. Okafor,completed
+2026-04-22T11:30:00,P8-PMP-01,WO-P8-74932,replaced damaged cable gland,T. Varga,completed
+2026-04-22T14:45:00,P8-CMP-01,WO-P8-77237,replaced cooling fan blade,R. Iyer,completed
+2026-04-22T15:30:00,P8-FAN-01,WO-P8-77285,replaced damaged cable gland,T. Varga,completed

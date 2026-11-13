@@ -1,0 +1,258 @@
+{
+  "n": 192,
+  "answer": {
+    "overall_accuracy": 0.3958333333333333,
+    "overall_accuracy_ci95": [
+      0.3281,
+      0.4688
+    ],
+    "exact_match": 0.25,
+    "exact_match_ci95": [
+      0.1806,
+      0.3194
+    ],
+    "token_f1": 0.2986111111111111,
+    "n_value": 144,
+    "answerable_accuracy": 0.25,
+    "unanswerable_abstention_accuracy": 1.0,
+    "false_answer_rate": 0.07291666666666667,
+    "unsupported_answer_rate": 0.0,
+    "correct_abstention_rate": 0.23880597014925373,
+    "abstention_rate": 0.6979166666666666,
+    "partial_answer_rate": 0.0,
+    "cross_stage_accuracy": 0.265625,
+    "n_cross_stage": 64,
+    "temporal_version_accuracy": 0.03571428571428571,
+    "clarification_accuracy": 1.0
+  },
+  "evidence": {
+    "recall_at_k": 0.017156862745098037,
+    "precision_at_k": 0.0027573529411764708,
+    "mrr": 0.015756302521008403,
+    "required_relationship_recall": 0.010582010582010581,
+    "evidence_precision": 1.0,
+    "evidence_recall": 0.86,
+    "evidence_f1": 0.9066666666666664,
+    "invalid_citations": 0
+  },
+  "controller": {
+    "retrieval_trigger_rate": 0.7916666666666666,
+    "unnecessary_retrieval_rate": 0.0,
+    "correctly_avoided_retrieval_rate": 1.0,
+    "missed_retrieval_rate": 0.0,
+    "initial_support_rate": 0.16666666666666666,
+    "final_improvement_after_retrieval": 0.017857142857142856,
+    "n_initial_sufficient": 32,
+    "n_retrieval_required": 152
+  },
+  "verification": {
+    "evidence_grounding_rate": 1.0,
+    "unjustified_causal_claim_rate": 0.0,
+    "incorrect_association_rate": 0.0,
+    "conflict_detection_precision": null,
+    "conflict_detection_recall": 0.0
+  },
+  "discarded_evidence": {
+    "n_value_questions_evidence_lost": 108,
+    "abstain_rate_when_evidence_lost": 0.8703703703703703,
+    "wrong_answer_rate_when_evidence_lost": 0.12962962962962962,
+    "em_when_evidence_available": 1.0
+  },
+  "latency": {
+    "controller_s": {
+      "n": 192,
+      "mean": 0.0012,
+      "p50": 0.0011,
+      "p95": 0.0024,
+      "max": 0.0034
+    },
+    "final_answer_s": {
+      "n": 152,
+      "mean": 7.2327,
+      "p50": 4.3407,
+      "p95": 10.6393,
+      "max": 521.0833
+    },
+    "initial_answer_s": {
+      "n": 192,
+      "mean": 0.0001,
+      "p50": 0.0,
+      "p95": 0.0004,
+      "max": 0.0014
+    },
+    "parse_s": {
+      "n": 192,
+      "mean": 0.0027,
+      "p50": 0.0024,
+      "p95": 0.005,
+      "max": 0.0071
+    },
+    "retrieval_s": {
+      "n": 152,
+      "mean": 0.0499,
+      "p50": 0.0456,
+      "p95": 0.0823,
+      "max": 0.0968
+    },
+    "total_s": {
+      "n": 192,
+      "mean": 5.7701,
+      "p50": 0.0733,
+      "p95": 10.5743,
+      "max": 521.1519
+    },
+    "verification_s": {
+      "n": 152,
+      "mean": 0.0006,
+      "p50": 0.0004,
+      "p95": 0.002,
+      "max": 0.0041
+    }
+  },
+  "by_family": {
+    "F01_direct_context": {
+      "n": 32,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F02_earlier_stage": {
+      "n": 16,
+      "accuracy": 0.0625,
+      "retrieval_rate": 1.0
+    },
+    "F03_relationship_chain": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F04_rare_warning": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F07_maintenance_outcome": {
+      "n": 7,
+      "accuracy": 0.1429,
+      "retrieval_rate": 1.0
+    },
+    "F08_failed_intervention": {
+      "n": 9,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F09_conflicting_records": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F10_outdated_document": {
+      "n": 16,
+      "accuracy": 0.125,
+      "retrieval_rate": 1.0
+    },
+    "F11_missing_identifier": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F12_evidence_never_stored": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F13_unanswerable": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F14_ambiguous": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F15_correlation_not_causation": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F15b_documented_cause": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F16_multi_stage": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F17_similar_irrelevant": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F18_precise_time": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    }
+  },
+  "memory": {
+    "candidates": 4580,
+    "retained_records": 57,
+    "write_rate": 0.012445414847161572,
+    "candidate_bytes": 741312,
+    "retained_bytes": 7399,
+    "retention_ratio_bytes": 0.009980952689286022,
+    "relevant_evidence_retention": 0.02074688796680498,
+    "n_relevant_evidence": 241,
+    "rare_event_retention": 0.008086253369272238,
+    "n_rare": 371,
+    "useful_rare_retention": 0.020833333333333332,
+    "n_useful_rare": 96,
+    "irrelevant_retained_fraction": 0.9122807017543859,
+    "retained_by_type": {
+      "sensor_summary": 20,
+      "ladle_assignment": 7,
+      "rolling_record": 5,
+      "ladle_treatment": 5,
+      "bof_heat_record": 3,
+      "ladle_preheat_log": 3,
+      "coil_inspection": 3,
+      "cast_record": 3,
+      "caster_alarm": 2,
+      "shift_log": 2,
+      "maintenance_followup": 2,
+      "hot_metal_tap": 2
+    },
+    "sqlite_file_bytes": 958464,
+    "faiss_file_bytes": 88098,
+    "ingest_report": {
+      "offered": 4580,
+      "written": 57,
+      "skipped": 4523,
+      "evicted": 779,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": 7413,
+      "used_bytes": 7399,
+      "policy": "random",
+      "timings": {
+        "embedding_s": 0.027815899928100407,
+        "gate_s": 0.007946300087496638,
+        "write_s": 0.08181510004214942,
+        "total_s": 2.2089793999912217
+      },
+      "decisions": []
+    },
+    "build_or_open_s": 2.49
+  },
+  "method": "sweep_random_0.01",
+  "split": "test",
+  "spec": {
+    "policy": "random",
+    "budget": 0.01,
+    "mode": "conditional",
+    "verify": true
+  },
+  "wall_s": 1108.2
+}

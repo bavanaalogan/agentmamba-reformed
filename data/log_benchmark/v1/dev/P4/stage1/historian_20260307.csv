@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-03-07T08:30:00,P4-PMP-02,bearing_temp,48.5,degC
+2026-03-07T10:30:00,P4-CNV-01,motor_current,58.5,A
+2026-03-07T11:30:00,P4-MTR-01,vibration,7.0,mm/s
+2026-03-07T11:30:00,P4-CNV-02,motor_current,29.6,A

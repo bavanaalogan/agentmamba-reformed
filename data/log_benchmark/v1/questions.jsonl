@@ -1,0 +1,120 @@
+{"question_id": "P1-Q01", "scenario": "P1", "split": "test", "text": "What maintenance action was recorded for P1-MTR-01 on 2026-02-02?"}
+{"question_id": "P1-Q02", "scenario": "P1", "split": "test", "text": "Which alarm was raised on P1-CMP-01 at 2026-02-02 08:10?"}
+{"question_id": "P1-Q03", "scenario": "P1", "split": "test", "text": "What was the vibration reading for P1-MTR-02 at 2026-02-02 08:30?"}
+{"question_id": "P1-Q04", "scenario": "P1", "split": "test", "text": "What inspection finding was recorded for P1-PMP-02 on 2026-02-02?"}
+{"question_id": "P1-Q05", "scenario": "P1", "split": "test", "text": "What was the confirmed root cause of the trip of P1-CNV-02 on 2026-02-02?"}
+{"question_id": "P1-Q06", "scenario": "P1", "split": "test", "text": "What was the root cause of the trip of P1-FAN-01 on 2026-02-02?"}
+{"question_id": "P1-Q07", "scenario": "P1", "split": "test", "text": "Was P1-PMP-01 cleared for operation after the repair on 2026-02-02?"}
+{"question_id": "P1-Q08", "scenario": "P1", "split": "test", "text": "Was P1-CNV-01 cleared for operation after the repair on 2026-02-02?"}
+{"question_id": "P1-Q09", "scenario": "P1", "split": "test", "text": "What was the vibration reading for P1-PMP-02 at 2026-02-02 09:30?"}
+{"question_id": "P1-Q10", "scenario": "P1", "split": "test", "text": "What maintenance action was recorded for P1-PMP-09 on 2026-02-02?"}
+{"question_id": "P1-Q11", "scenario": "P1", "split": "test", "text": "What maintenance action was recorded for P1-MTR-01 on 2026-02-05?"}
+{"question_id": "P1-Q12", "scenario": "P1", "split": "test", "text": "What work was carried out on P1-MTR-01 on 2026-02-02?"}
+{"question_id": "P1-Q13", "scenario": "P1", "split": "test", "text": "Which alarm did P1-CMP-01 trigger at 2026-02-02 08:10?"}
+{"question_id": "P1-Q14", "scenario": "P1", "split": "test", "text": "What did the inspection of P1-PMP-02 on 2026-02-02 find?"}
+{"question_id": "P1-Q15", "scenario": "P1", "split": "test", "text": "Why did P1-CNV-02 trip on 2026-02-02?"}
+{"question_id": "P2-Q01", "scenario": "P2", "split": "test", "text": "What maintenance action was recorded for P2-PMP-01 on 2026-02-13?"}
+{"question_id": "P2-Q02", "scenario": "P2", "split": "test", "text": "Which alarm was raised on P2-CNV-02 at 2026-02-13 09:35?"}
+{"question_id": "P2-Q03", "scenario": "P2", "split": "test", "text": "What was the vibration reading for P2-FAN-01 at 2026-02-13 10:30?"}
+{"question_id": "P2-Q04", "scenario": "P2", "split": "test", "text": "What inspection finding was recorded for P2-CMP-01 on 2026-02-13?"}
+{"question_id": "P2-Q05", "scenario": "P2", "split": "test", "text": "What was the confirmed root cause of the trip of P2-MTR-01 on 2026-02-13?"}
+{"question_id": "P2-Q06", "scenario": "P2", "split": "test", "text": "What was the root cause of the trip of P2-PMP-02 on 2026-02-13?"}
+{"question_id": "P2-Q07", "scenario": "P2", "split": "test", "text": "Was P2-CNV-01 cleared for operation after the repair on 2026-02-13?"}
+{"question_id": "P2-Q08", "scenario": "P2", "split": "test", "text": "Was P2-MTR-02 cleared for operation after the repair on 2026-02-13?"}
+{"question_id": "P2-Q09", "scenario": "P2", "split": "test", "text": "What was the vibration reading for P2-MTR-01 at 2026-02-13 08:30?"}
+{"question_id": "P2-Q10", "scenario": "P2", "split": "test", "text": "What maintenance action was recorded for P2-PMP-09 on 2026-02-13?"}
+{"question_id": "P2-Q11", "scenario": "P2", "split": "test", "text": "What maintenance action was recorded for P2-PMP-01 on 2026-02-16?"}
+{"question_id": "P2-Q12", "scenario": "P2", "split": "test", "text": "What work was carried out on P2-PMP-01 on 2026-02-13?"}
+{"question_id": "P2-Q13", "scenario": "P2", "split": "test", "text": "Which alarm did P2-CNV-02 trigger at 2026-02-13 09:35?"}
+{"question_id": "P2-Q14", "scenario": "P2", "split": "test", "text": "What did the inspection of P2-CMP-01 on 2026-02-13 find?"}
+{"question_id": "P2-Q15", "scenario": "P2", "split": "test", "text": "Why did P2-MTR-01 trip on 2026-02-13?"}
+{"question_id": "P3-Q01", "scenario": "P3", "split": "test", "text": "What maintenance action was recorded for P3-CNV-02 on 2026-02-24?"}
+{"question_id": "P3-Q02", "scenario": "P3", "split": "test", "text": "Which alarm was raised on P3-CMP-01 at 2026-02-24 10:35?"}
+{"question_id": "P3-Q03", "scenario": "P3", "split": "test", "text": "What was the bearing temp reading for P3-PMP-01 at 2026-02-24 10:30?"}
+{"question_id": "P3-Q04", "scenario": "P3", "split": "test", "text": "What inspection finding was recorded for P3-PMP-02 on 2026-02-24?"}
+{"question_id": "P3-Q05", "scenario": "P3", "split": "test", "text": "What was the confirmed root cause of the trip of P3-MTR-02 on 2026-02-24?"}
+{"question_id": "P3-Q06", "scenario": "P3", "split": "test", "text": "What was the root cause of the trip of P3-CNV-01 on 2026-02-24?"}
+{"question_id": "P3-Q07", "scenario": "P3", "split": "test", "text": "Was P3-MTR-01 cleared for operation after the repair on 2026-02-24?"}
+{"question_id": "P3-Q08", "scenario": "P3", "split": "test", "text": "Was P3-FAN-01 cleared for operation after the repair on 2026-02-24?"}
+{"question_id": "P3-Q09", "scenario": "P3", "split": "test", "text": "What was the current reading for P3-MTR-01 at 2026-02-24 11:30?"}
+{"question_id": "P3-Q10", "scenario": "P3", "split": "test", "text": "What maintenance action was recorded for P3-PMP-09 on 2026-02-24?"}
+{"question_id": "P3-Q11", "scenario": "P3", "split": "test", "text": "What maintenance action was recorded for P3-CNV-02 on 2026-02-27?"}
+{"question_id": "P3-Q12", "scenario": "P3", "split": "test", "text": "What work was carried out on P3-CNV-02 on 2026-02-24?"}
+{"question_id": "P3-Q13", "scenario": "P3", "split": "test", "text": "Which alarm did P3-CMP-01 trigger at 2026-02-24 10:35?"}
+{"question_id": "P3-Q14", "scenario": "P3", "split": "test", "text": "What did the inspection of P3-PMP-02 on 2026-02-24 find?"}
+{"question_id": "P3-Q15", "scenario": "P3", "split": "test", "text": "Why did P3-MTR-02 trip on 2026-02-24?"}
+{"question_id": "P4-Q01", "scenario": "P4", "split": "dev", "text": "What maintenance action was recorded for P4-PMP-02 on 2026-03-07?"}
+{"question_id": "P4-Q02", "scenario": "P4", "split": "dev", "text": "Which alarm was raised on P4-MTR-02 at 2026-03-07 08:40?"}
+{"question_id": "P4-Q03", "scenario": "P4", "split": "dev", "text": "What was the vibration reading for P4-MTR-01 at 2026-03-07 11:30?"}
+{"question_id": "P4-Q04", "scenario": "P4", "split": "dev", "text": "What inspection finding was recorded for P4-PMP-01 on 2026-03-07?"}
+{"question_id": "P4-Q05", "scenario": "P4", "split": "dev", "text": "What was the confirmed root cause of the trip of P4-CMP-01 on 2026-03-07?"}
+{"question_id": "P4-Q06", "scenario": "P4", "split": "dev", "text": "What was the root cause of the trip of P4-CNV-02 on 2026-03-07?"}
+{"question_id": "P4-Q07", "scenario": "P4", "split": "dev", "text": "Was P4-CNV-01 cleared for operation after the repair on 2026-03-07?"}
+{"question_id": "P4-Q08", "scenario": "P4", "split": "dev", "text": "Was P4-FAN-01 cleared for operation after the repair on 2026-03-07?"}
+{"question_id": "P4-Q09", "scenario": "P4", "split": "dev", "text": "What was the motor current reading for P4-CNV-01 at 2026-03-07 10:30?"}
+{"question_id": "P4-Q10", "scenario": "P4", "split": "dev", "text": "What maintenance action was recorded for P4-PMP-09 on 2026-03-07?"}
+{"question_id": "P4-Q11", "scenario": "P4", "split": "dev", "text": "What maintenance action was recorded for P4-PMP-02 on 2026-03-10?"}
+{"question_id": "P4-Q12", "scenario": "P4", "split": "dev", "text": "What work was carried out on P4-PMP-02 on 2026-03-07?"}
+{"question_id": "P4-Q13", "scenario": "P4", "split": "dev", "text": "Which alarm did P4-MTR-02 trigger at 2026-03-07 08:40?"}
+{"question_id": "P4-Q14", "scenario": "P4", "split": "dev", "text": "What did the inspection of P4-PMP-01 on 2026-03-07 find?"}
+{"question_id": "P4-Q15", "scenario": "P4", "split": "dev", "text": "Why did P4-CMP-01 trip on 2026-03-07?"}
+{"question_id": "P5-Q01", "scenario": "P5", "split": "test", "text": "What maintenance action was recorded for P5-CMP-01 on 2026-03-18?"}
+{"question_id": "P5-Q02", "scenario": "P5", "split": "test", "text": "Which alarm was raised on P5-CNV-02 at 2026-03-18 10:05?"}
+{"question_id": "P5-Q03", "scenario": "P5", "split": "test", "text": "What was the bearing temp reading for P5-PMP-02 at 2026-03-18 11:30?"}
+{"question_id": "P5-Q04", "scenario": "P5", "split": "test", "text": "What inspection finding was recorded for P5-MTR-01 on 2026-03-18?"}
+{"question_id": "P5-Q05", "scenario": "P5", "split": "test", "text": "What was the confirmed root cause of the trip of P5-PMP-01 on 2026-03-18?"}
+{"question_id": "P5-Q06", "scenario": "P5", "split": "test", "text": "What was the root cause of the trip of P5-FAN-01 on 2026-03-18?"}
+{"question_id": "P5-Q07", "scenario": "P5", "split": "test", "text": "Was P5-CNV-01 cleared for operation after the repair on 2026-03-18?"}
+{"question_id": "P5-Q08", "scenario": "P5", "split": "test", "text": "Was P5-MTR-02 cleared for operation after the repair on 2026-03-18?"}
+{"question_id": "P5-Q09", "scenario": "P5", "split": "test", "text": "What was the vibration reading for P5-FAN-01 at 2026-03-18 10:30?"}
+{"question_id": "P5-Q10", "scenario": "P5", "split": "test", "text": "What maintenance action was recorded for P5-PMP-09 on 2026-03-18?"}
+{"question_id": "P5-Q11", "scenario": "P5", "split": "test", "text": "What maintenance action was recorded for P5-CMP-01 on 2026-03-21?"}
+{"question_id": "P5-Q12", "scenario": "P5", "split": "test", "text": "What work was carried out on P5-CMP-01 on 2026-03-18?"}
+{"question_id": "P5-Q13", "scenario": "P5", "split": "test", "text": "Which alarm did P5-CNV-02 trigger at 2026-03-18 10:05?"}
+{"question_id": "P5-Q14", "scenario": "P5", "split": "test", "text": "What did the inspection of P5-MTR-01 on 2026-03-18 find?"}
+{"question_id": "P5-Q15", "scenario": "P5", "split": "test", "text": "Why did P5-PMP-01 trip on 2026-03-18?"}
+{"question_id": "P6-Q01", "scenario": "P6", "split": "test", "text": "What maintenance action was recorded for P6-PMP-02 on 2026-03-29?"}
+{"question_id": "P6-Q02", "scenario": "P6", "split": "test", "text": "Which alarm was raised on P6-MTR-02 at 2026-03-29 08:55?"}
+{"question_id": "P6-Q03", "scenario": "P6", "split": "test", "text": "What was the motor current reading for P6-CNV-01 at 2026-03-29 12:30?"}
+{"question_id": "P6-Q04", "scenario": "P6", "split": "test", "text": "What inspection finding was recorded for P6-PMP-01 on 2026-03-29?"}
+{"question_id": "P6-Q05", "scenario": "P6", "split": "test", "text": "What was the confirmed root cause of the trip of P6-CMP-01 on 2026-03-29?"}
+{"question_id": "P6-Q06", "scenario": "P6", "split": "test", "text": "What was the root cause of the trip of P6-FAN-01 on 2026-03-29?"}
+{"question_id": "P6-Q07", "scenario": "P6", "split": "test", "text": "Was P6-MTR-01 cleared for operation after the repair on 2026-03-29?"}
+{"question_id": "P6-Q08", "scenario": "P6", "split": "test", "text": "Was P6-CNV-02 cleared for operation after the repair on 2026-03-29?"}
+{"question_id": "P6-Q09", "scenario": "P6", "split": "test", "text": "What was the vibration reading for P6-PMP-01 at 2026-03-29 08:30?"}
+{"question_id": "P6-Q10", "scenario": "P6", "split": "test", "text": "What maintenance action was recorded for P6-PMP-09 on 2026-03-29?"}
+{"question_id": "P6-Q11", "scenario": "P6", "split": "test", "text": "What maintenance action was recorded for P6-PMP-02 on 2026-04-01?"}
+{"question_id": "P6-Q12", "scenario": "P6", "split": "test", "text": "What work was carried out on P6-PMP-02 on 2026-03-29?"}
+{"question_id": "P6-Q13", "scenario": "P6", "split": "test", "text": "Which alarm did P6-MTR-02 trigger at 2026-03-29 08:55?"}
+{"question_id": "P6-Q14", "scenario": "P6", "split": "test", "text": "What did the inspection of P6-PMP-01 on 2026-03-29 find?"}
+{"question_id": "P6-Q15", "scenario": "P6", "split": "test", "text": "Why did P6-CMP-01 trip on 2026-03-29?"}
+{"question_id": "P7-Q01", "scenario": "P7", "split": "dev", "text": "What maintenance action was recorded for P7-CMP-01 on 2026-04-09?"}
+{"question_id": "P7-Q02", "scenario": "P7", "split": "dev", "text": "Which alarm was raised on P7-CNV-01 at 2026-04-09 09:10?"}
+{"question_id": "P7-Q03", "scenario": "P7", "split": "dev", "text": "What was the winding temp reading for P7-MTR-01 at 2026-04-09 08:30?"}
+{"question_id": "P7-Q04", "scenario": "P7", "split": "dev", "text": "What inspection finding was recorded for P7-PMP-02 on 2026-04-09?"}
+{"question_id": "P7-Q05", "scenario": "P7", "split": "dev", "text": "What was the confirmed root cause of the trip of P7-PMP-01 on 2026-04-09?"}
+{"question_id": "P7-Q06", "scenario": "P7", "split": "dev", "text": "What was the root cause of the trip of P7-MTR-02 on 2026-04-09?"}
+{"question_id": "P7-Q07", "scenario": "P7", "split": "dev", "text": "Was P7-CNV-02 cleared for operation after the repair on 2026-04-09?"}
+{"question_id": "P7-Q08", "scenario": "P7", "split": "dev", "text": "Was P7-FAN-01 cleared for operation after the repair on 2026-04-09?"}
+{"question_id": "P7-Q09", "scenario": "P7", "split": "dev", "text": "What was the bearing temp reading for P7-PMP-01 at 2026-04-09 10:30?"}
+{"question_id": "P7-Q10", "scenario": "P7", "split": "dev", "text": "What maintenance action was recorded for P7-PMP-09 on 2026-04-09?"}
+{"question_id": "P7-Q11", "scenario": "P7", "split": "dev", "text": "What maintenance action was recorded for P7-CMP-01 on 2026-04-12?"}
+{"question_id": "P7-Q12", "scenario": "P7", "split": "dev", "text": "What work was carried out on P7-CMP-01 on 2026-04-09?"}
+{"question_id": "P7-Q13", "scenario": "P7", "split": "dev", "text": "Which alarm did P7-CNV-01 trigger at 2026-04-09 09:10?"}
+{"question_id": "P7-Q14", "scenario": "P7", "split": "dev", "text": "What did the inspection of P7-PMP-02 on 2026-04-09 find?"}
+{"question_id": "P7-Q15", "scenario": "P7", "split": "dev", "text": "Why did P7-PMP-01 trip on 2026-04-09?"}
+{"question_id": "P8-Q01", "scenario": "P8", "split": "dev", "text": "What maintenance action was recorded for P8-CNV-02 on 2026-04-20?"}
+{"question_id": "P8-Q02", "scenario": "P8", "split": "dev", "text": "Which alarm was raised on P8-PMP-01 at 2026-04-20 11:20?"}
+{"question_id": "P8-Q03", "scenario": "P8", "split": "dev", "text": "What was the winding temp reading for P8-MTR-02 at 2026-04-20 12:30?"}
+{"question_id": "P8-Q04", "scenario": "P8", "split": "dev", "text": "What inspection finding was recorded for P8-MTR-01 on 2026-04-20?"}
+{"question_id": "P8-Q05", "scenario": "P8", "split": "dev", "text": "What was the confirmed root cause of the trip of P8-CNV-01 on 2026-04-20?"}
+{"question_id": "P8-Q06", "scenario": "P8", "split": "dev", "text": "What was the root cause of the trip of P8-PMP-02 on 2026-04-20?"}
+{"question_id": "P8-Q07", "scenario": "P8", "split": "dev", "text": "Was P8-CMP-01 cleared for operation after the repair on 2026-04-20?"}
+{"question_id": "P8-Q08", "scenario": "P8", "split": "dev", "text": "Was P8-FAN-01 cleared for operation after the repair on 2026-04-20?"}
+{"question_id": "P8-Q09", "scenario": "P8", "split": "dev", "text": "What was the motor current reading for P8-CNV-01 at 2026-04-20 10:30?"}
+{"question_id": "P8-Q10", "scenario": "P8", "split": "dev", "text": "What maintenance action was recorded for P8-PMP-09 on 2026-04-20?"}
+{"question_id": "P8-Q11", "scenario": "P8", "split": "dev", "text": "What maintenance action was recorded for P8-CNV-02 on 2026-04-23?"}
+{"question_id": "P8-Q12", "scenario": "P8", "split": "dev", "text": "What work was carried out on P8-CNV-02 on 2026-04-20?"}
+{"question_id": "P8-Q13", "scenario": "P8", "split": "dev", "text": "Which alarm did P8-PMP-01 trigger at 2026-04-20 11:20?"}
+{"question_id": "P8-Q14", "scenario": "P8", "split": "dev", "text": "What did the inspection of P8-MTR-01 on 2026-04-20 find?"}
+{"question_id": "P8-Q15", "scenario": "P8", "split": "dev", "text": "Why did P8-CNV-01 trip on 2026-04-20?"}

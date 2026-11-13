@@ -1,0 +1,58 @@
+timestamp,equipment,work_order,action,technician,status
+2025-10-29T15:30:00,P3-CMP-01,WO-P3-68935,recalibrated pressure transmitter,R. Iyer,completed
+2025-11-02T11:45:00,P3-FAN-01,WO-P3-69490,realigned motor coupling,R. Iyer,completed
+2025-11-05T15:45:00,P3-PMP-01,WO-P3-18068,tightened baseplate anchor bolts,T. Varga,completed
+2025-11-08T11:00:00,P3-MTR-01,WO-P3-63501,realigned motor coupling,J. Moreau,completed
+2025-11-09T12:45:00,P3-MTR-02,WO-P3-49951,replaced drive-end bearing,A. Haddad,completed
+2025-11-14T12:00:00,P3-CNV-02,WO-P3-50869,realigned motor coupling,A. Haddad,completed
+2025-11-15T07:45:00,P3-FAN-01,WO-P3-68896,re-greased non-drive-end bearing,A. Haddad,completed
+2025-11-17T08:15:00,P3-CNV-01,WO-P3-64168,replaced cooling fan blade,R. Iyer,completed
+2025-11-21T13:45:00,P3-MTR-01,WO-P3-47296,tightened baseplate anchor bolts,T. Varga,completed
+2025-11-22T09:30:00,P3-CNV-02,WO-P3-49874,re-greased non-drive-end bearing,M. Okafor,completed
+2025-11-22T13:00:00,P3-MTR-02,WO-P3-98979,cleaned suction strainer,M. Okafor,completed
+2025-11-23T10:15:00,P3-PMP-02,WO-P3-87738,realigned motor coupling,A. Haddad,completed
+2025-11-29T12:15:00,P3-PMP-01,WO-P3-35201,realigned motor coupling,T. Varga,completed
+2025-12-01T09:30:00,P3-CMP-01,WO-P3-94165,replaced damaged cable gland,M. Okafor,completed
+2025-12-04T08:30:00,P3-CMP-01,WO-P3-59745,re-greased non-drive-end bearing,M. Okafor,completed
+2025-12-04T15:45:00,P3-PMP-02,WO-P3-38701,recalibrated pressure transmitter,J. Moreau,completed
+2025-12-07T08:00:00,P3-CNV-01,WO-P3-83434,realigned motor coupling,M. Okafor,completed
+2025-12-07T08:45:00,P3-CMP-01,WO-P3-77121,replaced worn V-belts,A. Haddad,completed
+2025-12-08T13:15:00,P3-FAN-01,WO-P3-53356,cleaned suction strainer,R. Iyer,completed
+2025-12-09T08:00:00,P3-PMP-01,WO-P3-43406,tightened baseplate anchor bolts,R. Iyer,completed
+2025-12-09T08:15:00,P3-PMP-02,WO-P3-58099,recalibrated pressure transmitter,M. Okafor,completed
+2025-12-10T08:15:00,P3-CMP-01,WO-P3-82052,recalibrated pressure transmitter,R. Iyer,completed
+2025-12-19T12:00:00,P3-FAN-01,WO-P3-91008,tightened baseplate anchor bolts,R. Iyer,completed
+2025-12-21T09:30:00,P3-FAN-01,WO-P3-67265,replaced cooling fan blade,S. Lindqvist,completed
+2025-12-21T15:15:00,P3-CMP-01,WO-P3-46505,replaced cooling fan blade,M. Okafor,completed
+2025-12-28T11:15:00,P3-CMP-01,WO-P3-68519,realigned motor coupling,M. Okafor,completed
+2025-12-28T14:30:00,P3-MTR-02,WO-P3-99602,replaced drive-end bearing,S. Lindqvist,completed
+2025-12-28T16:30:00,P3-MTR-01,WO-P3-44190,re-greased non-drive-end bearing,A. Haddad,completed
+2025-12-29T11:15:00,P3-MTR-02,WO-P3-20370,replaced mechanical seal,R. Iyer,completed
+2025-12-30T09:00:00,P3-PMP-01,WO-P3-49346,re-greased non-drive-end bearing,J. Moreau,completed
+2025-12-30T15:00:00,P3-CNV-02,WO-P3-11342,replaced worn V-belts,M. Okafor,completed
+2026-01-02T09:15:00,P3-PMP-01,WO-P3-44037,realigned motor coupling,J. Moreau,completed
+2026-01-06T14:00:00,P3-CMP-01,WO-P3-36420,realigned motor coupling,R. Iyer,completed
+2026-01-06T15:15:00,P3-MTR-02,WO-P3-80604,cleaned suction strainer,J. Moreau,completed
+2026-01-08T15:00:00,P3-CNV-02,WO-P3-80957,realigned motor coupling,J. Moreau,completed
+2026-01-11T08:30:00,P3-MTR-01,WO-P3-73707,recalibrated pressure transmitter,J. Moreau,completed
+2026-01-11T10:30:00,P3-MTR-01,WO-P3-28975,replaced cooling fan blade,A. Haddad,completed
+2026-01-11T16:15:00,P3-PMP-01,WO-P3-62841,recalibrated pressure transmitter,J. Moreau,completed
+2026-01-12T10:15:00,P3-PMP-01,WO-P3-62214,tightened baseplate anchor bolts,S. Lindqvist,completed
+2026-01-15T09:30:00,P3-FAN-01,WO-P3-76647,replaced damaged cable gland,R. Iyer,completed
+2026-01-18T07:15:00,P3-CNV-01,WO-P3-44777,replaced cooling fan blade,A. Haddad,completed
+2026-01-21T07:00:00,P3-CNV-02,WO-P3-43068,re-greased non-drive-end bearing,S. Lindqvist,completed
+2026-01-21T12:15:00,P3-MTR-02,WO-P3-17981,replaced drive-end bearing,A. Haddad,completed
+2026-01-22T13:00:00,P3-CNV-01,WO-P3-24364,realigned motor coupling,R. Iyer,completed
+2026-01-24T07:00:00,P3-MTR-02,WO-P3-15985,realigned motor coupling,S. Lindqvist,completed
+2026-01-27T16:30:00,P3-PMP-02,WO-P3-39982,replaced damaged cable gland,T. Varga,completed
+2026-02-02T10:30:00,P3-FAN-01,WO-P3-14048,replaced cooling fan blade,T. Varga,completed
+2026-02-05T09:00:00,P3-CMP-01,WO-P3-59204,replaced drive-end bearing,R. Iyer,completed
+2026-02-06T09:15:00,P3-PMP-02,WO-P3-54082,tightened baseplate anchor bolts,J. Moreau,completed
+2026-02-08T13:30:00,P3-MTR-01,WO-P3-35707,realigned motor coupling,R. Iyer,completed
+2026-02-11T15:00:00,P3-FAN-01,WO-P3-39333,re-greased non-drive-end bearing,M. Okafor,completed
+2026-02-12T12:15:00,P3-CNV-01,WO-P3-75226,replaced worn V-belts,S. Lindqvist,completed
+2026-02-15T15:30:00,P3-CNV-02,WO-P3-75849,tightened baseplate anchor bolts,T. Varga,completed
+2026-02-17T10:00:00,P3-MTR-02,WO-P3-29512,realigned motor coupling,T. Varga,completed
+2026-02-17T16:00:00,P3-PMP-01,WO-P3-90933,replaced damaged cable gland,R. Iyer,completed
+2026-02-21T15:30:00,P3-PMP-01,WO-P3-88660,re-greased non-drive-end bearing,J. Moreau,completed
+2026-02-21T15:30:00,P3-CNV-01,WO-P3-69768,cleaned suction strainer,S. Lindqvist,completed

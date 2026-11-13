@@ -1,0 +1,3 @@
+{"ts": "2026-02-02T08:10:00", "equipment": "P1-CMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}
+{"ts": "2026-02-02T08:32:00", "equipment": "P1-CMP-01", "alarm": "HIGH VIBRATION", "state": "CLEARED", "priority": 2}
+{"ts": "2026-02-02T14:05:00", "equipment": "P1-FAN-01", "alarm": "UNIT TRIP", "state": "RAISED", "priority": 1}

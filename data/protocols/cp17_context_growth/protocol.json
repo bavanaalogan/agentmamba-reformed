@@ -1,0 +1,29 @@
+{
+  "protocol": "cp17_context_growth",
+  "version": 1,
+  "authored_by": "Claude (assistant), 2026-10-29. The user's agentmamba_context_growth_protocol.json was not found on this machine; this file replaces it and was fixed BEFORE any run.",
+  "synthetic": true,
+  "note": "Fictional data supplied by the user (header: 'SYNTHETIC INDUSTRIAL LOGS - fictional AgentMamba test data, not real plant records').",
+  "stages": [
+    {"stage": 1, "name": "small context - target incident only", "file": "agentmamba_stage1_small_context.txt",
+     "sha256": "8894c26de876ac4b13d1a597dd465962de8130af7660b527a22b269ab3117c5e", "plant_stage": "UTILITIES"},
+    {"stage": 2, "name": "additional historical logs only, ingested AFTER stage 1 into the SAME profile",
+     "file": "agentmamba_stage2_additional_logs.txt",
+     "sha256": "cdd71072183e9a3102a982a113f1a5d8d953ddea6ec39ebb7d9cd7d53c5d1824", "plant_stage": "UTILITIES"}
+  ],
+  "shared_initial_context": {
+    "policy": "most recent arrivals in the profile memory (whole records), question-independent",
+    "token_budget": 2048,
+    "why_2048": "the 10 stage-1 incident lines take about 1,050 Mamba tokens as prompt lines; 768 cannot hold the incident"
+  },
+  "agentmamba": {"mode": "conditional", "verification": true},
+  "ingestion_policy": "configured (learned memory gate, app byte budget) - all records fit the budget",
+  "questions": [
+    {"question_id": "CP17-Q1", "kind": "target value", "text": "What vibration value triggered the high vibration alarm on COOLING-PUMP-17 on 2026-10-12?"},
+    {"question_id": "CP17-Q2", "kind": "target identifier", "text": "Which work order was opened for COOLING-PUMP-17 on 2026-10-12?"},
+    {"question_id": "CP17-Q3", "kind": "timestamped reading", "text": "What vibration reading was recorded for COOLING-PUMP-17 at 2026-10-12 08:19?"},
+    {"question_id": "CP17-Q4", "kind": "unanswerable root cause", "text": "What was the confirmed root cause of the high vibration alarm on COOLING-PUMP-17 on 2026-10-12?"},
+    {"question_id": "CP17-Q5", "kind": "unanswerable completion", "text": "Was the repair of COOLING-PUMP-17 completed on 2026-10-12?"}
+  ],
+  "asked_after_stages": [1, 2]
+}

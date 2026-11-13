@@ -1,0 +1,58 @@
+{
+  "benchmark": "ladle-bench-v1",
+  "dataset": "short",
+  "scenario": "SMS3",
+  "incident_day": "2026-03-20",
+  "roles": {
+    "maint": "LADLE-03",
+    "alarm": "LADLE-12",
+    "sensor": "LADLE-05",
+    "insp": "LADLE-09",
+    "rca": "LADLE-14",
+    "hedge": "LADLE-11",
+    "clear": "LADLE-07",
+    "noclear": "LADLE-16",
+    "conflict": "LADLE-14",
+    "missing": "LADLE-29"
+  },
+  "stages": {
+    "1": {
+      "name": "incident shift (the short dataset)",
+      "files": [
+        {
+          "file": "stage1/ladle_historian_20260320.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/thermography_round_20260320.csv",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/ladle_alarm_log_20260320.jsonl",
+          "stage": "LADLE"
+        },
+        {
+          "file": "stage1/ladle_maintenance_log_20260320.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/inspection_LADLE-09_20260320.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/rca_LADLE-14_20260320.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/shift_notes_20260320.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/return_to_service_LADLE-07_20260320.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    }
+  },
+  "synthetic": true
+}

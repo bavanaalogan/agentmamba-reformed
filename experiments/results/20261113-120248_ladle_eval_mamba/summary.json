@@ -1,0 +1,642 @@
+{
+  "experiment": "ladle_eval",
+  "answerer": "mamba",
+  "window_tokens": 2048,
+  "datasets": {
+    "short": {
+      "final_stage": 1,
+      "by_system": {
+        "baseline_mamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.36666666666666664,
+          "accuracy_ci95": [
+            0.25,
+            0.4833
+          ],
+          "answerable_accuracy": 0.55,
+          "correct_abstention_rate": 0.0,
+          "conflict_detection_rate": 0.0,
+          "incorrect_answer_rate": 0.6333333333333333,
+          "unsupported_claim_rate": 0.6333333333333333,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 1.0,
+          "retrieval_trigger_rate": 0.0,
+          "latency_total_s_median_all": 15.359950000000001,
+          "latency_total_s_median_cold": 15.359950000000001,
+          "n_cold": 60,
+          "prompt_tokens_median": 1343.0,
+          "records_available_mean": 20.0
+        },
+        "agentmamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.9333333333333333,
+          "accuracy_ci95": [
+            0.8667,
+            0.9833
+          ],
+          "answerable_accuracy": 0.9,
+          "correct_abstention_rate": 1.0,
+          "conflict_detection_rate": 1.0,
+          "incorrect_answer_rate": 0.0,
+          "unsupported_claim_rate": 0.0,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 1.0,
+          "retrieval_trigger_rate": 0.4,
+          "latency_total_s_median_all": 8.588650000000001,
+          "latency_total_s_median_cold": 8.950849999999999,
+          "n_cold": 48,
+          "prompt_tokens_median": 761.0,
+          "records_available_mean": 20.0
+        }
+      },
+      "by_stage": {
+        "baseline_mamba": {
+          "1": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.36666666666666664,
+            "accuracy_ci95": [
+              0.25,
+              0.4833
+            ],
+            "answerable_accuracy": 0.55,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.6333333333333333,
+            "unsupported_claim_rate": 0.6333333333333333,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 1.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 15.359950000000001,
+            "latency_total_s_median_cold": 15.359950000000001,
+            "n_cold": 60,
+            "prompt_tokens_median": 1343.0,
+            "records_available_mean": 20.0
+          }
+        },
+        "agentmamba": {
+          "1": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 1.0,
+            "retrieval_trigger_rate": 0.4,
+            "latency_total_s_median_all": 8.588650000000001,
+            "latency_total_s_median_cold": 8.950849999999999,
+            "n_cold": 48,
+            "prompt_tokens_median": 761.0,
+            "records_available_mean": 20.0
+          }
+        }
+      },
+      "by_family": {
+        "baseline_mamba": {
+          "alarm_at_time": 0.0,
+          "alarm_paraphrase": 0.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 0.0,
+          "conflicting_readings": 0.0,
+          "inspection_finding": 1.0,
+          "inspection_paraphrase": 1.0,
+          "maint_action": 0.5,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 1.0,
+          "rca_paraphrase": 1.0,
+          "rca_undocumented": 0.0,
+          "sensor_at_time": 0.0,
+          "unknown_ladle": 0.0,
+          "wrong_date": 0.0
+        },
+        "agentmamba": {
+          "alarm_at_time": 1.0,
+          "alarm_paraphrase": 1.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 1.0,
+          "conflicting_readings": 1.0,
+          "inspection_finding": 1.0,
+          "inspection_paraphrase": 1.0,
+          "maint_action": 1.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 1.0,
+          "rca_paraphrase": 1.0,
+          "rca_undocumented": 1.0,
+          "sensor_at_time": 1.0,
+          "unknown_ladle": 1.0,
+          "wrong_date": 1.0
+        }
+      },
+      "paired_correct": {
+        "n_pairs": 60,
+        "a": 0.3667,
+        "b": 0.9333,
+        "diff_b_minus_a": 0.5667,
+        "relative_change": 1.5455,
+        "diff_ci95": [
+          0.45,
+          0.6833
+        ],
+        "mcnemar_p": 0.0,
+        "a_only": 0,
+        "b_only": 34,
+        "note": "questions within a scenario are not independent; CIs/p-values treat pairs as independent"
+      }
+    },
+    "long": {
+      "final_stage": 4,
+      "by_system": {
+        "baseline_mamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "answerable_accuracy": 0.0,
+          "correct_abstention_rate": 0.0,
+          "conflict_detection_rate": 0.0,
+          "incorrect_answer_rate": 0.7333333333333333,
+          "unsupported_claim_rate": 1.0,
+          "required_evidence_coverage": 0.0,
+          "evidence_in_context_rate": 0.0,
+          "retrieval_trigger_rate": 0.0,
+          "latency_total_s_median_all": 17.114449999999998,
+          "latency_total_s_median_cold": 18.1289,
+          "n_cold": 44,
+          "prompt_tokens_median": 1902.0,
+          "records_available_mean": 3005.5
+        },
+        "agentmamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.9333333333333333,
+          "accuracy_ci95": [
+            0.8667,
+            0.9833
+          ],
+          "answerable_accuracy": 0.9,
+          "correct_abstention_rate": 1.0,
+          "conflict_detection_rate": 1.0,
+          "incorrect_answer_rate": 0.0,
+          "unsupported_claim_rate": 0.0,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 0.0,
+          "retrieval_trigger_rate": 1.0,
+          "latency_total_s_median_all": 8.13805,
+          "latency_total_s_median_cold": 9.00405,
+          "n_cold": 48,
+          "prompt_tokens_median": 742.5,
+          "records_available_mean": 3005.5
+        }
+      },
+      "by_stage": {
+        "baseline_mamba": {
+          "2": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.2,
+            "accuracy_ci95": [
+              0.1,
+              0.3
+            ],
+            "answerable_accuracy": 0.15,
+            "correct_abstention_rate": 0.375,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.5,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 14.8549,
+            "latency_total_s_median_cold": 16.01905,
+            "n_cold": 36,
+            "prompt_tokens_median": 1869.0,
+            "records_available_mean": 333.0
+          },
+          "3": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.03333333333333333,
+            "accuracy_ci95": [
+              0.0,
+              0.0833
+            ],
+            "answerable_accuracy": 0.05,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.9666666666666667,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 20.32065,
+            "latency_total_s_median_cold": 20.32065,
+            "n_cold": 60,
+            "prompt_tokens_median": 1861.5,
+            "records_available_mean": 488.5
+          },
+          "4": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "answerable_accuracy": 0.0,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.7333333333333333,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 17.114449999999998,
+            "latency_total_s_median_cold": 18.1289,
+            "n_cold": 44,
+            "prompt_tokens_median": 1902.0,
+            "records_available_mean": 3005.5
+          }
+        },
+        "agentmamba": {
+          "2": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 6.9094999999999995,
+            "latency_total_s_median_cold": 8.2141,
+            "n_cold": 48,
+            "prompt_tokens_median": 742.5,
+            "records_available_mean": 333.0
+          },
+          "3": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 6.84005,
+            "latency_total_s_median_cold": 8.5641,
+            "n_cold": 48,
+            "prompt_tokens_median": 742.5,
+            "records_available_mean": 488.5
+          },
+          "4": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 8.13805,
+            "latency_total_s_median_cold": 9.00405,
+            "n_cold": 48,
+            "prompt_tokens_median": 742.5,
+            "records_available_mean": 3005.5
+          }
+        }
+      },
+      "by_family": {
+        "baseline_mamba": {
+          "alarm_at_time": 0.0,
+          "alarm_paraphrase": 0.0,
+          "clearance_documented": 0.0,
+          "clearance_undocumented": 0.0,
+          "conflicting_readings": 0.0,
+          "inspection_finding": 0.0,
+          "inspection_paraphrase": 0.0,
+          "maint_action": 0.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 0.0,
+          "rca_paraphrase": 0.0,
+          "rca_undocumented": 0.0,
+          "sensor_at_time": 0.0,
+          "unknown_ladle": 0.0,
+          "wrong_date": 0.0
+        },
+        "agentmamba": {
+          "alarm_at_time": 1.0,
+          "alarm_paraphrase": 1.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 1.0,
+          "conflicting_readings": 1.0,
+          "inspection_finding": 1.0,
+          "inspection_paraphrase": 1.0,
+          "maint_action": 1.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 1.0,
+          "rca_paraphrase": 1.0,
+          "rca_undocumented": 1.0,
+          "sensor_at_time": 1.0,
+          "unknown_ladle": 1.0,
+          "wrong_date": 1.0
+        }
+      },
+      "paired_correct": {
+        "n_pairs": 60,
+        "a": 0.0,
+        "b": 0.9333,
+        "diff_b_minus_a": 0.9333,
+        "relative_change": null,
+        "diff_ci95": [
+          0.8667,
+          0.9833
+        ],
+        "mcnemar_p": 0.0,
+        "a_only": 0,
+        "b_only": 56,
+        "note": "questions within a scenario are not independent; CIs/p-values treat pairs as independent"
+      }
+    }
+  },
+  "wall_s": 6801.2,
+  "ingestion": [
+    {
+      "dataset": "short",
+      "scenario": "SMS1",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1321,
+      "ingest_s": 1.051
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS2",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1302,
+      "ingest_s": 0.153
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS3",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1317,
+      "ingest_s": 0.188
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS4",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1310,
+      "ingest_s": 0.179
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1321,
+      "ingest_s": 0.236
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23541,
+      "ingest_s": 1.275
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 3,
+      "received": 162,
+      "written": 162,
+      "duplicates": 0,
+      "records_available": 495,
+      "history_tokens": 37231,
+      "ingest_s": 0.944
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3012,
+      "history_tokens": 228273,
+      "ingest_s": 11.946
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1302,
+      "ingest_s": 0.176
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23524,
+      "ingest_s": 1.432
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 3,
+      "received": 154,
+      "written": 154,
+      "duplicates": 0,
+      "records_available": 487,
+      "history_tokens": 36502,
+      "ingest_s": 0.945
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3004,
+      "history_tokens": 227680,
+      "ingest_s": 12.488
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1317,
+      "ingest_s": 0.271
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23526,
+      "ingest_s": 2.032
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 3,
+      "received": 157,
+      "written": 157,
+      "duplicates": 0,
+      "records_available": 490,
+      "history_tokens": 36834,
+      "ingest_s": 1.285
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3007,
+      "history_tokens": 228028,
+      "ingest_s": 13.807
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1310,
+      "ingest_s": 0.205
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23527,
+      "ingest_s": 1.81
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 3,
+      "received": 149,
+      "written": 149,
+      "duplicates": 0,
+      "records_available": 482,
+      "history_tokens": 36002,
+      "ingest_s": 1.14
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 2999,
+      "history_tokens": 227135,
+      "ingest_s": 24.679
+    }
+  ]
+}

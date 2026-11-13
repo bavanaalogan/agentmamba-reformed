@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-04-10T07:15:00,P7-CNV-02,WO-P7-36735,replaced drive-end bearing,R. Iyer,completed
+2026-04-10T08:30:00,P7-PMP-02,WO-P7-96134,cleaned suction strainer,A. Haddad,completed
+2026-04-10T11:30:00,P7-MTR-01,WO-P7-17317,replaced drive-end bearing,T. Varga,completed
+2026-04-10T14:00:00,P7-MTR-02,WO-P7-78769,re-greased non-drive-end bearing,R. Iyer,completed
+2026-04-11T08:15:00,P7-FAN-01,WO-P7-74499,re-greased non-drive-end bearing,S. Lindqvist,completed
+2026-04-11T08:30:00,P7-PMP-01,WO-P7-48236,replaced mechanical seal,A. Haddad,completed
+2026-04-11T15:15:00,P7-CNV-02,WO-P7-95039,replaced mechanical seal,A. Haddad,completed
+2026-04-11T16:15:00,P7-MTR-02,WO-P7-70968,cleaned suction strainer,M. Okafor,completed

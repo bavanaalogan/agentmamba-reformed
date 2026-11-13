@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-18T10:15:00,P5-CMP-01,WO-P5-20207,replaced worn V-belts,T. Varga,completed
+2026-03-18T12:30:00,P5-CNV-01,WO-P5-88636,replaced drive-end bearing,A. Haddad,completed
+2026-03-18T13:10:00,P5-MTR-02,WO-P5-80754,replaced drive-end bearing,J. Moreau,completed

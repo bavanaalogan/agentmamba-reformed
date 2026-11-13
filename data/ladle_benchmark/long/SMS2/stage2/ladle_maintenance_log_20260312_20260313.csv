@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-12T11:15:00,LADLE-09,WO-SMS2-23644,repaired argon line coupling,J. Moreau,completed
+2026-03-12T12:30:00,LADLE-03,WO-SMS2-38225,relined slag line with MgO-C bricks,J. Moreau,completed
+2026-03-12T14:00:00,LADLE-07,WO-SMS2-41333,replaced slide gate cylinder seal,J. Moreau,completed
+2026-03-12T14:45:00,LADLE-12,WO-SMS2-77588,replaced well block,S. Lindqvist,completed
+2026-03-13T07:45:00,LADLE-14,WO-SMS2-83528,relined slag line with MgO-C bricks,T. Varga,completed
+2026-03-13T10:15:00,LADLE-16,WO-SMS2-61029,relined slag line with MgO-C bricks,A. Haddad,completed
+2026-03-13T14:15:00,LADLE-03,WO-SMS2-49350,replaced porous plug,T. Varga,completed
+2026-03-13T16:00:00,LADLE-07,WO-SMS2-39680,replaced trunnion bearing,S. Lindqvist,completed

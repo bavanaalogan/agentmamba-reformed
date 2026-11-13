@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-04-20T08:30:00,P8-CMP-01,pressure,8.52,bar
+2026-04-20T10:30:00,P8-CNV-01,motor_current,42.5,A
+2026-04-20T12:30:00,P8-MTR-02,winding_temp,95.5,degC
+2026-04-20T12:30:00,P8-FAN-01,speed,1202,rpm

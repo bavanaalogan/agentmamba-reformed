@@ -1,0 +1,56 @@
+timestamp,equipment,work_order,action,technician,status
+2025-10-09T13:45:00,P1-PMP-02,WO-P1-97449,replaced worn V-belts,A. Haddad,completed
+2025-10-15T10:00:00,P1-MTR-02,WO-P1-46322,replaced damaged cable gland,R. Iyer,completed
+2025-10-15T11:15:00,P1-MTR-01,WO-P1-75539,cleaned suction strainer,M. Okafor,completed
+2025-10-16T09:15:00,P1-PMP-01,WO-P1-52607,cleaned suction strainer,S. Lindqvist,completed
+2025-10-16T09:15:00,P1-CMP-01,WO-P1-67045,replaced cooling fan blade,T. Varga,completed
+2025-10-17T14:15:00,P1-MTR-01,WO-P1-76048,replaced mechanical seal,R. Iyer,completed
+2025-10-20T09:30:00,P1-CNV-01,WO-P1-52714,replaced worn V-belts,S. Lindqvist,completed
+2025-10-24T10:00:00,P1-MTR-01,WO-P1-38426,realigned motor coupling,S. Lindqvist,completed
+2025-10-25T09:00:00,P1-CNV-02,WO-P1-21629,replaced damaged cable gland,J. Moreau,completed
+2025-10-26T11:45:00,P1-CNV-02,WO-P1-72899,cleaned suction strainer,R. Iyer,completed
+2025-10-30T15:45:00,P1-CMP-01,WO-P1-15028,tightened baseplate anchor bolts,R. Iyer,completed
+2025-11-01T11:15:00,P1-PMP-02,WO-P1-77903,realigned motor coupling,J. Moreau,completed
+2025-11-01T11:15:00,P1-CNV-02,WO-P1-35592,re-greased non-drive-end bearing,T. Varga,completed
+2025-11-01T14:45:00,P1-PMP-01,WO-P1-24500,re-greased non-drive-end bearing,R. Iyer,completed
+2025-11-02T09:15:00,P1-CMP-01,WO-P1-56197,replaced worn V-belts,J. Moreau,completed
+2025-11-02T15:00:00,P1-CNV-02,WO-P1-39667,replaced drive-end bearing,T. Varga,completed
+2025-11-04T11:15:00,P1-MTR-02,WO-P1-52347,tightened baseplate anchor bolts,M. Okafor,completed
+2025-11-04T13:00:00,P1-PMP-01,WO-P1-14827,replaced worn V-belts,J. Moreau,completed
+2025-11-04T13:15:00,P1-FAN-01,WO-P1-70790,realigned motor coupling,M. Okafor,completed
+2025-11-18T12:30:00,P1-CNV-01,WO-P1-59560,replaced cooling fan blade,M. Okafor,completed
+2025-11-19T10:30:00,P1-PMP-02,WO-P1-57709,replaced mechanical seal,M. Okafor,completed
+2025-11-20T14:30:00,P1-PMP-01,WO-P1-22254,realigned motor coupling,M. Okafor,completed
+2025-11-21T15:15:00,P1-CNV-01,WO-P1-77711,tightened baseplate anchor bolts,M. Okafor,completed
+2025-11-22T09:00:00,P1-CNV-02,WO-P1-46957,replaced drive-end bearing,A. Haddad,completed
+2025-11-28T10:15:00,P1-FAN-01,WO-P1-79072,re-greased non-drive-end bearing,M. Okafor,completed
+2025-12-01T14:30:00,P1-CNV-02,WO-P1-87103,recalibrated pressure transmitter,J. Moreau,completed
+2025-12-02T10:30:00,P1-CNV-01,WO-P1-20073,replaced drive-end bearing,M. Okafor,completed
+2025-12-10T11:00:00,P1-MTR-01,WO-P1-57163,realigned motor coupling,M. Okafor,completed
+2025-12-14T13:15:00,P1-PMP-02,WO-P1-82025,re-greased non-drive-end bearing,M. Okafor,completed
+2025-12-14T14:30:00,P1-MTR-02,WO-P1-38430,cleaned suction strainer,R. Iyer,completed
+2025-12-14T16:45:00,P1-CMP-01,WO-P1-15816,cleaned suction strainer,M. Okafor,completed
+2025-12-16T10:15:00,P1-CNV-01,WO-P1-74678,cleaned suction strainer,M. Okafor,completed
+2025-12-18T09:15:00,P1-PMP-02,WO-P1-37329,tightened baseplate anchor bolts,S. Lindqvist,completed
+2025-12-21T08:00:00,P1-CNV-02,WO-P1-38021,realigned motor coupling,M. Okafor,completed
+2025-12-22T08:15:00,P1-CNV-01,WO-P1-12273,recalibrated pressure transmitter,R. Iyer,completed
+2025-12-22T15:15:00,P1-MTR-02,WO-P1-29221,replaced mechanical seal,R. Iyer,completed
+2025-12-24T14:30:00,P1-CMP-01,WO-P1-25228,tightened baseplate anchor bolts,M. Okafor,completed
+2025-12-27T12:30:00,P1-CNV-01,WO-P1-66062,replaced worn V-belts,T. Varga,completed
+2025-12-27T15:15:00,P1-PMP-01,WO-P1-64338,recalibrated pressure transmitter,S. Lindqvist,completed
+2025-12-28T07:00:00,P1-CNV-01,WO-P1-78633,tightened baseplate anchor bolts,T. Varga,completed
+2025-12-30T09:30:00,P1-PMP-01,WO-P1-86355,tightened baseplate anchor bolts,S. Lindqvist,completed
+2026-01-02T15:15:00,P1-PMP-02,WO-P1-61912,replaced worn V-belts,S. Lindqvist,completed
+2026-01-07T15:45:00,P1-PMP-02,WO-P1-36850,realigned motor coupling,T. Varga,completed
+2026-01-11T16:00:00,P1-MTR-01,WO-P1-11102,replaced mechanical seal,S. Lindqvist,completed
+2026-01-15T09:45:00,P1-CMP-01,WO-P1-97626,cleaned suction strainer,T. Varga,completed
+2026-01-16T08:45:00,P1-PMP-02,WO-P1-63393,re-greased non-drive-end bearing,T. Varga,completed
+2026-01-16T11:00:00,P1-FAN-01,WO-P1-78276,replaced drive-end bearing,M. Okafor,completed
+2026-01-16T16:15:00,P1-CMP-01,WO-P1-84335,realigned motor coupling,T. Varga,completed
+2026-01-20T14:45:00,P1-CNV-01,WO-P1-26131,cleaned suction strainer,R. Iyer,completed
+2026-01-20T16:00:00,P1-CMP-01,WO-P1-99173,cleaned suction strainer,J. Moreau,completed
+2026-01-21T15:45:00,P1-CNV-02,WO-P1-19588,tightened baseplate anchor bolts,J. Moreau,completed
+2026-01-23T11:00:00,P1-FAN-01,WO-P1-88017,replaced cooling fan blade,A. Haddad,completed
+2026-01-23T12:00:00,P1-FAN-01,WO-P1-93153,re-greased non-drive-end bearing,J. Moreau,completed
+2026-01-25T13:45:00,P1-MTR-02,WO-P1-38054,recalibrated pressure transmitter,M. Okafor,completed
+2026-01-28T15:00:00,P1-CMP-01,WO-P1-54997,cleaned suction strainer,S. Lindqvist,completed

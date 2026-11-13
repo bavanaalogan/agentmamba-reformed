@@ -1,0 +1,3 @@
+{"ts": "2026-03-02T08:25:00", "equipment": "LADLE-14", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-02T08:47:00", "equipment": "LADLE-14", "alarm": "TILT DRIVE OVERLOAD", "state": "CLEARED", "priority": 2}
+{"ts": "2026-03-02T14:05:00", "equipment": "LADLE-05", "alarm": "LADLE REMOVED FROM SERVICE", "state": "RAISED", "priority": 1}

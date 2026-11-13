@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-03-29T08:30:00,LADLE-12,shell_temperature,227,degC
+2026-03-29T10:30:00,LADLE-07,shell_temperature,218,degC
+2026-03-29T10:30:00,LADLE-14,steel_temperature,1625,degC
+2026-03-29T12:30:00,LADLE-11,shell_temperature,335,degC

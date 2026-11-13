@@ -1,0 +1,133 @@
+{
+  "benchmark": "logbench-v1",
+  "scenario": "P2",
+  "split": "test",
+  "incident_day": "2026-02-13",
+  "roles": {
+    "maint": "P2-PMP-01",
+    "alarm": "P2-CNV-02",
+    "sensor": "P2-FAN-01",
+    "insp": "P2-CMP-01",
+    "rca": "P2-MTR-01",
+    "hedge": "P2-PMP-02",
+    "clear": "P2-CNV-01",
+    "noclear": "P2-MTR-02",
+    "conflict": "P2-MTR-01",
+    "missing": "P2-PMP-09"
+  },
+  "stages": {
+    "1": {
+      "name": "incident day",
+      "files": [
+        {
+          "file": "stage1/historian_20260213.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/manual_rounds_20260213.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/alarm_log_20260213.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/maintenance_log_20260213.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/inspection_P2-CMP-01_20260213.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/rca_P2-MTR-01_20260213.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/shift_notes_20260213.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/return_to_service_P2-CNV-01_20260213.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "2": {
+      "name": "following operations",
+      "files": [
+        {
+          "file": "stage2/historian_20260213_20260215.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/alarm_log_20260213.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/alarm_log_20260214_20260215.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/maintenance_log_20260214_20260215.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage2/shift_notes_20260215.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "3": {
+      "name": "older history and long manual",
+      "files": [
+        {
+          "file": "stage3/maintenance_history_20251016_20260212.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/alarm_history_20251115_20260212.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage3/inspection_P2-CMP-01_20260114.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/inspection_P2-CMP-01_20251215.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/equipment_care_manual_P2.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "4": {
+      "name": "later months",
+      "files": [
+        {
+          "file": "stage4/historian_20260216_20260330.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage4/alarm_log_20260216_20260330.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage4/maintenance_log_20260217_20260330.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/inspection_P2-CMP-01_20260305.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/rca_P2-PMP-02_20260223.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    }
+  },
+  "synthetic": true
+}

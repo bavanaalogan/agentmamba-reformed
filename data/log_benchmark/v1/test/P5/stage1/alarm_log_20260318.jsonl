@@ -1,0 +1,3 @@
+{"ts": "2026-03-18T10:05:00", "equipment": "P5-CNV-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-18T10:27:00", "equipment": "P5-CNV-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "CLEARED", "priority": 2}
+{"ts": "2026-03-18T14:05:00", "equipment": "P5-FAN-01", "alarm": "UNIT TRIP", "state": "RAISED", "priority": 1}

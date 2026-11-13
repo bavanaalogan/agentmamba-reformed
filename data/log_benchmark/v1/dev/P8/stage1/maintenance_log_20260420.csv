@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-04-20T10:15:00,P8-CNV-02,WO-P8-64263,replaced worn V-belts,R. Iyer,completed
+2026-04-20T12:30:00,P8-CMP-01,WO-P8-47501,replaced cooling fan blade,M. Okafor,completed
+2026-04-20T13:10:00,P8-FAN-01,WO-P8-15078,tightened baseplate anchor bolts,A. Haddad,completed

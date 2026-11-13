@@ -1,0 +1,15 @@
+{"ts": "2026-03-07T01:15:00", "equipment": "P4-CNV-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-07T02:00:00", "equipment": "P4-PMP-01", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-07T05:00:00", "equipment": "P4-CMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-07T12:00:00", "equipment": "P4-CNV-01", "alarm": "LOW SUCTION PRESSURE", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-07T20:45:00", "equipment": "P4-FAN-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-08T09:15:00", "equipment": "P4-CNV-02", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-08T11:15:00", "equipment": "P4-CNV-02", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-08T14:30:00", "equipment": "P4-CNV-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-08T15:30:00", "equipment": "P4-PMP-02", "alarm": "HIGH BEARING TEMPERATURE", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-08T18:15:00", "equipment": "P4-CMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-09T03:15:00", "equipment": "P4-FAN-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-09T13:00:00", "equipment": "P4-CMP-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-09T17:30:00", "equipment": "P4-PMP-01", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-09T20:00:00", "equipment": "P4-CNV-02", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-09T21:45:00", "equipment": "P4-CMP-01", "alarm": "HIGH VIBRATION", "state": "RAISED", "priority": 1}

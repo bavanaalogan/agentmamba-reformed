@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-21T07:45:00,LADLE-09,WO-SMS3-24358,replaced trunnion bearing,S. Lindqvist,completed
+2026-03-21T09:00:00,LADLE-14,WO-SMS3-16777,replaced trunnion bearing,M. Okafor,completed
+2026-03-21T12:30:00,LADLE-05,WO-SMS3-40255,replaced well block,A. Haddad,completed
+2026-03-21T13:30:00,LADLE-11,WO-SMS3-99506,replaced well block,T. Varga,completed
+2026-03-22T08:45:00,LADLE-16,WO-SMS3-48758,replaced slide gate plates,A. Haddad,completed
+2026-03-22T12:45:00,LADLE-12,WO-SMS3-42457,replaced porous plug,M. Okafor,completed
+2026-03-22T14:15:00,LADLE-09,WO-SMS3-38136,patched impact pad refractory,T. Varga,completed
+2026-03-22T15:00:00,LADLE-14,WO-SMS3-36997,relined slag line with MgO-C bricks,T. Varga,completed

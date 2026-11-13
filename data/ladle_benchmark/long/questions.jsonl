@@ -1,0 +1,60 @@
+{"question_id": "SMS1-Q01", "scenario": "SMS1", "split": "long", "text": "What maintenance action was recorded for LADLE-03 on 2026-03-02?"}
+{"question_id": "SMS1-Q02", "scenario": "SMS1", "split": "long", "text": "Which alarm was raised on LADLE-14 at 2026-03-02 08:25?"}
+{"question_id": "SMS1-Q03", "scenario": "SMS1", "split": "long", "text": "What was the shell temperature reading for LADLE-11 at 2026-03-02 11:30?"}
+{"question_id": "SMS1-Q04", "scenario": "SMS1", "split": "long", "text": "What inspection finding was recorded for LADLE-16 on 2026-03-02?"}
+{"question_id": "SMS1-Q05", "scenario": "SMS1", "split": "long", "text": "What was the confirmed root cause of the trip of LADLE-09 on 2026-03-02?"}
+{"question_id": "SMS1-Q06", "scenario": "SMS1", "split": "long", "text": "What was the root cause of the trip of LADLE-05 on 2026-03-02?"}
+{"question_id": "SMS1-Q07", "scenario": "SMS1", "split": "long", "text": "Was LADLE-12 cleared for operation after the repair on 2026-03-02?"}
+{"question_id": "SMS1-Q08", "scenario": "SMS1", "split": "long", "text": "Was LADLE-07 cleared for operation after the repair on 2026-03-02?"}
+{"question_id": "SMS1-Q09", "scenario": "SMS1", "split": "long", "text": "What was the shell temperature reading for LADLE-12 at 2026-03-02 10:30?"}
+{"question_id": "SMS1-Q10", "scenario": "SMS1", "split": "long", "text": "What maintenance action was recorded for LADLE-29 on 2026-03-02?"}
+{"question_id": "SMS1-Q11", "scenario": "SMS1", "split": "long", "text": "What maintenance action was recorded for LADLE-03 on 2026-03-05?"}
+{"question_id": "SMS1-Q12", "scenario": "SMS1", "split": "long", "text": "What work was carried out on LADLE-03 on 2026-03-02?"}
+{"question_id": "SMS1-Q13", "scenario": "SMS1", "split": "long", "text": "Which alarm did LADLE-14 trigger at 2026-03-02 08:25?"}
+{"question_id": "SMS1-Q14", "scenario": "SMS1", "split": "long", "text": "What did the inspection of LADLE-16 on 2026-03-02 find?"}
+{"question_id": "SMS1-Q15", "scenario": "SMS1", "split": "long", "text": "Why did LADLE-09 trip on 2026-03-02?"}
+{"question_id": "SMS2-Q01", "scenario": "SMS2", "split": "long", "text": "What maintenance action was recorded for LADLE-05 on 2026-03-11?"}
+{"question_id": "SMS2-Q02", "scenario": "SMS2", "split": "long", "text": "Which alarm was raised on LADLE-12 at 2026-03-11 08:40?"}
+{"question_id": "SMS2-Q03", "scenario": "SMS2", "split": "long", "text": "What was the shell temperature reading for LADLE-09 at 2026-03-11 12:30?"}
+{"question_id": "SMS2-Q04", "scenario": "SMS2", "split": "long", "text": "What inspection finding was recorded for LADLE-03 on 2026-03-11?"}
+{"question_id": "SMS2-Q05", "scenario": "SMS2", "split": "long", "text": "What was the confirmed root cause of the trip of LADLE-07 on 2026-03-11?"}
+{"question_id": "SMS2-Q06", "scenario": "SMS2", "split": "long", "text": "What was the root cause of the trip of LADLE-11 on 2026-03-11?"}
+{"question_id": "SMS2-Q07", "scenario": "SMS2", "split": "long", "text": "Was LADLE-14 cleared for operation after the repair on 2026-03-11?"}
+{"question_id": "SMS2-Q08", "scenario": "SMS2", "split": "long", "text": "Was LADLE-16 cleared for operation after the repair on 2026-03-11?"}
+{"question_id": "SMS2-Q09", "scenario": "SMS2", "split": "long", "text": "What was the shell temperature reading for LADLE-07 at 2026-03-11 11:30?"}
+{"question_id": "SMS2-Q10", "scenario": "SMS2", "split": "long", "text": "What maintenance action was recorded for LADLE-29 on 2026-03-11?"}
+{"question_id": "SMS2-Q11", "scenario": "SMS2", "split": "long", "text": "What maintenance action was recorded for LADLE-05 on 2026-03-14?"}
+{"question_id": "SMS2-Q12", "scenario": "SMS2", "split": "long", "text": "What work was carried out on LADLE-05 on 2026-03-11?"}
+{"question_id": "SMS2-Q13", "scenario": "SMS2", "split": "long", "text": "Which alarm did LADLE-12 trigger at 2026-03-11 08:40?"}
+{"question_id": "SMS2-Q14", "scenario": "SMS2", "split": "long", "text": "What did the inspection of LADLE-03 on 2026-03-11 find?"}
+{"question_id": "SMS2-Q15", "scenario": "SMS2", "split": "long", "text": "Why did LADLE-07 trip on 2026-03-11?"}
+{"question_id": "SMS3-Q01", "scenario": "SMS3", "split": "long", "text": "What maintenance action was recorded for LADLE-03 on 2026-03-20?"}
+{"question_id": "SMS3-Q02", "scenario": "SMS3", "split": "long", "text": "Which alarm was raised on LADLE-12 at 2026-03-20 08:05?"}
+{"question_id": "SMS3-Q03", "scenario": "SMS3", "split": "long", "text": "What was the shell temperature reading for LADLE-05 at 2026-03-20 08:30?"}
+{"question_id": "SMS3-Q04", "scenario": "SMS3", "split": "long", "text": "What inspection finding was recorded for LADLE-09 on 2026-03-20?"}
+{"question_id": "SMS3-Q05", "scenario": "SMS3", "split": "long", "text": "What was the confirmed root cause of the trip of LADLE-14 on 2026-03-20?"}
+{"question_id": "SMS3-Q06", "scenario": "SMS3", "split": "long", "text": "What was the root cause of the trip of LADLE-11 on 2026-03-20?"}
+{"question_id": "SMS3-Q07", "scenario": "SMS3", "split": "long", "text": "Was LADLE-07 cleared for operation after the repair on 2026-03-20?"}
+{"question_id": "SMS3-Q08", "scenario": "SMS3", "split": "long", "text": "Was LADLE-16 cleared for operation after the repair on 2026-03-20?"}
+{"question_id": "SMS3-Q09", "scenario": "SMS3", "split": "long", "text": "What was the shell temperature reading for LADLE-14 at 2026-03-20 10:30?"}
+{"question_id": "SMS3-Q10", "scenario": "SMS3", "split": "long", "text": "What maintenance action was recorded for LADLE-29 on 2026-03-20?"}
+{"question_id": "SMS3-Q11", "scenario": "SMS3", "split": "long", "text": "What maintenance action was recorded for LADLE-03 on 2026-03-23?"}
+{"question_id": "SMS3-Q12", "scenario": "SMS3", "split": "long", "text": "What work was carried out on LADLE-03 on 2026-03-20?"}
+{"question_id": "SMS3-Q13", "scenario": "SMS3", "split": "long", "text": "Which alarm did LADLE-12 trigger at 2026-03-20 08:05?"}
+{"question_id": "SMS3-Q14", "scenario": "SMS3", "split": "long", "text": "What did the inspection of LADLE-09 on 2026-03-20 find?"}
+{"question_id": "SMS3-Q15", "scenario": "SMS3", "split": "long", "text": "Why did LADLE-14 trip on 2026-03-20?"}
+{"question_id": "SMS4-Q01", "scenario": "SMS4", "split": "long", "text": "What maintenance action was recorded for LADLE-07 on 2026-03-29?"}
+{"question_id": "SMS4-Q02", "scenario": "SMS4", "split": "long", "text": "Which alarm was raised on LADLE-09 at 2026-03-29 09:25?"}
+{"question_id": "SMS4-Q03", "scenario": "SMS4", "split": "long", "text": "What was the shell temperature reading for LADLE-11 at 2026-03-29 12:30?"}
+{"question_id": "SMS4-Q04", "scenario": "SMS4", "split": "long", "text": "What inspection finding was recorded for LADLE-05 on 2026-03-29?"}
+{"question_id": "SMS4-Q05", "scenario": "SMS4", "split": "long", "text": "What was the confirmed root cause of the trip of LADLE-03 on 2026-03-29?"}
+{"question_id": "SMS4-Q06", "scenario": "SMS4", "split": "long", "text": "What was the root cause of the trip of LADLE-16 on 2026-03-29?"}
+{"question_id": "SMS4-Q07", "scenario": "SMS4", "split": "long", "text": "Was LADLE-12 cleared for operation after the repair on 2026-03-29?"}
+{"question_id": "SMS4-Q08", "scenario": "SMS4", "split": "long", "text": "Was LADLE-14 cleared for operation after the repair on 2026-03-29?"}
+{"question_id": "SMS4-Q09", "scenario": "SMS4", "split": "long", "text": "What was the shell temperature reading for LADLE-07 at 2026-03-29 10:30?"}
+{"question_id": "SMS4-Q10", "scenario": "SMS4", "split": "long", "text": "What maintenance action was recorded for LADLE-29 on 2026-03-29?"}
+{"question_id": "SMS4-Q11", "scenario": "SMS4", "split": "long", "text": "What maintenance action was recorded for LADLE-07 on 2026-04-01?"}
+{"question_id": "SMS4-Q12", "scenario": "SMS4", "split": "long", "text": "What work was carried out on LADLE-07 on 2026-03-29?"}
+{"question_id": "SMS4-Q13", "scenario": "SMS4", "split": "long", "text": "Which alarm did LADLE-09 trigger at 2026-03-29 09:25?"}
+{"question_id": "SMS4-Q14", "scenario": "SMS4", "split": "long", "text": "What did the inspection of LADLE-05 on 2026-03-29 find?"}
+{"question_id": "SMS4-Q15", "scenario": "SMS4", "split": "long", "text": "Why did LADLE-03 trip on 2026-03-29?"}

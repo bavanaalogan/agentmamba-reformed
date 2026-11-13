@@ -1,0 +1,18 @@
+{"ts": "2026-03-29T18:30:00", "equipment": "LADLE-03", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-29T19:30:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-29T22:15:00", "equipment": "LADLE-11", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-29T22:45:00", "equipment": "LADLE-12", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-29T23:00:00", "equipment": "LADLE-11", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-29T23:15:00", "equipment": "LADLE-12", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-30T02:00:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-30T04:00:00", "equipment": "LADLE-03", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-30T05:00:00", "equipment": "LADLE-16", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-30T06:00:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-30T17:15:00", "equipment": "LADLE-07", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-30T21:30:00", "equipment": "LADLE-12", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-31T03:45:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-31T06:00:00", "equipment": "LADLE-12", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-31T06:45:00", "equipment": "LADLE-07", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-31T13:00:00", "equipment": "LADLE-11", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-31T17:00:00", "equipment": "LADLE-12", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-31T17:15:00", "equipment": "LADLE-14", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}

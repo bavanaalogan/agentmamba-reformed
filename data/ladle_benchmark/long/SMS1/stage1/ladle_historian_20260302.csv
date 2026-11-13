@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-03-02T08:30:00,LADLE-16,argon_flow,189,Nl/min
+2026-03-02T10:30:00,LADLE-12,shell_temperature,250,degC
+2026-03-02T11:30:00,LADLE-11,shell_temperature,368,degC
+2026-03-02T12:30:00,LADLE-07,argon_flow,320,Nl/min

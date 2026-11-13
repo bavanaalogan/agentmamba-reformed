@@ -1,0 +1,48 @@
+# Experiment definitions. Every method is evaluated on the TEST split only, after all
+# training / threshold selection on train / val. The primary budget (10%) was fixed a priori.
+primary_budget: 0.10
+
+methods:
+  A_no_retrieval:        {policy: learned, gate: logreg_mamba, budget: 0.10, mode: never,       verify: true,  note: "initial Mamba track only (memory unused)"}
+  B_storeall_rag:        {policy: store_all,                     budget: 1.0,  mode: always,      verify: true,  note: "no selective writing"}
+  C_heuristic_rag:       {policy: heuristic,                     budget: 0.10, mode: always,      verify: true}
+  D_learned_always:      {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: always,      verify: true}
+  E_agentmamba:          {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: conditional, verify: true,  note: "full system (== H)"}
+  F_random_rag:          {policy: random,                        budget: 0.10, mode: always,      verify: true}
+  G_learned_nomamba:     {policy: learned, gate: logreg_nomamba, budget: 0.10, mode: conditional, verify: true}
+  H_learned_mamba:       {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: conditional, verify: true,  note: "same configuration as E"}
+  # ablations
+  E_no_verification:     {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: conditional, verify: false}
+  B_storeall_no_verify:  {policy: store_all,                     budget: 1.0,  mode: always,      verify: false}
+  B_storeall_vector_only: {policy: store_all,                    budget: 1.0,  mode: always,      verify: true,  expand: false, note: "conventional vector RAG, no relationship expansion"}
+  E_first_candidate:     {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: conditional, verify: true,  answerer: first_candidate, note: "non-Mamba answerer ablation"}
+  E_mlp_gate:            {policy: learned, gate: mlp_mamba,     budget: 0.10, mode: conditional, verify: true}
+  B_storeall_conditional: {policy: store_all,                    budget: 1.0,  mode: conditional, verify: true}
+  A_baseline_mamba:      {policy: learned, gate: logreg_mamba,  budget: 0.10, mode: never,       verify: false, note: "Baseline Mamba: initial context only, no retrieval, no verification"}
+
+sweep:
+  budgets: [0.01, 0.05, 0.10, 0.25, 0.50]
+  policies:
+    learned_mamba:   {policy: learned, gate: logreg_mamba}
+    learned_nomamba: {policy: learned, gate: logreg_nomamba}
+    heuristic:       {policy: heuristic}
+    random:          {policy: random}
+  mode: conditional
+  verify: true
+
+# Baseline Mamba vs AgentMamba as ingested history grows (scripts/run_context_growth.py,
+# synthetic log benchmark data/log_benchmark/v1). Fixed before the test run.
+context_growth:
+  stages: [1, 2, 3, 4]
+  initial_context:
+    policy: most recent arrivals (whole records) within a token budget, question-independent
+    token_budget: 768          # every condition gets this window as its initial context
+  conditions:
+    baseline_mamba_768:          {kind: baseline, budget: 768,  note: "frozen Mamba, top-ranked candidate, no retrieval, no verification"}
+    baseline_mamba_2048:         {kind: baseline, budget: 2048, note: "same, 2048-token window"}
+    retrieval_always:            {kind: agent, mode: always,      verify: true}
+    agentmamba:                  {kind: agent, mode: conditional, verify: true,  note: "proposed system"}
+    agentmamba_no_verification:  {kind: agent, mode: conditional, verify: false}
+    agentmamba_no_retrieval:     {kind: agent, mode: never,       verify: true}
+    agentmamba_vector_only:      {kind: agent, mode: conditional, verify: true, channels: [vector], stages: [4]}
+    agentmamba_lexical_only:     {kind: agent, mode: conditional, verify: true, channels: [relationship, text], stages: [4]}

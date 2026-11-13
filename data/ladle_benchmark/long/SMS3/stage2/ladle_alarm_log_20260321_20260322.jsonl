@@ -1,0 +1,18 @@
+{"ts": "2026-03-20T15:45:00", "equipment": "LADLE-16", "alarm": "LOW ARGON FLOW", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-20T18:45:00", "equipment": "LADLE-07", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-20T20:30:00", "equipment": "LADLE-11", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-20T21:00:00", "equipment": "LADLE-16", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-20T21:30:00", "equipment": "LADLE-11", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-20T22:15:00", "equipment": "LADLE-03", "alarm": "SLIDE GATE HYDRAULIC LEAK", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-21T08:45:00", "equipment": "LADLE-16", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 3}
+{"ts": "2026-03-21T09:30:00", "equipment": "LADLE-07", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-21T12:15:00", "equipment": "LADLE-16", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-21T13:00:00", "equipment": "LADLE-11", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 1}
+{"ts": "2026-03-21T14:15:00", "equipment": "LADLE-16", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-21T20:15:00", "equipment": "LADLE-14", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T00:00:00", "equipment": "LADLE-09", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T01:00:00", "equipment": "LADLE-07", "alarm": "SHELL HOT SPOT", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T09:30:00", "equipment": "LADLE-03", "alarm": "TILT DRIVE OVERLOAD", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T12:15:00", "equipment": "LADLE-16", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T19:00:00", "equipment": "LADLE-07", "alarm": "POROUS PLUG BLOCKED", "state": "RAISED", "priority": 2}
+{"ts": "2026-03-22T23:00:00", "equipment": "LADLE-05", "alarm": "STEEL TEMPERATURE DROP", "state": "RAISED", "priority": 2}

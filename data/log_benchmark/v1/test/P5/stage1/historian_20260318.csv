@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-03-18T08:30:00,P5-MTR-01,current,108.7,A
+2026-03-18T10:30:00,P5-FAN-01,vibration,2.4,mm/s
+2026-03-18T10:30:00,P5-CMP-01,pressure,7.27,bar
+2026-03-18T11:30:00,P5-PMP-02,bearing_temp,59.6,degC

@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-11T10:15:00,LADLE-05,WO-SMS2-28594,replaced slide gate plates,T. Varga,completed
+2026-03-11T12:30:00,LADLE-14,WO-SMS2-95539,replaced slide gate cylinder seal,M. Okafor,completed
+2026-03-11T13:10:00,LADLE-16,WO-SMS2-16161,patched impact pad refractory,R. Iyer,completed

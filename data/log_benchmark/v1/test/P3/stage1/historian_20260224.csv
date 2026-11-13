@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-02-24T08:30:00,P3-CNV-02,belt_speed,2.02,m/s
+2026-02-24T10:30:00,P3-PMP-01,bearing_temp,78.9,degC
+2026-02-24T11:30:00,P3-MTR-01,current,90.1,A
+2026-02-24T12:30:00,P3-MTR-02,current,32.2,A

@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-08T09:15:00,P4-CMP-01,WO-P4-50608,tightened baseplate anchor bolts,M. Okafor,completed
+2026-03-08T09:45:00,P4-FAN-01,WO-P4-83170,replaced drive-end bearing,R. Iyer,completed
+2026-03-08T15:30:00,P4-CNV-02,WO-P4-96669,recalibrated pressure transmitter,M. Okafor,completed
+2026-03-08T16:45:00,P4-MTR-01,WO-P4-11251,replaced worn V-belts,M. Okafor,completed
+2026-03-09T07:15:00,P4-CNV-02,WO-P4-48281,replaced worn V-belts,A. Haddad,completed
+2026-03-09T08:30:00,P4-CMP-01,WO-P4-80059,replaced cooling fan blade,J. Moreau,completed
+2026-03-09T11:30:00,P4-FAN-01,WO-P4-35476,realigned motor coupling,S. Lindqvist,completed
+2026-03-09T16:30:00,P4-MTR-01,WO-P4-49067,recalibrated pressure transmitter,J. Moreau,completed

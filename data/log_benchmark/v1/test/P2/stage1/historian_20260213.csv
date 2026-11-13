@@ -1,0 +1,5 @@
+timestamp,equipment,signal,value,unit
+2026-02-13T08:30:00,P2-MTR-01,vibration,5.5,mm/s
+2026-02-13T10:30:00,P2-FAN-01,vibration,2.8,mm/s
+2026-02-13T11:30:00,P2-CMP-01,pressure,7.78,bar
+2026-02-13T12:30:00,P2-MTR-02,vibration,4.4,mm/s

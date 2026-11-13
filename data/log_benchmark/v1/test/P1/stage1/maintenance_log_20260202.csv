@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-02-02T10:15:00,P1-MTR-01,WO-P1-33361,replaced cooling fan blade,S. Lindqvist,completed
+2026-02-02T12:30:00,P1-PMP-01,WO-P1-42840,cleaned suction strainer,R. Iyer,completed
+2026-02-02T13:10:00,P1-CNV-01,WO-P1-92466,realigned motor coupling,M. Okafor,completed

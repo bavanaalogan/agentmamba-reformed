@@ -1,0 +1,9 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-30T14:45:00,LADLE-09,WO-SMS4-30508,replaced well block,J. Moreau,completed
+2026-03-30T14:45:00,LADLE-03,WO-SMS4-30288,replaced slide gate cylinder seal,M. Okafor,completed
+2026-03-30T16:30:00,LADLE-14,WO-SMS4-41337,replaced well block,R. Iyer,completed
+2026-03-30T16:45:00,LADLE-12,WO-SMS4-39187,re-seated the collector nozzle,R. Iyer,completed
+2026-03-31T08:15:00,LADLE-03,WO-SMS4-68298,gunned hot spot on the ladle barrel,A. Haddad,completed
+2026-03-31T09:45:00,LADLE-12,WO-SMS4-42050,re-seated the collector nozzle,J. Moreau,completed
+2026-03-31T10:00:00,LADLE-14,WO-SMS4-69456,re-seated the collector nozzle,S. Lindqvist,completed
+2026-03-31T11:00:00,LADLE-09,WO-SMS4-15116,replaced well block,R. Iyer,completed

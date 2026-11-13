@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-29T10:15:00,LADLE-07,WO-SMS4-68543,relined slag line with MgO-C bricks,S. Lindqvist,completed
+2026-03-29T12:30:00,LADLE-12,WO-SMS4-88031,replaced slide gate plates,A. Haddad,completed
+2026-03-29T13:10:00,LADLE-14,WO-SMS4-92368,replaced well block,R. Iyer,completed

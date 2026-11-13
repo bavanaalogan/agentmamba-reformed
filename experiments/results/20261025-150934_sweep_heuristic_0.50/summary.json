@@ -1,0 +1,258 @@
+{
+  "n": 192,
+  "answer": {
+    "overall_accuracy": 0.859375,
+    "overall_accuracy_ci95": [
+      0.8125,
+      0.9062
+    ],
+    "exact_match": 0.8125,
+    "exact_match_ci95": [
+      0.7431,
+      0.875
+    ],
+    "token_f1": 0.8125,
+    "n_value": 144,
+    "answerable_accuracy": 0.8125,
+    "unanswerable_abstention_accuracy": 1.0,
+    "false_answer_rate": 0.010416666666666666,
+    "unsupported_answer_rate": 0.016666666666666666,
+    "correct_abstention_rate": 0.609375,
+    "abstention_rate": 0.3333333333333333,
+    "partial_answer_rate": 0.008333333333333333,
+    "cross_stage_accuracy": 0.609375,
+    "n_cross_stage": 64,
+    "temporal_version_accuracy": 0.875,
+    "clarification_accuracy": 1.0
+  },
+  "evidence": {
+    "recall_at_k": 0.7818627450980391,
+    "precision_at_k": 0.12330606485018245,
+    "mrr": 0.7598214285714286,
+    "required_relationship_recall": 0.25661375661375657,
+    "evidence_precision": 0.9831932773109243,
+    "evidence_recall": 0.9243697478991597,
+    "evidence_f1": 0.9439775910364148,
+    "invalid_citations": 0
+  },
+  "controller": {
+    "retrieval_trigger_rate": 0.7916666666666666,
+    "unnecessary_retrieval_rate": 0.0,
+    "correctly_avoided_retrieval_rate": 1.0,
+    "missed_retrieval_rate": 0.0,
+    "initial_support_rate": 0.16666666666666666,
+    "final_improvement_after_retrieval": 0.7410714285714286,
+    "n_initial_sufficient": 32,
+    "n_retrieval_required": 152
+  },
+  "verification": {
+    "evidence_grounding_rate": 0.9831932773109243,
+    "unjustified_causal_claim_rate": 0.0,
+    "incorrect_association_rate": 0.016666666666666666,
+    "conflict_detection_precision": 1.0,
+    "conflict_detection_recall": 1.0
+  },
+  "discarded_evidence": {
+    "n_value_questions_evidence_lost": 25,
+    "abstain_rate_when_evidence_lost": 1.0,
+    "wrong_answer_rate_when_evidence_lost": 0.0,
+    "em_when_evidence_available": 0.9831932773109243
+  },
+  "latency": {
+    "controller_s": {
+      "n": 192,
+      "mean": 0.0016,
+      "p50": 0.0014,
+      "p95": 0.0036,
+      "max": 0.0061
+    },
+    "final_answer_s": {
+      "n": 152,
+      "mean": 2.8227,
+      "p50": 0.0005,
+      "p95": 20.0308,
+      "max": 35.8741
+    },
+    "initial_answer_s": {
+      "n": 192,
+      "mean": 0.0001,
+      "p50": 0.0,
+      "p95": 0.0007,
+      "max": 0.0012
+    },
+    "parse_s": {
+      "n": 192,
+      "mean": 0.0033,
+      "p50": 0.0029,
+      "p95": 0.0062,
+      "max": 0.0085
+    },
+    "retrieval_s": {
+      "n": 152,
+      "mean": 0.0648,
+      "p50": 0.0545,
+      "p95": 0.1138,
+      "max": 0.2099
+    },
+    "total_s": {
+      "n": 192,
+      "mean": 2.2944,
+      "p50": 0.0593,
+      "p95": 18.8988,
+      "max": 36.0167
+    },
+    "verification_s": {
+      "n": 152,
+      "mean": 0.0039,
+      "p50": 0.002,
+      "p95": 0.013,
+      "max": 0.0688
+    }
+  },
+  "by_family": {
+    "F01_direct_context": {
+      "n": 32,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F02_earlier_stage": {
+      "n": 16,
+      "accuracy": 0.375,
+      "retrieval_rate": 1.0
+    },
+    "F03_relationship_chain": {
+      "n": 16,
+      "accuracy": 0.375,
+      "retrieval_rate": 1.0
+    },
+    "F04_rare_warning": {
+      "n": 8,
+      "accuracy": 0.75,
+      "retrieval_rate": 1.0
+    },
+    "F07_maintenance_outcome": {
+      "n": 7,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F08_failed_intervention": {
+      "n": 9,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F09_conflicting_records": {
+      "n": 16,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F10_outdated_document": {
+      "n": 16,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F11_missing_identifier": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F12_evidence_never_stored": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F13_unanswerable": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F14_ambiguous": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F15_correlation_not_causation": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F15b_documented_cause": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F16_multi_stage": {
+      "n": 8,
+      "accuracy": 0.375,
+      "retrieval_rate": 1.0
+    },
+    "F17_similar_irrelevant": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F18_precise_time": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    }
+  },
+  "memory": {
+    "candidates": 4580,
+    "retained_records": 1886,
+    "write_rate": 0.41179039301310044,
+    "candidate_bytes": 741312,
+    "retained_bytes": 370606,
+    "retention_ratio_bytes": 0.4999325520158853,
+    "relevant_evidence_retention": 0.7551867219917012,
+    "n_relevant_evidence": 241,
+    "rare_event_retention": 1.0,
+    "n_rare": 371,
+    "useful_rare_retention": 1.0,
+    "n_useful_rare": 96,
+    "irrelevant_retained_fraction": 0.9034994697773064,
+    "retained_by_type": {
+      "ladle_inspection": 390,
+      "coil_inspection": 384,
+      "caster_alarm": 246,
+      "cast_record": 222,
+      "ladle_assignment": 165,
+      "bof_heat_record": 161,
+      "rolling_record": 160,
+      "work_order": 56,
+      "maintenance_followup": 48,
+      "procedure_doc": 30,
+      "rca_report": 16,
+      "ladle_incident": 8
+    },
+    "sqlite_file_bytes": 6582272,
+    "faiss_file_bytes": 2912074,
+    "ingest_report": {
+      "offered": 4580,
+      "written": 1886,
+      "skipped": 2694,
+      "evicted": 1815,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": 370656,
+      "used_bytes": 370606,
+      "policy": "heuristic",
+      "timings": {
+        "embedding_s": 0.05560620001051575,
+        "gate_s": 0.002939100028015673,
+        "write_s": 0.6186465000500903,
+        "total_s": 3.2526251999661326
+      },
+      "decisions": []
+    },
+    "build_or_open_s": 3.62
+  },
+  "method": "sweep_heuristic_0.50",
+  "split": "test",
+  "spec": {
+    "policy": "heuristic",
+    "budget": 0.5,
+    "mode": "conditional",
+    "verify": true
+  },
+  "wall_s": 441.2
+}

@@ -1,0 +1,133 @@
+{
+  "benchmark": "logbench-v1",
+  "scenario": "P5",
+  "split": "test",
+  "incident_day": "2026-03-18",
+  "roles": {
+    "maint": "P5-CMP-01",
+    "alarm": "P5-CNV-02",
+    "sensor": "P5-PMP-02",
+    "insp": "P5-MTR-01",
+    "rca": "P5-PMP-01",
+    "hedge": "P5-FAN-01",
+    "clear": "P5-CNV-01",
+    "noclear": "P5-MTR-02",
+    "conflict": "P5-FAN-01",
+    "missing": "P5-PMP-09"
+  },
+  "stages": {
+    "1": {
+      "name": "incident day",
+      "files": [
+        {
+          "file": "stage1/historian_20260318.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/manual_rounds_20260318.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/alarm_log_20260318.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage1/maintenance_log_20260318.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/inspection_P5-MTR-01_20260318.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/rca_P5-PMP-01_20260318.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/shift_notes_20260318.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage1/return_to_service_P5-CNV-01_20260318.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "2": {
+      "name": "following operations",
+      "files": [
+        {
+          "file": "stage2/historian_20260318_20260320.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/alarm_log_20260318.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/alarm_log_20260319_20260320.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage2/maintenance_log_20260319_20260320.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage2/shift_notes_20260320.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "3": {
+      "name": "older history and long manual",
+      "files": [
+        {
+          "file": "stage3/maintenance_history_20251118_20260317.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/alarm_history_20251218_20260317.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage3/inspection_P5-MTR-01_20260216.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/inspection_P5-MTR-01_20260117.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage3/equipment_care_manual_P5.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    },
+    "4": {
+      "name": "later months",
+      "files": [
+        {
+          "file": "stage4/historian_20260321_20260502.csv",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage4/alarm_log_20260321_20260502.jsonl",
+          "stage": "UTILITIES"
+        },
+        {
+          "file": "stage4/maintenance_log_20260322_20260502.csv",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/inspection_P5-MTR-01_20260407.md",
+          "stage": "MAINTENANCE"
+        },
+        {
+          "file": "stage4/rca_P5-FAN-01_20260328.md",
+          "stage": "MAINTENANCE"
+        }
+      ]
+    }
+  },
+  "synthetic": true
+}

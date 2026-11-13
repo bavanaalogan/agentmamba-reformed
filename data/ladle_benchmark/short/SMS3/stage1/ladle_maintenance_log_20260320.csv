@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-20T10:15:00,LADLE-03,WO-SMS3-38020,gunned hot spot on the ladle barrel,R. Iyer,completed
+2026-03-20T12:30:00,LADLE-07,WO-SMS3-39679,replaced trunnion bearing,M. Okafor,completed
+2026-03-20T13:10:00,LADLE-16,WO-SMS3-88446,repaired argon line coupling,T. Varga,completed

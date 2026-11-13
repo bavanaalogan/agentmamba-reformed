@@ -1,0 +1,3 @@
+{"ts": "2026-02-13T09:35:00", "equipment": "P2-CNV-02", "alarm": "MOTOR OVERCURRENT", "state": "RAISED", "priority": 2}
+{"ts": "2026-02-13T09:57:00", "equipment": "P2-CNV-02", "alarm": "MOTOR OVERCURRENT", "state": "CLEARED", "priority": 2}
+{"ts": "2026-02-13T14:05:00", "equipment": "P2-PMP-02", "alarm": "UNIT TRIP", "state": "RAISED", "priority": 1}

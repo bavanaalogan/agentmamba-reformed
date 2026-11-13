@@ -1,0 +1,69 @@
+# AgentMamba default configuration. Paths are relative to the project root.
+seed: 13
+
+paths:
+  data_dir: data
+  synthetic_dir: data/synthetic
+  processed_dir: data/processed
+  artifacts_dir: artifacts
+  storage_dir: storage
+  results_dir: experiments/results
+  feature_cache: artifacts/features
+
+models:
+  mamba_id: state-spaces/mamba-130m-hf
+  mamba_max_tokens: 768         # prompt truncation for answer scoring (CPU budget)
+  mamba_feature_max_tokens: 96  # per-record truncation for gate features
+  mamba_threads: 8
+  embedding_id: sentence-transformers/all-MiniLM-L6-v2
+  embedding_dim: 384
+  # "mamba" (primary) | "first_candidate" (ablation; not a Mamba track)
+  answerer: mamba
+
+synthetic:
+  n_campaigns: 30
+  heats_per_campaign: 48
+  ladles_per_campaign: 6
+  splits: {train: 16, val: 6, test: 8}
+  noise_logs_per_heat: 4
+
+gate:
+  model: logreg          # logreg | mlp
+  use_mamba_features: true
+  embedding_pca_dims: 16
+  mamba_pca_dims: 16
+  novelty_window: 256
+  artifact_dir: artifacts/gate
+
+memory:
+  budget_fraction: 0.10   # fraction of candidate bytes; 1.0 == store-all
+  budget_unit: bytes
+  app_budget_bytes: 400000   # absolute budget for streaming ingestion through the API/dashboard
+  policy: learned         # learned | heuristic | random | store_all
+
+retrieval:
+  top_k: 8
+  oversample: 4
+  expansion_depth: 3
+  max_expansion_nodes: 60
+  rerank: true
+  w_similarity: 1.0
+  w_path: 0.35
+  w_type: 0.25
+
+controller:
+  # Thresholds are re-tuned on the validation split by scripts/train_gate.py --tune-controller.
+  return_threshold: 0.75
+  post_retrieval_threshold: 0.75
+
+verification:
+  enabled: true
+
+evaluation:
+  # Composite score (src/agentmamba/evaluation/metrics_suite.py:composite). Components are normalized to
+  # [0, 1], higher = better; a component a system does not have (e.g. retrieval for Baseline Mamba) is
+  # dropped and the remaining weights renormalized - never scored as 0. "composite_shared" uses only
+  # answer_quality, grounding and efficiency, the like-for-like comparison.
+  composite:
+    weights: {answer_quality: 0.4, grounding: 0.3, retrieval: 0.15, efficiency: 0.15}
+    latency_reference_s: 10.0     # efficiency = ref / (ref + median latency)

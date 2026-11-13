@@ -1,0 +1,56 @@
+{
+  "generator_version": "synth-v1",
+  "seed": 13,
+  "config": {
+    "n_campaigns": 30,
+    "heats_per_campaign": 48,
+    "ladles_per_campaign": 6,
+    "noise_logs_per_heat": 4,
+    "splits": {
+      "train": 16,
+      "val": 6,
+      "test": 8
+    },
+    "seed": 13
+  },
+  "split_unit": "campaign (independent fictional plant history)",
+  "campaign_splits": {
+    "C00": "train",
+    "C01": "train",
+    "C02": "val",
+    "C03": "train",
+    "C04": "val",
+    "C05": "test",
+    "C06": "train",
+    "C07": "test",
+    "C08": "test",
+    "C09": "test",
+    "C10": "train",
+    "C11": "train",
+    "C12": "train",
+    "C13": "train",
+    "C14": "train",
+    "C15": "train",
+    "C16": "train",
+    "C17": "train",
+    "C18": "train",
+    "C19": "train",
+    "C20": "test",
+    "C21": "test",
+    "C22": "val",
+    "C23": "val",
+    "C24": "val",
+    "C25": "test",
+    "C26": "val",
+    "C27": "test",
+    "C28": "train",
+    "C29": "train"
+  },
+  "counts": {
+    "events": 17165,
+    "withheld": 30,
+    "questions": 719
+  },
+  "synthetic": true,
+  "disclaimer": "All records are fictional and generated; they are not industrial observations."
+}

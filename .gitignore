@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+storage/*
+!storage/.gitkeep
+artifacts/features/
+artifacts/models/mamba_score_cache.sqlite3
+data/raw/*/download.zip
+.env
+/logs_*.txt
+storage/experiments/
+*.egg-info/

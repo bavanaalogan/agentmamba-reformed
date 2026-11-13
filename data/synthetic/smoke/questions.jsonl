@@ -1,0 +1,116 @@
+{"question_id": "C00-Q01", "campaign_id": "C00", "split": "train", "text": "What tap temperature was recorded for heat C00-H0021?", "initial_context_ids": ["C00-E00192", "C00-E00217", "C00-E00208"]}
+{"question_id": "C00-Q02", "campaign_id": "C00", "split": "train", "text": "What tap temperature was recorded for heat C00-H0005?", "initial_context_ids": ["C00-E00043", "C00-E00031", "C00-E00022"]}
+{"question_id": "C00-Q03", "campaign_id": "C00", "split": "train", "text": "Heat C00-H0024 was tapped into which ladle?", "initial_context_ids": ["C00-E00223", "C00-E00198", "C00-E00208"]}
+{"question_id": "C00-Q04", "campaign_id": "C00", "split": "train", "text": "Heat C00-H0002 was tapped into which ladle?", "initial_context_ids": ["C00-E00018", "C00-E00041", "C00-E00022"]}
+{"question_id": "C00-Q05", "campaign_id": "C00", "split": "train", "text": "Which ladle carried heat C00-H0014?", "initial_context_ids": ["C00-E00128", "C00-E00145", "C00-E00153"]}
+{"question_id": "C00-Q06", "campaign_id": "C00", "split": "train", "text": "Coil C00-CL0024 came from a slab cast in which casting sequence?", "initial_context_ids": ["C00-E00225"]}
+{"question_id": "C00-Q07", "campaign_id": "C00", "split": "train", "text": "Coil C00-CL0021 came from a slab cast in which casting sequence?", "initial_context_ids": ["C00-E00197"]}
+{"question_id": "C00-Q08", "campaign_id": "C00", "split": "train", "text": "Was work order C00-WO007 effective according to the follow-up record?", "initial_context_ids": ["C00-E00240"]}
+{"question_id": "C00-Q09", "campaign_id": "C00", "split": "train", "text": "Was work order C00-WO005 effective according to the follow-up record?", "initial_context_ids": ["C00-E00236"]}
+{"question_id": "C00-Q10", "campaign_id": "C00", "split": "train", "text": "Was work order C00-WO003 effective according to the follow-up record?", "initial_context_ids": ["C00-E00233"]}
+{"question_id": "C00-Q11", "campaign_id": "C00", "split": "train", "text": "What was the documented outcome of work order C00-WO004?", "initial_context_ids": ["C00-E00234"]}
+{"question_id": "C00-Q12", "campaign_id": "C00", "split": "train", "text": "Which work order was opened on C00-HSM1 on 2024-01-03?", "initial_context_ids": []}
+{"question_id": "C00-Q13", "campaign_id": "C00", "split": "train", "text": "What lining thickness was recorded for ladle C00-LD04 at the inspection on 2024-01-02?", "initial_context_ids": []}
+{"question_id": "C00-Q14", "campaign_id": "C00", "split": "train", "text": "What lining thickness was recorded for ladle C00-LD02 at the inspection on 2024-01-03?", "initial_context_ids": []}
+{"question_id": "C00-Q15", "campaign_id": "C00", "split": "train", "text": "According to the current revision of procedure C00-SOP-LR, what is the maximum heats between ladle slag-line repairs?", "initial_context_ids": ["C00-E00001"]}
+{"question_id": "C00-Q16", "campaign_id": "C00", "split": "train", "text": "According to the current revision of procedure C00-SOP-TD, what is the minimum tundish superheat?", "initial_context_ids": ["C00-E00003"]}
+{"question_id": "C00-Q17", "campaign_id": "C00", "split": "train", "text": "Which ladle carried heat C00-H0016?", "initial_context_ids": ["C00-E00149"]}
+{"question_id": "C00-Q18", "campaign_id": "C00", "split": "train", "text": "What hydrogen content was measured for heat C00-H0009?", "initial_context_ids": ["C00-E00081"]}
+{"question_id": "C00-Q19", "campaign_id": "C00", "split": "train", "text": "What tap temperature did the heat have?", "initial_context_ids": []}
+{"question_id": "C00-Q20", "campaign_id": "C00", "split": "train", "text": "What caused the sliver on coil C00-CL0009?", "initial_context_ids": ["C00-E00087"]}
+{"question_id": "C00-Q21", "campaign_id": "C00", "split": "train", "text": "What caused the longitudinal crack on coil C00-CL0012?", "initial_context_ids": ["C00-E00114"]}
+{"question_id": "C00-Q22", "campaign_id": "C00", "split": "train", "text": "Coil C00-CL0001 is under review. What refractory condition was recorded for the ladle that carried its heat, at that ladle's last inspection before the heat?", "initial_context_ids": ["C00-E00011"]}
+{"question_id": "C00-Q23", "campaign_id": "C00", "split": "train", "text": "What abnormality was noted at the caster while casting heat C00-H0006?", "initial_context_ids": ["C00-E00052"]}
+{"question_id": "C01-Q01", "campaign_id": "C01", "split": "train", "text": "Report the tap temperature measured for heat C01-H0004.", "initial_context_ids": ["C01-E00034", "C01-E00051", "C01-E00052"]}
+{"question_id": "C01-Q02", "campaign_id": "C01", "split": "train", "text": "What tap temperature was recorded for heat C01-H0015?", "initial_context_ids": ["C01-E00138", "C01-E00135", "C01-E00127"]}
+{"question_id": "C01-Q03", "campaign_id": "C01", "split": "train", "text": "Heat C01-H0011 was tapped into which ladle?", "initial_context_ids": ["C01-E00105", "C01-E00109", "C01-E00090"]}
+{"question_id": "C01-Q04", "campaign_id": "C01", "split": "train", "text": "Which ladle carried heat C01-H0008?", "initial_context_ids": ["C01-E00076", "C01-E00089", "C01-E00090"]}
+{"question_id": "C01-Q05", "campaign_id": "C01", "split": "train", "text": "Which ladle carried heat C01-H0020?", "initial_context_ids": ["C01-E00185", "C01-E00183", "C01-E00202"]}
+{"question_id": "C01-Q06", "campaign_id": "C01", "split": "train", "text": "Which casting sequence produced the slab that was rolled into coil C01-CL0013?", "initial_context_ids": ["C01-E00125"]}
+{"question_id": "C01-Q07", "campaign_id": "C01", "split": "train", "text": "Coil C01-CL0020 came from a slab cast in which casting sequence?", "initial_context_ids": ["C01-E00190"]}
+{"question_id": "C01-Q08", "campaign_id": "C01", "split": "train", "text": "Before ladle C01-LD02 was taken out of service on 2024-01-15, which refractory warning sign was noted for it?", "initial_context_ids": ["C01-E00230"]}
+{"question_id": "C01-Q09", "campaign_id": "C01", "split": "train", "text": "Was work order C01-WO002 effective according to the follow-up record?", "initial_context_ids": ["C01-E00233"]}
+{"question_id": "C01-Q10", "campaign_id": "C01", "split": "train", "text": "Was work order C01-WO007 effective according to the follow-up record?", "initial_context_ids": ["C01-E00243"]}
+{"question_id": "C01-Q11", "campaign_id": "C01", "split": "train", "text": "What was the documented outcome of work order C01-WO001?", "initial_context_ids": ["C01-E00232"]}
+{"question_id": "C01-Q12", "campaign_id": "C01", "split": "train", "text": "What was the documented outcome of work order C01-WO004?", "initial_context_ids": ["C01-E00237"]}
+{"question_id": "C01-Q13", "campaign_id": "C01", "split": "train", "text": "Which work order was opened on C01-HSM1 on 2024-01-16?", "initial_context_ids": []}
+{"question_id": "C01-Q14", "campaign_id": "C01", "split": "train", "text": "What lining thickness was recorded for ladle C01-LD03 at the inspection on 2024-01-14?", "initial_context_ids": []}
+{"question_id": "C01-Q15", "campaign_id": "C01", "split": "train", "text": "What lining thickness was recorded for ladle C01-LD01 at the inspection on 2024-01-14?", "initial_context_ids": []}
+{"question_id": "C01-Q16", "campaign_id": "C01", "split": "train", "text": "According to the current revision of procedure C01-SOP-LP, what is the maximum preheat-to-tap interval?", "initial_context_ids": ["C01-E00001"]}
+{"question_id": "C01-Q17", "campaign_id": "C01", "split": "train", "text": "According to the current revision of procedure C01-SOP-LR, what is the maximum heats between ladle slag-line repairs?", "initial_context_ids": ["C01-E00003"]}
+{"question_id": "C01-Q18", "campaign_id": "C01", "split": "train", "text": "Which ladle carried heat C01-H0012?", "initial_context_ids": ["C01-E00113"]}
+{"question_id": "C01-Q19", "campaign_id": "C01", "split": "train", "text": "What hydrogen content was measured for heat C01-H0023?", "initial_context_ids": ["C01-E00212"]}
+{"question_id": "C01-Q20", "campaign_id": "C01", "split": "train", "text": "What tap temperature did the heat have?", "initial_context_ids": []}
+{"question_id": "C01-Q21", "campaign_id": "C01", "split": "train", "text": "What caused the sliver on coil C01-CL0007?", "initial_context_ids": ["C01-E00069"]}
+{"question_id": "C01-Q22", "campaign_id": "C01", "split": "train", "text": "Coil C01-CL0003 is under review. What refractory condition was recorded for the ladle that carried its heat, at that ladle's last inspection before the heat?", "initial_context_ids": ["C01-E00031"]}
+{"question_id": "C01-Q23", "campaign_id": "C01", "split": "train", "text": "What abnormality was noted at the caster while casting heat C01-H0024?", "initial_context_ids": ["C01-E00221"]}
+{"question_id": "C02-Q01", "campaign_id": "C02", "split": "test", "text": "Report the end-blow carbon content measured for heat C02-H0005.", "initial_context_ids": ["C02-E00044", "C02-E00070", "C02-E00069"]}
+{"question_id": "C02-Q02", "campaign_id": "C02", "split": "test", "text": "Report the tap temperature measured for heat C02-H0003.", "initial_context_ids": ["C02-E00025", "C02-E00041", "C02-E00050"]}
+{"question_id": "C02-Q03", "campaign_id": "C02", "split": "test", "text": "Which ladle carried heat C02-H0012?", "initial_context_ids": ["C02-E00111", "C02-E00106", "C02-E00105"]}
+{"question_id": "C02-Q04", "campaign_id": "C02", "split": "test", "text": "Heat C02-H0017 was tapped into which ladle?", "initial_context_ids": ["C02-E00157", "C02-E00169", "C02-E00151"]}
+{"question_id": "C02-Q05", "campaign_id": "C02", "split": "test", "text": "Which ladle carried heat C02-H0020?", "initial_context_ids": ["C02-E00182", "C02-E00189", "C02-E00170"]}
+{"question_id": "C02-Q06", "campaign_id": "C02", "split": "test", "text": "Coil C02-CL0020 came from a slab cast in which casting sequence?", "initial_context_ids": ["C02-E00187"]}
+{"question_id": "C02-Q07", "campaign_id": "C02", "split": "test", "text": "Coil C02-CL0023 came from a slab cast in which casting sequence?", "initial_context_ids": ["C02-E00215"]}
+{"question_id": "C02-Q08", "campaign_id": "C02", "split": "test", "text": "Before ladle C02-LD01 was taken out of service on 2024-01-27, which refractory warning sign was noted for it?", "initial_context_ids": ["C02-E00228"]}
+{"question_id": "C02-Q09", "campaign_id": "C02", "split": "test", "text": "What was the documented outcome of work order C02-WO003?", "initial_context_ids": ["C02-E00233"]}
+{"question_id": "C02-Q10", "campaign_id": "C02", "split": "test", "text": "What was the documented outcome of work order C02-WO007?", "initial_context_ids": ["C02-E00241"]}
+{"question_id": "C02-Q11", "campaign_id": "C02", "split": "test", "text": "Was work order C02-WO002 effective according to the follow-up record?", "initial_context_ids": ["C02-E00232"]}
+{"question_id": "C02-Q12", "campaign_id": "C02", "split": "test", "text": "What was the documented outcome of work order C02-WO004?", "initial_context_ids": ["C02-E00235"]}
+{"question_id": "C02-Q13", "campaign_id": "C02", "split": "test", "text": "Which work order was opened on C02-HSM1 on 2024-01-25?", "initial_context_ids": []}
+{"question_id": "C02-Q14", "campaign_id": "C02", "split": "test", "text": "What lining thickness was recorded for ladle C02-LD03 at the inspection on 2024-01-26?", "initial_context_ids": []}
+{"question_id": "C02-Q15", "campaign_id": "C02", "split": "test", "text": "What lining thickness was recorded for ladle C02-LD01 at the inspection on 2024-01-27?", "initial_context_ids": []}
+{"question_id": "C02-Q16", "campaign_id": "C02", "split": "test", "text": "According to the current revision of procedure C02-SOP-LP, what is the maximum preheat-to-tap interval?", "initial_context_ids": ["C02-E00001"]}
+{"question_id": "C02-Q17", "campaign_id": "C02", "split": "test", "text": "According to the current revision of procedure C02-SOP-LR, what is the maximum heats between ladle slag-line repairs?", "initial_context_ids": ["C02-E00003"]}
+{"question_id": "C02-Q18", "campaign_id": "C02", "split": "test", "text": "Which ladle carried heat C02-H0016?", "initial_context_ids": ["C02-E00148"]}
+{"question_id": "C02-Q19", "campaign_id": "C02", "split": "test", "text": "What hydrogen content was measured for heat C02-H0009?", "initial_context_ids": ["C02-E00081"]}
+{"question_id": "C02-Q20", "campaign_id": "C02", "split": "test", "text": "What tap temperature did the heat have?", "initial_context_ids": []}
+{"question_id": "C02-Q21", "campaign_id": "C02", "split": "test", "text": "What caused the edge cracks on coil C02-CL0012?", "initial_context_ids": ["C02-E00113"]}
+{"question_id": "C02-Q22", "campaign_id": "C02", "split": "test", "text": "What caused the longitudinal crack on coil C02-CL0015?", "initial_context_ids": ["C02-E00142"]}
+{"question_id": "C02-Q23", "campaign_id": "C02", "split": "test", "text": "Coil C02-CL0001 is under review. What refractory condition was recorded for the ladle that carried its heat, at that ladle's last inspection before the heat?", "initial_context_ids": ["C02-E00012"]}
+{"question_id": "C02-Q24", "campaign_id": "C02", "split": "test", "text": "What abnormality was noted at the caster while casting heat C02-H0003?", "initial_context_ids": ["C02-E00025"]}
+{"question_id": "C03-Q01", "campaign_id": "C03", "split": "train", "text": "Report the tap temperature measured for heat C03-H0020.", "initial_context_ids": ["C03-E00182", "C03-E00197", "C03-E00206"]}
+{"question_id": "C03-Q02", "campaign_id": "C03", "split": "train", "text": "What end-blow carbon content was recorded for heat C03-H0024?", "initial_context_ids": ["C03-E00218", "C03-E00225", "C03-E00224"]}
+{"question_id": "C03-Q03", "campaign_id": "C03", "split": "train", "text": "Heat C03-H0023 was tapped into which ladle?", "initial_context_ids": ["C03-E00213", "C03-E00197", "C03-E00224"]}
+{"question_id": "C03-Q04", "campaign_id": "C03", "split": "train", "text": "Which ladle carried heat C03-H0008?", "initial_context_ids": ["C03-E00076", "C03-E00070", "C03-E00089"]}
+{"question_id": "C03-Q05", "campaign_id": "C03", "split": "train", "text": "Heat C03-H0013 was tapped into which ladle?", "initial_context_ids": ["C03-E00118", "C03-E00133", "C03-E00115"]}
+{"question_id": "C03-Q06", "campaign_id": "C03", "split": "train", "text": "Which casting sequence produced the slab that was rolled into coil C03-CL0014?", "initial_context_ids": ["C03-E00132"]}
+{"question_id": "C03-Q07", "campaign_id": "C03", "split": "train", "text": "Which casting sequence produced the slab that was rolled into coil C03-CL0016?", "initial_context_ids": ["C03-E00150"]}
+{"question_id": "C03-Q08", "campaign_id": "C03", "split": "train", "text": "What was the documented outcome of work order C03-WO002?", "initial_context_ids": ["C03-E00228"]}
+{"question_id": "C03-Q09", "campaign_id": "C03", "split": "train", "text": "Was work order C03-WO005 effective according to the follow-up record?", "initial_context_ids": ["C03-E00234"]}
+{"question_id": "C03-Q10", "campaign_id": "C03", "split": "train", "text": "What was the documented outcome of work order C03-WO003?", "initial_context_ids": ["C03-E00231"]}
+{"question_id": "C03-Q11", "campaign_id": "C03", "split": "train", "text": "What was the documented outcome of work order C03-WO004?", "initial_context_ids": ["C03-E00232"]}
+{"question_id": "C03-Q12", "campaign_id": "C03", "split": "train", "text": "Which work order was opened on C03-HSM1 on 2024-02-08?", "initial_context_ids": []}
+{"question_id": "C03-Q13", "campaign_id": "C03", "split": "train", "text": "What lining thickness was recorded for ladle C03-LD01 at the inspection on 2024-02-07?", "initial_context_ids": []}
+{"question_id": "C03-Q14", "campaign_id": "C03", "split": "train", "text": "What lining thickness was recorded for ladle C03-LD04 at the inspection on 2024-02-08?", "initial_context_ids": []}
+{"question_id": "C03-Q15", "campaign_id": "C03", "split": "train", "text": "According to the current revision of procedure C03-SOP-LP, what is the maximum preheat-to-tap interval?", "initial_context_ids": ["C03-E00001"]}
+{"question_id": "C03-Q16", "campaign_id": "C03", "split": "train", "text": "According to the current revision of procedure C03-SOP-LR, what is the maximum heats between ladle slag-line repairs?", "initial_context_ids": ["C03-E00003"]}
+{"question_id": "C03-Q17", "campaign_id": "C03", "split": "train", "text": "Which ladle carried heat C03-H0010?", "initial_context_ids": ["C03-E00094"]}
+{"question_id": "C03-Q18", "campaign_id": "C03", "split": "train", "text": "What hydrogen content was measured for heat C03-H0016?", "initial_context_ids": ["C03-E00145"]}
+{"question_id": "C03-Q19", "campaign_id": "C03", "split": "train", "text": "Which work order was opened on the caster last week?", "initial_context_ids": []}
+{"question_id": "C03-Q20", "campaign_id": "C03", "split": "train", "text": "What caused the edge cracks on coil C03-CL0016?", "initial_context_ids": ["C03-E00150"]}
+{"question_id": "C03-Q21", "campaign_id": "C03", "split": "train", "text": "What caused the longitudinal crack on coil C03-CL0013?", "initial_context_ids": ["C03-E00123"]}
+{"question_id": "C03-Q22", "campaign_id": "C03", "split": "train", "text": "Coil C03-CL0002 is under review. What refractory condition was recorded for the ladle that carried its heat, at that ladle's last inspection before the heat?", "initial_context_ids": ["C03-E00021"]}
+{"question_id": "C03-Q23", "campaign_id": "C03", "split": "train", "text": "What abnormality was noted at the caster while casting heat C03-H0024?", "initial_context_ids": ["C03-E00218"]}
+{"question_id": "C04-Q01", "campaign_id": "C04", "split": "val", "text": "What tap temperature was recorded for heat C04-H0001?", "initial_context_ids": ["C04-E00006", "C04-E00023", "C04-E00014"]}
+{"question_id": "C04-Q02", "campaign_id": "C04", "split": "val", "text": "What end-blow carbon content was recorded for heat C04-H0017?", "initial_context_ids": ["C04-E00154", "C04-E00161", "C04-E00171"]}
+{"question_id": "C04-Q03", "campaign_id": "C04", "split": "val", "text": "Heat C04-H0017 was tapped into which ladle?", "initial_context_ids": ["C04-E00158", "C04-E00170", "C04-E00161"]}
+{"question_id": "C04-Q04", "campaign_id": "C04", "split": "val", "text": "Which ladle carried heat C04-H0010?", "initial_context_ids": ["C04-E00092", "C04-E00115", "C04-E00077"]}
+{"question_id": "C04-Q05", "campaign_id": "C04", "split": "val", "text": "Which ladle carried heat C04-H0009?", "initial_context_ids": ["C04-E00081", "C04-E00106", "C04-E00105"]}
+{"question_id": "C04-Q06", "campaign_id": "C04", "split": "val", "text": "Which casting sequence produced the slab that was rolled into coil C04-CL0005?", "initial_context_ids": ["C04-E00049"]}
+{"question_id": "C04-Q07", "campaign_id": "C04", "split": "val", "text": "Coil C04-CL0010 came from a slab cast in which casting sequence?", "initial_context_ids": ["C04-E00094"]}
+{"question_id": "C04-Q08", "campaign_id": "C04", "split": "val", "text": "Before ladle C04-LD04 was taken out of service on 2024-02-20, which refractory warning sign was noted for it?", "initial_context_ids": ["C04-E00228"]}
+{"question_id": "C04-Q09", "campaign_id": "C04", "split": "val", "text": "Was work order C04-WO007 effective according to the follow-up record?", "initial_context_ids": ["C04-E00241"]}
+{"question_id": "C04-Q10", "campaign_id": "C04", "split": "val", "text": "Was work order C04-WO005 effective according to the follow-up record?", "initial_context_ids": ["C04-E00237"]}
+{"question_id": "C04-Q11", "campaign_id": "C04", "split": "val", "text": "Was work order C04-WO002 effective according to the follow-up record?", "initial_context_ids": ["C04-E00232"]}
+{"question_id": "C04-Q12", "campaign_id": "C04", "split": "val", "text": "What was the documented outcome of work order C04-WO004?", "initial_context_ids": ["C04-E00235"]}
+{"question_id": "C04-Q13", "campaign_id": "C04", "split": "val", "text": "Which work order was opened on C04-LD04 on 2024-02-22?", "initial_context_ids": []}
+{"question_id": "C04-Q14", "campaign_id": "C04", "split": "val", "text": "What lining thickness was recorded for ladle C04-LD02 at the inspection on 2024-02-19?", "initial_context_ids": []}
+{"question_id": "C04-Q15", "campaign_id": "C04", "split": "val", "text": "What lining thickness was recorded for ladle C04-LD01 at the inspection on 2024-02-20?", "initial_context_ids": []}
+{"question_id": "C04-Q16", "campaign_id": "C04", "split": "val", "text": "According to the current revision of procedure C04-SOP-LR, what is the maximum heats between ladle slag-line repairs?", "initial_context_ids": ["C04-E00001"]}
+{"question_id": "C04-Q17", "campaign_id": "C04", "split": "val", "text": "According to the current revision of procedure C04-SOP-LP, what is the maximum preheat-to-tap interval?", "initial_context_ids": ["C04-E00003"]}
+{"question_id": "C04-Q18", "campaign_id": "C04", "split": "val", "text": "Which ladle carried heat C04-H0016?", "initial_context_ids": ["C04-E00148"]}
+{"question_id": "C04-Q19", "campaign_id": "C04", "split": "val", "text": "What hydrogen content was measured for heat C04-H0006?", "initial_context_ids": ["C04-E00052"]}
+{"question_id": "C04-Q20", "campaign_id": "C04", "split": "val", "text": "Which work order was opened on the caster last week?", "initial_context_ids": []}
+{"question_id": "C04-Q21", "campaign_id": "C04", "split": "val", "text": "What caused the longitudinal crack on coil C04-CL0004?", "initial_context_ids": ["C04-E00040"]}
+{"question_id": "C04-Q22", "campaign_id": "C04", "split": "val", "text": "Coil C04-CL0024 is under review. What refractory condition was recorded for the ladle that carried its heat, at that ladle's last inspection before the heat?", "initial_context_ids": ["C04-E00224"]}
+{"question_id": "C04-Q23", "campaign_id": "C04", "split": "val", "text": "What abnormality was noted at the caster while casting heat C04-H0024?", "initial_context_ids": ["C04-E00218"]}

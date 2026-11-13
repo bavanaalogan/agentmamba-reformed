@@ -1,0 +1,91 @@
+timestamp,equipment,work_order,action,technician,status
+2025-11-02T07:15:00,LADLE-07,WO-SMS1-73003,gunned hot spot on the ladle barrel,S. Lindqvist,completed
+2025-11-02T09:00:00,LADLE-07,WO-SMS1-30697,replaced trunnion bearing,J. Moreau,completed
+2025-11-03T09:45:00,LADLE-11,WO-SMS1-65389,re-seated the collector nozzle,J. Moreau,completed
+2025-11-04T13:30:00,LADLE-05,WO-SMS1-54748,patched impact pad refractory,M. Okafor,completed
+2025-11-04T16:45:00,LADLE-05,WO-SMS1-54836,re-seated the collector nozzle,R. Iyer,completed
+2025-11-05T11:00:00,LADLE-16,WO-SMS1-73355,re-seated the collector nozzle,R. Iyer,completed
+2025-11-05T15:45:00,LADLE-12,WO-SMS1-50710,re-seated the collector nozzle,J. Moreau,completed
+2025-11-07T07:00:00,LADLE-16,WO-SMS1-93614,replaced slide gate cylinder seal,M. Okafor,completed
+2025-11-11T10:45:00,LADLE-03,WO-SMS1-43156,replaced trunnion bearing,R. Iyer,completed
+2025-11-11T12:45:00,LF-01,WO-SMS1-36234,replaced slide gate cylinder seal,R. Iyer,completed
+2025-11-14T08:45:00,LADLE-05,WO-SMS1-30223,re-seated the collector nozzle,S. Lindqvist,completed
+2025-11-14T15:00:00,LADLE-03,WO-SMS1-78989,re-seated the collector nozzle,S. Lindqvist,completed
+2025-11-15T13:15:00,LTC-02,WO-SMS1-50424,re-seated the collector nozzle,J. Moreau,completed
+2025-11-16T07:15:00,LTC-02,WO-SMS1-38976,replaced slide gate cylinder seal,M. Okafor,completed
+2025-11-17T15:00:00,LADLE-03,WO-SMS1-93703,replaced slide gate cylinder seal,A. Haddad,completed
+2025-11-17T15:30:00,LADLE-03,WO-SMS1-46471,relined slag line with MgO-C bricks,T. Varga,completed
+2025-11-17T15:45:00,LADLE-03,WO-SMS1-41873,replaced well block,R. Iyer,completed
+2025-11-20T15:15:00,LADLE-14,WO-SMS1-46869,patched impact pad refractory,M. Okafor,completed
+2025-11-23T12:30:00,LADLE-07,WO-SMS1-62233,repaired argon line coupling,J. Moreau,completed
+2025-11-24T07:45:00,LADLE-09,WO-SMS1-76237,gunned hot spot on the ladle barrel,M. Okafor,completed
+2025-11-25T08:45:00,LADLE-05,WO-SMS1-41979,replaced well block,A. Haddad,completed
+2025-11-25T16:30:00,LADLE-14,WO-SMS1-90655,repaired argon line coupling,T. Varga,completed
+2025-11-27T14:30:00,LADLE-16,WO-SMS1-70387,replaced slide gate cylinder seal,T. Varga,completed
+2025-11-28T16:00:00,LTC-02,WO-SMS1-47093,replaced well block,A. Haddad,completed
+2025-11-30T14:15:00,LADLE-16,WO-SMS1-51903,replaced porous plug,A. Haddad,completed
+2025-12-01T14:30:00,LADLE-12,WO-SMS1-34088,relined slag line with MgO-C bricks,T. Varga,completed
+2025-12-01T14:45:00,LADLE-11,WO-SMS1-59795,replaced porous plug,R. Iyer,completed
+2025-12-02T10:15:00,LTC-02,WO-SMS1-11432,replaced trunnion bearing,T. Varga,completed
+2025-12-03T12:45:00,LADLE-05,WO-SMS1-35951,replaced trunnion bearing,R. Iyer,completed
+2025-12-04T15:00:00,LF-01,WO-SMS1-85483,re-seated the collector nozzle,M. Okafor,completed
+2025-12-06T10:45:00,LADLE-14,WO-SMS1-90346,relined slag line with MgO-C bricks,R. Iyer,completed
+2025-12-08T13:00:00,LADLE-03,WO-SMS1-77100,re-seated the collector nozzle,A. Haddad,completed
+2025-12-09T16:30:00,LADLE-05,WO-SMS1-34989,replaced porous plug,A. Haddad,completed
+2025-12-11T10:15:00,LADLE-12,WO-SMS1-19069,relined slag line with MgO-C bricks,A. Haddad,completed
+2025-12-11T12:45:00,LADLE-16,WO-SMS1-87228,replaced trunnion bearing,S. Lindqvist,completed
+2025-12-17T09:15:00,LADLE-03,WO-SMS1-58319,gunned hot spot on the ladle barrel,R. Iyer,completed
+2025-12-18T11:30:00,LADLE-05,WO-SMS1-49043,replaced slide gate cylinder seal,J. Moreau,completed
+2025-12-19T12:15:00,LADLE-14,WO-SMS1-95932,patched impact pad refractory,T. Varga,completed
+2025-12-22T12:30:00,LADLE-09,WO-SMS1-28944,re-seated the collector nozzle,J. Moreau,completed
+2025-12-22T14:00:00,LADLE-11,WO-SMS1-95210,re-seated the collector nozzle,S. Lindqvist,completed
+2025-12-23T07:00:00,LF-01,WO-SMS1-61899,patched impact pad refractory,A. Haddad,completed
+2025-12-23T09:00:00,LADLE-11,WO-SMS1-30057,re-seated the collector nozzle,R. Iyer,completed
+2025-12-24T13:15:00,LADLE-07,WO-SMS1-34806,replaced porous plug,A. Haddad,completed
+2025-12-25T15:30:00,LADLE-09,WO-SMS1-13228,replaced slide gate plates,T. Varga,completed
+2025-12-26T08:00:00,LADLE-11,WO-SMS1-95348,replaced well block,R. Iyer,completed
+2025-12-26T10:00:00,LADLE-11,WO-SMS1-44939,relined slag line with MgO-C bricks,R. Iyer,completed
+2025-12-26T11:15:00,LF-01,WO-SMS1-78582,replaced slide gate plates,R. Iyer,completed
+2025-12-27T08:15:00,LADLE-12,WO-SMS1-52932,patched impact pad refractory,R. Iyer,completed
+2025-12-29T13:30:00,LADLE-12,WO-SMS1-66491,replaced porous plug,T. Varga,completed
+2025-12-31T09:15:00,LTC-02,WO-SMS1-22279,gunned hot spot on the ladle barrel,S. Lindqvist,completed
+2025-12-31T12:45:00,LADLE-03,WO-SMS1-84824,gunned hot spot on the ladle barrel,T. Varga,completed
+2026-01-01T15:30:00,LADLE-05,WO-SMS1-40475,patched impact pad refractory,R. Iyer,completed
+2026-01-02T10:15:00,LADLE-12,WO-SMS1-98890,re-seated the collector nozzle,T. Varga,completed
+2026-01-03T08:15:00,LADLE-03,WO-SMS1-76407,patched impact pad refractory,A. Haddad,completed
+2026-01-03T09:30:00,LTC-02,WO-SMS1-45538,relined slag line with MgO-C bricks,T. Varga,completed
+2026-01-05T10:00:00,LADLE-16,WO-SMS1-16778,relined slag line with MgO-C bricks,R. Iyer,completed
+2026-01-06T08:00:00,LTC-02,WO-SMS1-80451,replaced slide gate plates,J. Moreau,completed
+2026-01-07T10:45:00,LADLE-14,WO-SMS1-59792,replaced slide gate cylinder seal,J. Moreau,completed
+2026-01-10T09:00:00,LADLE-09,WO-SMS1-82725,re-seated the collector nozzle,R. Iyer,completed
+2026-01-10T11:45:00,LADLE-07,WO-SMS1-22220,repaired argon line coupling,T. Varga,completed
+2026-01-12T15:15:00,LF-01,WO-SMS1-17144,patched impact pad refractory,R. Iyer,completed
+2026-01-12T15:45:00,LADLE-16,WO-SMS1-89394,repaired argon line coupling,M. Okafor,completed
+2026-01-14T09:00:00,LADLE-11,WO-SMS1-56292,gunned hot spot on the ladle barrel,S. Lindqvist,completed
+2026-01-14T14:00:00,LADLE-11,WO-SMS1-90809,patched impact pad refractory,A. Haddad,completed
+2026-01-24T09:45:00,LADLE-07,WO-SMS1-24426,replaced porous plug,M. Okafor,completed
+2026-01-27T12:45:00,LADLE-09,WO-SMS1-35710,replaced slide gate plates,M. Okafor,completed
+2026-01-28T07:15:00,LADLE-14,WO-SMS1-22454,replaced well block,A. Haddad,completed
+2026-01-29T07:30:00,LADLE-11,WO-SMS1-33446,replaced porous plug,S. Lindqvist,completed
+2026-01-29T08:45:00,LADLE-09,WO-SMS1-26986,replaced slide gate cylinder seal,A. Haddad,completed
+2026-01-29T14:30:00,LADLE-09,WO-SMS1-20894,replaced well block,J. Moreau,completed
+2026-01-30T07:45:00,LADLE-09,WO-SMS1-82146,gunned hot spot on the ladle barrel,M. Okafor,completed
+2026-02-02T09:15:00,LADLE-07,WO-SMS1-64703,patched impact pad refractory,T. Varga,completed
+2026-02-03T15:00:00,LADLE-12,WO-SMS1-22041,patched impact pad refractory,A. Haddad,completed
+2026-02-05T14:45:00,LF-01,WO-SMS1-38971,gunned hot spot on the ladle barrel,S. Lindqvist,completed
+2026-02-06T11:00:00,LADLE-11,WO-SMS1-99128,patched impact pad refractory,M. Okafor,completed
+2026-02-06T11:30:00,LADLE-12,WO-SMS1-14448,replaced trunnion bearing,A. Haddad,completed
+2026-02-07T16:15:00,LTC-02,WO-SMS1-52025,replaced porous plug,A. Haddad,completed
+2026-02-09T11:30:00,LF-01,WO-SMS1-79737,re-seated the collector nozzle,T. Varga,completed
+2026-02-09T15:15:00,LADLE-16,WO-SMS1-30119,replaced slide gate cylinder seal,R. Iyer,completed
+2026-02-11T12:15:00,LADLE-14,WO-SMS1-14803,replaced slide gate cylinder seal,T. Varga,completed
+2026-02-12T09:45:00,LF-01,WO-SMS1-11260,gunned hot spot on the ladle barrel,S. Lindqvist,completed
+2026-02-14T12:30:00,LADLE-05,WO-SMS1-96424,replaced well block,R. Iyer,completed
+2026-02-14T14:15:00,LADLE-09,WO-SMS1-47093,repaired argon line coupling,J. Moreau,completed
+2026-02-15T10:30:00,LADLE-14,WO-SMS1-15803,replaced slide gate plates,T. Varga,completed
+2026-02-16T10:30:00,LADLE-03,WO-SMS1-97150,replaced porous plug,M. Okafor,completed
+2026-02-16T14:30:00,LADLE-14,WO-SMS1-21415,replaced well block,S. Lindqvist,completed
+2026-02-19T11:00:00,LADLE-05,WO-SMS1-39998,replaced porous plug,T. Varga,completed
+2026-02-20T08:00:00,LADLE-07,WO-SMS1-98437,replaced slide gate cylinder seal,M. Okafor,completed
+2026-02-20T15:00:00,LADLE-09,WO-SMS1-98475,patched impact pad refractory,A. Haddad,completed
+2026-02-25T13:00:00,LTC-02,WO-SMS1-72134,replaced slide gate plates,R. Iyer,completed

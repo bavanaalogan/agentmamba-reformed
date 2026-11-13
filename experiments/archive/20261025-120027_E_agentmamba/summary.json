@@ -1,0 +1,267 @@
+{
+  "n": 192,
+  "answer": {
+    "overall_accuracy": 0.6770833333333334,
+    "overall_accuracy_ci95": [
+      0.6094,
+      0.7448
+    ],
+    "exact_match": 0.625,
+    "exact_match_ci95": [
+      0.5417,
+      0.7083
+    ],
+    "token_f1": 0.625,
+    "n_value": 144,
+    "answerable_accuracy": 0.625,
+    "unanswerable_abstention_accuracy": 0.75,
+    "false_answer_rate": 0.041666666666666664,
+    "unsupported_answer_rate": 0.08163265306122448,
+    "correct_abstention_rate": 0.3764705882352941,
+    "abstention_rate": 0.4427083333333333,
+    "partial_answer_rate": 0.0,
+    "cross_stage_accuracy": 0.359375,
+    "n_cross_stage": 64,
+    "temporal_version_accuracy": 0.48214285714285715,
+    "clarification_accuracy": 1.0
+  },
+  "evidence": {
+    "recall_at_k": 0.5419753086419753,
+    "precision_at_k": 0.07924188979744533,
+    "mrr": 0.6055555555555555,
+    "required_relationship_recall": 0.082010582010582,
+    "evidence_precision": 1.0,
+    "evidence_recall": 0.9222222222222223,
+    "evidence_f1": 0.9481481481481483,
+    "invalid_citations": 0
+  },
+  "controller": {
+    "retrieval_trigger_rate": 0.7864583333333334,
+    "unnecessary_retrieval_rate": 0.0,
+    "correctly_avoided_retrieval_rate": 1.0,
+    "missed_retrieval_rate": 0.0,
+    "initial_support_rate": 0.16666666666666666,
+    "final_improvement_after_retrieval": 0.5045045045045045,
+    "n_initial_sufficient": 32,
+    "n_retrieval_required": 152
+  },
+  "verification": {
+    "evidence_grounding_rate": 1.0,
+    "unjustified_causal_claim_rate": 0.0,
+    "incorrect_association_rate": 0.0,
+    "conflict_detection_precision": null,
+    "conflict_detection_recall": 0.0
+  },
+  "discarded_evidence": {
+    "n_value_questions_evidence_lost": 54,
+    "abstain_rate_when_evidence_lost": 0.9814814814814815,
+    "wrong_answer_rate_when_evidence_lost": 0.0,
+    "em_when_evidence_available": 1.0
+  },
+  "latency": {
+    "controller_s": {
+      "n": 192,
+      "mean": 0.0011,
+      "p50": 0.0011,
+      "p95": 0.002,
+      "max": 0.0025
+    },
+    "final_answer_s": {
+      "n": 151,
+      "mean": 4.235,
+      "p50": 4.3661,
+      "p95": 7.416,
+      "max": 9.718
+    },
+    "initial_answer_s": {
+      "n": 192,
+      "mean": 0.3355,
+      "p50": 0.0,
+      "p95": 1.6491,
+      "max": 3.9238
+    },
+    "parse_s": {
+      "n": 192,
+      "mean": 0.0023,
+      "p50": 0.0023,
+      "p95": 0.0033,
+      "max": 0.0046
+    },
+    "retrieval_s": {
+      "n": 151,
+      "mean": 0.0412,
+      "p50": 0.0413,
+      "p95": 0.064,
+      "max": 0.0847
+    },
+    "total_s": {
+      "n": 192,
+      "mean": 3.7032,
+      "p50": 4.0473,
+      "p95": 7.3742,
+      "max": 9.7551
+    },
+    "verification_s": {
+      "n": 151,
+      "mean": 0.0013,
+      "p50": 0.0012,
+      "p95": 0.0027,
+      "max": 0.0067
+    }
+  },
+  "by_family": {
+    "F01_direct_context": {
+      "n": 32,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F02_earlier_stage": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F03_relationship_chain": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F04_rare_warning": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F07_maintenance_outcome": {
+      "n": 7,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F08_failed_intervention": {
+      "n": 9,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F09_conflicting_records": {
+      "n": 16,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F10_outdated_document": {
+      "n": 16,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F11_missing_identifier": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F12_evidence_never_stored": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F13_unanswerable": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F14_ambiguous": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 0.0
+    },
+    "F15_correlation_not_causation": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F15b_documented_cause": {
+      "n": 8,
+      "accuracy": 1.0,
+      "retrieval_rate": 1.0
+    },
+    "F16_multi_stage": {
+      "n": 8,
+      "accuracy": 0.0,
+      "retrieval_rate": 1.0
+    },
+    "F17_similar_irrelevant": {
+      "n": 8,
+      "accuracy": 0.875,
+      "retrieval_rate": 1.0
+    },
+    "F18_precise_time": {
+      "n": 8,
+      "accuracy": 0.375,
+      "retrieval_rate": 0.875
+    }
+  },
+  "memory": {
+    "candidates": 4580,
+    "retained_records": 273,
+    "write_rate": 0.05960698689956332,
+    "candidate_bytes": 741312,
+    "retained_bytes": 74076,
+    "retention_ratio_bytes": 0.09992553742553742,
+    "relevant_evidence_retention": 0.46473029045643155,
+    "n_relevant_evidence": 241,
+    "rare_event_retention": 0.5929919137466307,
+    "n_rare": 371,
+    "useful_rare_retention": 0.9583333333333334,
+    "n_useful_rare": 96,
+    "irrelevant_retained_fraction": 0.5897435897435898,
+    "retained_by_type": {
+      "cast_record": 97,
+      "maintenance_followup": 48,
+      "ladle_inspection": 37,
+      "procedure_doc": 30,
+      "ladle_assignment": 27,
+      "work_order": 18,
+      "rca_report": 16
+    },
+    "sqlite_file_bytes": 1945600,
+    "faiss_file_bytes": 421602,
+    "ingest_report": {
+      "offered": 4580,
+      "written": 273,
+      "skipped": 4307,
+      "evicted": 1668,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": 74131,
+      "used_bytes": 74076,
+      "policy": "learned",
+      "timings": {
+        "embedding_s": 0.031287799938581884,
+        "mamba_features_s": 0.03697789995931089,
+        "gate_s": 0.14522679999936372,
+        "write_s": 0.0852764000883326,
+        "total_s": 1.6193697999697179
+      },
+      "decisions": []
+    },
+    "build_or_open_s": 1.84,
+    "gate_test": {
+      "n": 4580,
+      "positives": 241,
+      "threshold": 0.8967999815940857,
+      "precision": 0.674074074074074,
+      "recall": 0.3775933609958506,
+      "f1": 0.48404255319148937,
+      "brier": 0.14569011330604553,
+      "ece": 0.22120413566740252,
+      "roc_auc": 0.8880892111401082,
+      "average_precision": 0.5129727548605114
+    }
+  },
+  "method": "E_agentmamba",
+  "spec": {
+    "policy": "learned",
+    "gate": "logreg_mamba",
+    "budget": 0.1,
+    "mode": "conditional",
+    "verify": true,
+    "note": "full system (== H)"
+  },
+  "wall_s": 711.3
+}

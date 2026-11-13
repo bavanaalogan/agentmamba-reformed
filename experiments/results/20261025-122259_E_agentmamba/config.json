@@ -1,0 +1,153 @@
+{
+  "method": "E_agentmamba",
+  "spec": {
+    "policy": "learned",
+    "gate": "logreg_mamba",
+    "budget": 0.1,
+    "mode": "conditional",
+    "verify": true,
+    "note": "full system (== H)"
+  },
+  "config": {
+    "seed": 13,
+    "paths": {
+      "data_dir": "data",
+      "synthetic_dir": "data/synthetic",
+      "processed_dir": "data/processed",
+      "artifacts_dir": "artifacts",
+      "storage_dir": "storage",
+      "results_dir": "experiments/results",
+      "feature_cache": "artifacts/features"
+    },
+    "models": {
+      "mamba_id": "state-spaces/mamba-130m-hf",
+      "mamba_max_tokens": 768,
+      "mamba_feature_max_tokens": 96,
+      "mamba_threads": 8,
+      "embedding_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_dim": 384,
+      "answerer": "mamba"
+    },
+    "synthetic": {
+      "n_campaigns": 30,
+      "heats_per_campaign": 48,
+      "ladles_per_campaign": 6,
+      "splits": {
+        "train": 16,
+        "val": 6,
+        "test": 8
+      },
+      "noise_logs_per_heat": 4
+    },
+    "gate": {
+      "model": "logreg",
+      "use_mamba_features": true,
+      "embedding_pca_dims": 16,
+      "mamba_pca_dims": 16,
+      "novelty_window": 256,
+      "artifact_dir": "artifacts/gate"
+    },
+    "memory": {
+      "budget_fraction": 0.1,
+      "budget_unit": "bytes",
+      "app_budget_bytes": 400000,
+      "policy": "learned"
+    },
+    "retrieval": {
+      "top_k": 8,
+      "oversample": 4,
+      "expansion_depth": 3,
+      "max_expansion_nodes": 60,
+      "rerank": true,
+      "w_similarity": 1.0,
+      "w_path": 0.35,
+      "w_type": 0.25
+    },
+    "controller": {
+      "return_threshold": 0.75,
+      "post_retrieval_threshold": 0.75
+    },
+    "verification": {
+      "enabled": true
+    }
+  },
+  "seed": 13,
+  "dataset": {
+    "root": "data\\synthetic\\main",
+    "manifest": {
+      "generator_version": "synth-v1",
+      "seed": 13,
+      "config": {
+        "n_campaigns": 30,
+        "heats_per_campaign": 48,
+        "ladles_per_campaign": 6,
+        "noise_logs_per_heat": 4,
+        "splits": {
+          "train": 16,
+          "val": 6,
+          "test": 8
+        },
+        "seed": 13
+      },
+      "split_unit": "campaign (independent fictional plant history)",
+      "campaign_splits": {
+        "C00": "train",
+        "C01": "train",
+        "C02": "val",
+        "C03": "train",
+        "C04": "val",
+        "C05": "test",
+        "C06": "train",
+        "C07": "test",
+        "C08": "test",
+        "C09": "test",
+        "C10": "train",
+        "C11": "train",
+        "C12": "train",
+        "C13": "train",
+        "C14": "train",
+        "C15": "train",
+        "C16": "train",
+        "C17": "train",
+        "C18": "train",
+        "C19": "train",
+        "C20": "test",
+        "C21": "test",
+        "C22": "val",
+        "C23": "val",
+        "C24": "val",
+        "C25": "test",
+        "C26": "val",
+        "C27": "test",
+        "C28": "train",
+        "C29": "train"
+      },
+      "counts": {
+        "events": 17165,
+        "withheld": 30,
+        "questions": 719
+      },
+      "synthetic": true,
+      "disclaimer": "All records are fictional and generated; they are not industrial observations."
+    },
+    "split": "test"
+  },
+  "models": {
+    "mamba": "state-spaces/mamba-130m-hf",
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "answerer": "mamba"
+  },
+  "gate_version": "ef886a71931c",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "timestamp_utc": "2026-10-25T06:52:46+00:00",
+    "torch": "2.8.0+cpu",
+    "transformers": "5.20.2",
+    "sentence_transformers": "6.1.0",
+    "faiss": "1.15.1",
+    "sklearn": "1.9.1",
+    "numpy": "1.26.4"
+  }
+}

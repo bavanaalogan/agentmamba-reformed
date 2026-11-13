@@ -1,0 +1,2576 @@
+{
+  "kind": "protocol",
+  "protocol": "cp17_context_growth",
+  "answerer": "first_candidate",
+  "profile": "C:\\Users\\Admin\\Downloads\\AGENTIC MAMBA\\agentmamba\\storage\\profiles\\protocol_cp17_context_growth_first_candidate",
+  "diagnostic_note": "5 questions x 2 stages on one scenario: a protocol demonstration, NOT a benchmark. Benchmark results: context-growth test run.",
+  "cold_start": {
+    "mamba_load_s": null,
+    "embedding_load_s": 16.29,
+    "note": "model loading is excluded from every query latency"
+  },
+  "ingestion": [
+    {
+      "offered": 10,
+      "written": 10,
+      "skipped": 0,
+      "evicted": 0,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": null,
+      "used_bytes": 1952,
+      "policy": "store_all",
+      "timings": {
+        "embedding_s": 0.057730100117623806,
+        "gate_s": 1.8300022929906845e-05,
+        "write_s": 0.04763710009865463,
+        "total_s": 0.1074467001017183
+      },
+      "received": 10,
+      "chunks_created": 0,
+      "records_parsed": 10,
+      "already_stored_or_repeated": 0,
+      "file": "agentmamba_stage1_small_context.txt",
+      "preview_rows_shown": 10,
+      "stage": 1,
+      "wall_s": 0.339,
+      "records_in_profile": 10
+    },
+    {
+      "offered": 300,
+      "written": 300,
+      "skipped": 0,
+      "evicted": 0,
+      "duplicates": 0,
+      "updated": 0,
+      "budget_bytes": null,
+      "used_bytes": 63601,
+      "policy": "store_all",
+      "timings": {
+        "embedding_s": 0.026712199905887246,
+        "gate_s": 3.96000687032938e-05,
+        "write_s": 0.10380010004155338,
+        "total_s": 0.24944230006076396
+      },
+      "received": 300,
+      "chunks_created": 0,
+      "records_parsed": 300,
+      "already_stored_or_repeated": 0,
+      "file": "agentmamba_stage2_additional_logs.txt",
+      "preview_rows_shown": 100,
+      "stage": 2,
+      "wall_s": 0.372,
+      "records_in_profile": 310
+    }
+  ],
+  "suites": {
+    "baseline_mamba": {
+      "n_rows": 10,
+      "n_answerable": 6,
+      "n_unanswerable": 4,
+      "n_conflict": 0,
+      "n_answered": 8,
+      "answer": {
+        "exact_match": {
+          "value": 0.3333,
+          "n": 6,
+          "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+          "better": "higher"
+        },
+        "f1": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "rouge_1": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "rouge_l": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "bleu_1": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "correct_answer_rate": {
+          "value": 0.4,
+          "n": 10,
+          "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+          "better": "higher"
+        },
+        "incorrect_answer_rate": {
+          "value": 0.6,
+          "n": 10,
+          "definition": "answered but not correct / all questions",
+          "better": "lower"
+        },
+        "unsupported_answer_rate": {
+          "value": 0.75,
+          "n": 8,
+          "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+          "better": "lower"
+        },
+        "correct_abstention_rate": {
+          "value": 0.5,
+          "n": 4,
+          "definition": "abstained / unanswerable questions",
+          "better": "higher"
+        }
+      },
+      "errors": {
+        "answer_error_rate": {
+          "value": 0.6667,
+          "n": 6,
+          "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+          "better": "lower"
+        },
+        "false_answer_rate": {
+          "value": 0.6667,
+          "n": 6,
+          "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+          "better": "lower"
+        },
+        "abstention_error_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answerable questions abstained on / answerable",
+          "better": "lower"
+        },
+        "unsupported_claim_rate": {
+          "value": 0.75,
+          "n": 8,
+          "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+          "better": "lower"
+        },
+        "retrieval_failure_rate": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "lower"
+        },
+        "evidence_miss_rate": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+          "better": "lower"
+        },
+        "brier": {
+          "value": null,
+          "n": 8,
+          "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+          "better": "lower"
+        },
+        "ece": {
+          "value": null,
+          "n": 8,
+          "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+          "better": "lower"
+        }
+      },
+      "evidence": {
+        "grounded_answer_rate": {
+          "value": 0.3333,
+          "n": 6,
+          "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+          "better": "higher"
+        },
+        "evidence_coverage": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "required evidence in context or retrieved / questions with required evidence",
+          "better": "higher"
+        }
+      },
+      "retrieval": {
+        "ndcg@10": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "map@10": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "recall@10": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "recall@1": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "hit@1": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "hit@3": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "hit@10": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "retrieval_trigger_rate": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "unnecessary_retrieval_rate": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "higher"
+        },
+        "required_evidence_coverage": {
+          "value": 0.5,
+          "n": 6,
+          "definition": "required evidence in context or retrieved / questions with required evidence",
+          "better": "higher"
+        }
+      },
+      "efficiency": {
+        "total_s": {
+          "value": 0.0991,
+          "n": 10,
+          "definition": "sum of end-to-end query latency (warm model)",
+          "better": "lower"
+        },
+        "mean_s": {
+          "value": 0.0099,
+          "n": 10,
+          "definition": "mean end-to-end latency per question (warm)",
+          "better": "lower"
+        },
+        "median_s": {
+          "value": 0.0061,
+          "n": 10,
+          "definition": "median end-to-end latency (warm)",
+          "better": "lower"
+        },
+        "p95_s": {
+          "value": null,
+          "n": 10,
+          "definition": "95th percentile latency (needs >= 20 observations)",
+          "better": "lower"
+        },
+        "generation_mean_s": {
+          "value": 0.0,
+          "n": 10,
+          "definition": "mean Mamba answer scoring time per question where it ran",
+          "better": "lower"
+        },
+        "retrieval_mean_s": {
+          "value": null,
+          "n": 0,
+          "definition": "not applicable: system does not retrieve",
+          "better": "lower"
+        },
+        "verification_mean_s": {
+          "value": null,
+          "n": 0,
+          "definition": "mean evidence verification time per question where it ran",
+          "better": "lower"
+        },
+        "model_load_s": {
+          "value": null,
+          "n": 0,
+          "definition": "one-time model loading (cold start); excluded from query latency",
+          "better": "lower"
+        }
+      },
+      "composite": {
+        "components": {
+          "answer_quality": 0.4667,
+          "grounding": 0.2916,
+          "retrieval": null,
+          "efficiency": 0.9994
+        },
+        "composite_full": 0.4989,
+        "components_used_full": [
+          "answer_quality",
+          "grounding",
+          "efficiency"
+        ],
+        "composite_shared": 0.4989,
+        "components_used_shared": [
+          "answer_quality",
+          "grounding",
+          "efficiency"
+        ],
+        "weights": {
+          "answer_quality": 0.4,
+          "grounding": 0.3,
+          "retrieval": 0.15,
+          "efficiency": 0.15
+        },
+        "latency_reference_s": 10.0
+      }
+    },
+    "agentmamba": {
+      "n_rows": 10,
+      "n_answerable": 6,
+      "n_unanswerable": 4,
+      "n_conflict": 0,
+      "n_answered": 6,
+      "answer": {
+        "exact_match": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+          "better": "higher"
+        },
+        "f1": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "rouge_1": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "rouge_l": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "bleu_1": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+          "better": "higher"
+        },
+        "correct_answer_rate": {
+          "value": 1.0,
+          "n": 10,
+          "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+          "better": "higher"
+        },
+        "incorrect_answer_rate": {
+          "value": 0.0,
+          "n": 10,
+          "definition": "answered but not correct / all questions",
+          "better": "lower"
+        },
+        "unsupported_answer_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+          "better": "lower"
+        },
+        "correct_abstention_rate": {
+          "value": 1.0,
+          "n": 4,
+          "definition": "abstained / unanswerable questions",
+          "better": "higher"
+        }
+      },
+      "errors": {
+        "answer_error_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+          "better": "lower"
+        },
+        "false_answer_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+          "better": "lower"
+        },
+        "abstention_error_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answerable questions abstained on / answerable",
+          "better": "lower"
+        },
+        "unsupported_claim_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+          "better": "lower"
+        },
+        "retrieval_failure_rate": {
+          "value": 0.0,
+          "n": 3,
+          "definition": "questions whose required evidence was NOT in the initial context and was not retrieved / such questions",
+          "better": "lower"
+        },
+        "evidence_miss_rate": {
+          "value": 0.0,
+          "n": 6,
+          "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+          "better": "lower"
+        },
+        "brier": {
+          "value": null,
+          "n": 0,
+          "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+          "better": "lower"
+        },
+        "ece": {
+          "value": null,
+          "n": 0,
+          "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+          "better": "lower"
+        }
+      },
+      "evidence": {
+        "grounded_answer_rate": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+          "better": "higher"
+        },
+        "evidence_coverage": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "required evidence in context or retrieved / questions with required evidence",
+          "better": "higher"
+        }
+      },
+      "retrieval": {
+        "ndcg@10": {
+          "value": 0.8102,
+          "n": 3,
+          "definition": "binary-relevance NDCG of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "map@10": {
+          "value": 0.75,
+          "n": 3,
+          "definition": "average precision of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "recall@10": {
+          "value": 1.0,
+          "n": 3,
+          "definition": "recall of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "recall@1": {
+          "value": 0.6667,
+          "n": 3,
+          "definition": "recall at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "hit@1": {
+          "value": 0.6667,
+          "n": 3,
+          "definition": "any required record at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "hit@3": {
+          "value": 0.6667,
+          "n": 3,
+          "definition": "... within top 3 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "hit@10": {
+          "value": 1.0,
+          "n": 3,
+          "definition": "... within top 10 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+          "better": "higher"
+        },
+        "retrieval_trigger_rate": {
+          "value": 0.7,
+          "n": 10,
+          "definition": "questions where retrieval ran / all questions",
+          "better": "info"
+        },
+        "unnecessary_retrieval_rate": {
+          "value": 0.0,
+          "n": 3,
+          "definition": "retrieved although all required evidence was already in the initial context / such questions",
+          "better": "lower"
+        },
+        "required_evidence_coverage": {
+          "value": 1.0,
+          "n": 6,
+          "definition": "required evidence in context or retrieved / questions with required evidence",
+          "better": "higher"
+        }
+      },
+      "efficiency": {
+        "total_s": {
+          "value": 0.687,
+          "n": 10,
+          "definition": "sum of end-to-end query latency (warm model)",
+          "better": "lower"
+        },
+        "mean_s": {
+          "value": 0.0687,
+          "n": 10,
+          "definition": "mean end-to-end latency per question (warm)",
+          "better": "lower"
+        },
+        "median_s": {
+          "value": 0.0532,
+          "n": 10,
+          "definition": "median end-to-end latency (warm)",
+          "better": "lower"
+        },
+        "p95_s": {
+          "value": null,
+          "n": 10,
+          "definition": "95th percentile latency (needs >= 20 observations)",
+          "better": "lower"
+        },
+        "generation_mean_s": {
+          "value": 0.0,
+          "n": 10,
+          "definition": "mean Mamba answer scoring time per question where it ran",
+          "better": "lower"
+        },
+        "retrieval_mean_s": {
+          "value": 0.0649,
+          "n": 7,
+          "definition": "mean retrieval (SQLite + FAISS + channels) time per question where it ran",
+          "better": "lower"
+        },
+        "verification_mean_s": {
+          "value": 0.0208,
+          "n": 7,
+          "definition": "mean evidence verification time per question where it ran",
+          "better": "lower"
+        },
+        "model_load_s": {
+          "value": null,
+          "n": 0,
+          "definition": "one-time model loading (cold start); excluded from query latency",
+          "better": "lower"
+        }
+      },
+      "composite": {
+        "components": {
+          "answer_quality": 1.0,
+          "grounding": 1.0,
+          "retrieval": 0.9051,
+          "efficiency": 0.9947
+        },
+        "composite_full": 0.985,
+        "components_used_full": [
+          "answer_quality",
+          "grounding",
+          "retrieval",
+          "efficiency"
+        ],
+        "composite_shared": 0.9991,
+        "components_used_shared": [
+          "answer_quality",
+          "grounding",
+          "efficiency"
+        ],
+        "weights": {
+          "answer_quality": 0.4,
+          "grounding": 0.3,
+          "retrieval": 0.15,
+          "efficiency": 0.15
+        },
+        "latency_reference_s": 10.0
+      }
+    }
+  },
+  "suites_by_stage": {
+    "baseline_mamba": {
+      "1": {
+        "n_rows": 5,
+        "n_answerable": 3,
+        "n_unanswerable": 2,
+        "n_conflict": 0,
+        "n_answered": 4,
+        "answer": {
+          "exact_match": {
+            "value": 0.6667,
+            "n": 3,
+            "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+            "better": "higher"
+          },
+          "f1": {
+            "value": 0.8333,
+            "n": 3,
+            "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_1": {
+            "value": 0.8333,
+            "n": 3,
+            "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_l": {
+            "value": 0.8333,
+            "n": 3,
+            "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "bleu_1": {
+            "value": 0.8333,
+            "n": 3,
+            "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "correct_answer_rate": {
+            "value": 0.6,
+            "n": 5,
+            "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+            "better": "higher"
+          },
+          "incorrect_answer_rate": {
+            "value": 0.4,
+            "n": 5,
+            "definition": "answered but not correct / all questions",
+            "better": "lower"
+          },
+          "unsupported_answer_rate": {
+            "value": 0.5,
+            "n": 4,
+            "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+            "better": "lower"
+          },
+          "correct_abstention_rate": {
+            "value": 0.5,
+            "n": 2,
+            "definition": "abstained / unanswerable questions",
+            "better": "higher"
+          }
+        },
+        "errors": {
+          "answer_error_rate": {
+            "value": 0.3333,
+            "n": 3,
+            "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+            "better": "lower"
+          },
+          "false_answer_rate": {
+            "value": 0.3333,
+            "n": 3,
+            "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+            "better": "lower"
+          },
+          "abstention_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions abstained on / answerable",
+            "better": "lower"
+          },
+          "unsupported_claim_rate": {
+            "value": 0.5,
+            "n": 4,
+            "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+            "better": "lower"
+          },
+          "retrieval_failure_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "lower"
+          },
+          "evidence_miss_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+            "better": "lower"
+          },
+          "brier": {
+            "value": null,
+            "n": 4,
+            "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+            "better": "lower"
+          },
+          "ece": {
+            "value": null,
+            "n": 4,
+            "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+            "better": "lower"
+          }
+        },
+        "evidence": {
+          "grounded_answer_rate": {
+            "value": 0.6667,
+            "n": 3,
+            "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+            "better": "higher"
+          },
+          "evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "retrieval": {
+          "ndcg@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "map@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "recall@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "recall@1": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@1": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@3": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "retrieval_trigger_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "unnecessary_retrieval_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "required_evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "efficiency": {
+          "total_s": {
+            "value": 0.0554,
+            "n": 5,
+            "definition": "sum of end-to-end query latency (warm model)",
+            "better": "lower"
+          },
+          "mean_s": {
+            "value": 0.0111,
+            "n": 5,
+            "definition": "mean end-to-end latency per question (warm)",
+            "better": "lower"
+          },
+          "median_s": {
+            "value": 0.0058,
+            "n": 5,
+            "definition": "median end-to-end latency (warm)",
+            "better": "lower"
+          },
+          "p95_s": {
+            "value": null,
+            "n": 5,
+            "definition": "95th percentile latency (needs >= 20 observations)",
+            "better": "lower"
+          },
+          "generation_mean_s": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "mean Mamba answer scoring time per question where it ran",
+            "better": "lower"
+          },
+          "retrieval_mean_s": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "lower"
+          },
+          "verification_mean_s": {
+            "value": null,
+            "n": 0,
+            "definition": "mean evidence verification time per question where it ran",
+            "better": "lower"
+          },
+          "model_load_s": {
+            "value": null,
+            "n": 0,
+            "definition": "one-time model loading (cold start); excluded from query latency",
+            "better": "lower"
+          }
+        },
+        "composite": {
+          "components": {
+            "answer_quality": 0.7555,
+            "grounding": 0.5834,
+            "retrieval": null,
+            "efficiency": 0.9994
+          },
+          "composite_full": 0.7378,
+          "components_used_full": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "composite_shared": 0.7378,
+          "components_used_shared": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "weights": {
+            "answer_quality": 0.4,
+            "grounding": 0.3,
+            "retrieval": 0.15,
+            "efficiency": 0.15
+          },
+          "latency_reference_s": 10.0
+        }
+      },
+      "2": {
+        "n_rows": 5,
+        "n_answerable": 3,
+        "n_unanswerable": 2,
+        "n_conflict": 0,
+        "n_answered": 4,
+        "answer": {
+          "exact_match": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+            "better": "higher"
+          },
+          "f1": {
+            "value": 0.1667,
+            "n": 3,
+            "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_1": {
+            "value": 0.1667,
+            "n": 3,
+            "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_l": {
+            "value": 0.1667,
+            "n": 3,
+            "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "bleu_1": {
+            "value": 0.1667,
+            "n": 3,
+            "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "correct_answer_rate": {
+            "value": 0.2,
+            "n": 5,
+            "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+            "better": "higher"
+          },
+          "incorrect_answer_rate": {
+            "value": 0.8,
+            "n": 5,
+            "definition": "answered but not correct / all questions",
+            "better": "lower"
+          },
+          "unsupported_answer_rate": {
+            "value": 1.0,
+            "n": 4,
+            "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+            "better": "lower"
+          },
+          "correct_abstention_rate": {
+            "value": 0.5,
+            "n": 2,
+            "definition": "abstained / unanswerable questions",
+            "better": "higher"
+          }
+        },
+        "errors": {
+          "answer_error_rate": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+            "better": "lower"
+          },
+          "false_answer_rate": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+            "better": "lower"
+          },
+          "abstention_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions abstained on / answerable",
+            "better": "lower"
+          },
+          "unsupported_claim_rate": {
+            "value": 1.0,
+            "n": 4,
+            "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+            "better": "lower"
+          },
+          "retrieval_failure_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "lower"
+          },
+          "evidence_miss_rate": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+            "better": "lower"
+          },
+          "brier": {
+            "value": null,
+            "n": 4,
+            "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+            "better": "lower"
+          },
+          "ece": {
+            "value": null,
+            "n": 4,
+            "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+            "better": "lower"
+          }
+        },
+        "evidence": {
+          "grounded_answer_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+            "better": "higher"
+          },
+          "evidence_coverage": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "retrieval": {
+          "ndcg@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "map@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "recall@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "recall@1": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@1": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@3": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "hit@10": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "retrieval_trigger_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "unnecessary_retrieval_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "higher"
+          },
+          "required_evidence_coverage": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "efficiency": {
+          "total_s": {
+            "value": 0.0437,
+            "n": 5,
+            "definition": "sum of end-to-end query latency (warm model)",
+            "better": "lower"
+          },
+          "mean_s": {
+            "value": 0.0087,
+            "n": 5,
+            "definition": "mean end-to-end latency per question (warm)",
+            "better": "lower"
+          },
+          "median_s": {
+            "value": 0.0083,
+            "n": 5,
+            "definition": "median end-to-end latency (warm)",
+            "better": "lower"
+          },
+          "p95_s": {
+            "value": null,
+            "n": 5,
+            "definition": "95th percentile latency (needs >= 20 observations)",
+            "better": "lower"
+          },
+          "generation_mean_s": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "mean Mamba answer scoring time per question where it ran",
+            "better": "lower"
+          },
+          "retrieval_mean_s": {
+            "value": null,
+            "n": 0,
+            "definition": "not applicable: system does not retrieve",
+            "better": "lower"
+          },
+          "verification_mean_s": {
+            "value": null,
+            "n": 0,
+            "definition": "mean evidence verification time per question where it ran",
+            "better": "lower"
+          },
+          "model_load_s": {
+            "value": null,
+            "n": 0,
+            "definition": "one-time model loading (cold start); excluded from query latency",
+            "better": "lower"
+          }
+        },
+        "composite": {
+          "components": {
+            "answer_quality": 0.1778,
+            "grounding": 0.0,
+            "retrieval": null,
+            "efficiency": 0.9992
+          },
+          "composite_full": 0.26,
+          "components_used_full": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "composite_shared": 0.26,
+          "components_used_shared": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "weights": {
+            "answer_quality": 0.4,
+            "grounding": 0.3,
+            "retrieval": 0.15,
+            "efficiency": 0.15
+          },
+          "latency_reference_s": 10.0
+        }
+      }
+    },
+    "agentmamba": {
+      "1": {
+        "n_rows": 5,
+        "n_answerable": 3,
+        "n_unanswerable": 2,
+        "n_conflict": 0,
+        "n_answered": 3,
+        "answer": {
+          "exact_match": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+            "better": "higher"
+          },
+          "f1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_l": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "bleu_1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "correct_answer_rate": {
+            "value": 1.0,
+            "n": 5,
+            "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+            "better": "higher"
+          },
+          "incorrect_answer_rate": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "answered but not correct / all questions",
+            "better": "lower"
+          },
+          "unsupported_answer_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+            "better": "lower"
+          },
+          "correct_abstention_rate": {
+            "value": 1.0,
+            "n": 2,
+            "definition": "abstained / unanswerable questions",
+            "better": "higher"
+          }
+        },
+        "errors": {
+          "answer_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+            "better": "lower"
+          },
+          "false_answer_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+            "better": "lower"
+          },
+          "abstention_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions abstained on / answerable",
+            "better": "lower"
+          },
+          "unsupported_claim_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+            "better": "lower"
+          },
+          "retrieval_failure_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "questions whose required evidence was NOT in the initial context and was not retrieved / such questions",
+            "better": "lower"
+          },
+          "evidence_miss_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+            "better": "lower"
+          },
+          "brier": {
+            "value": null,
+            "n": 0,
+            "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+            "better": "lower"
+          },
+          "ece": {
+            "value": null,
+            "n": 0,
+            "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+            "better": "lower"
+          }
+        },
+        "evidence": {
+          "grounded_answer_rate": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+            "better": "higher"
+          },
+          "evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "retrieval": {
+          "ndcg@10": {
+            "value": null,
+            "n": 0,
+            "definition": "binary-relevance NDCG of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "map@10": {
+            "value": null,
+            "n": 0,
+            "definition": "average precision of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "recall@10": {
+            "value": null,
+            "n": 0,
+            "definition": "recall of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "recall@1": {
+            "value": null,
+            "n": 0,
+            "definition": "recall at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@1": {
+            "value": null,
+            "n": 0,
+            "definition": "any required record at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@3": {
+            "value": null,
+            "n": 0,
+            "definition": "... within top 3 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@10": {
+            "value": null,
+            "n": 0,
+            "definition": "... within top 10 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "retrieval_trigger_rate": {
+            "value": 0.4,
+            "n": 5,
+            "definition": "questions where retrieval ran / all questions",
+            "better": "info"
+          },
+          "unnecessary_retrieval_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "retrieved although all required evidence was already in the initial context / such questions",
+            "better": "lower"
+          },
+          "required_evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "efficiency": {
+          "total_s": {
+            "value": 0.1224,
+            "n": 5,
+            "definition": "sum of end-to-end query latency (warm model)",
+            "better": "lower"
+          },
+          "mean_s": {
+            "value": 0.0245,
+            "n": 5,
+            "definition": "mean end-to-end latency per question (warm)",
+            "better": "lower"
+          },
+          "median_s": {
+            "value": 0.0083,
+            "n": 5,
+            "definition": "median end-to-end latency (warm)",
+            "better": "lower"
+          },
+          "p95_s": {
+            "value": null,
+            "n": 5,
+            "definition": "95th percentile latency (needs >= 20 observations)",
+            "better": "lower"
+          },
+          "generation_mean_s": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "mean Mamba answer scoring time per question where it ran",
+            "better": "lower"
+          },
+          "retrieval_mean_s": {
+            "value": 0.0396,
+            "n": 2,
+            "definition": "mean retrieval (SQLite + FAISS + channels) time per question where it ran",
+            "better": "lower"
+          },
+          "verification_mean_s": {
+            "value": 0.0042,
+            "n": 2,
+            "definition": "mean evidence verification time per question where it ran",
+            "better": "lower"
+          },
+          "model_load_s": {
+            "value": null,
+            "n": 0,
+            "definition": "one-time model loading (cold start); excluded from query latency",
+            "better": "lower"
+          }
+        },
+        "composite": {
+          "components": {
+            "answer_quality": 1.0,
+            "grounding": 1.0,
+            "retrieval": null,
+            "efficiency": 0.9992
+          },
+          "composite_full": 0.9999,
+          "components_used_full": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "composite_shared": 0.9999,
+          "components_used_shared": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "weights": {
+            "answer_quality": 0.4,
+            "grounding": 0.3,
+            "retrieval": 0.15,
+            "efficiency": 0.15
+          },
+          "latency_reference_s": 10.0
+        }
+      },
+      "2": {
+        "n_rows": 5,
+        "n_answerable": 3,
+        "n_unanswerable": 2,
+        "n_conflict": 0,
+        "n_answered": 3,
+        "answer": {
+          "exact_match": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "normalized answer == reference; answerable questions (abstention = miss)",
+            "better": "higher"
+          },
+          "f1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "rouge_l": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "bleu_1": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)",
+            "better": "higher"
+          },
+          "correct_answer_rate": {
+            "value": 1.0,
+            "n": 5,
+            "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)",
+            "better": "higher"
+          },
+          "incorrect_answer_rate": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "answered but not correct / all questions",
+            "better": "lower"
+          },
+          "unsupported_answer_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answers not grounded in required evidence (or that should not have been given) / answers",
+            "better": "lower"
+          },
+          "correct_abstention_rate": {
+            "value": 1.0,
+            "n": 2,
+            "definition": "abstained / unanswerable questions",
+            "better": "higher"
+          }
+        },
+        "errors": {
+          "answer_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions not answered correctly (wrong or abstained) / answerable",
+            "better": "lower"
+          },
+          "false_answer_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions answered wrongly (non-abstaining) / answerable",
+            "better": "lower"
+          },
+          "abstention_error_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answerable questions abstained on / answerable",
+            "better": "lower"
+          },
+          "unsupported_claim_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "answers containing an unsupported claim / answers evaluated for grounding",
+            "better": "lower"
+          },
+          "retrieval_failure_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "questions whose required evidence was NOT in the initial context and was not retrieved / such questions",
+            "better": "lower"
+          },
+          "evidence_miss_rate": {
+            "value": 0.0,
+            "n": 3,
+            "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence",
+            "better": "lower"
+          },
+          "brier": {
+            "value": null,
+            "n": 0,
+            "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)",
+            "better": "lower"
+          },
+          "ece": {
+            "value": null,
+            "n": 0,
+            "definition": "expected calibration error, 10 bins (answers with calibrated confidence)",
+            "better": "lower"
+          }
+        },
+        "evidence": {
+          "grounded_answer_rate": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "answerable questions answered correctly AND citing a required evidence record / answerable",
+            "better": "higher"
+          },
+          "evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "retrieval": {
+          "ndcg@10": {
+            "value": 0.8102,
+            "n": 3,
+            "definition": "binary-relevance NDCG of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "map@10": {
+            "value": 0.75,
+            "n": 3,
+            "definition": "average precision of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "recall@10": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "recall of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "recall@1": {
+            "value": 0.6667,
+            "n": 3,
+            "definition": "recall at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@1": {
+            "value": 0.6667,
+            "n": 3,
+            "definition": "any required record at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@3": {
+            "value": 0.6667,
+            "n": 3,
+            "definition": "... within top 3 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "hit@10": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "... within top 10 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists",
+            "better": "higher"
+          },
+          "retrieval_trigger_rate": {
+            "value": 1.0,
+            "n": 5,
+            "definition": "questions where retrieval ran / all questions",
+            "better": "info"
+          },
+          "unnecessary_retrieval_rate": {
+            "value": null,
+            "n": 0,
+            "definition": "retrieved although all required evidence was already in the initial context / such questions",
+            "better": "lower"
+          },
+          "required_evidence_coverage": {
+            "value": 1.0,
+            "n": 3,
+            "definition": "required evidence in context or retrieved / questions with required evidence",
+            "better": "higher"
+          }
+        },
+        "efficiency": {
+          "total_s": {
+            "value": 0.5646,
+            "n": 5,
+            "definition": "sum of end-to-end query latency (warm model)",
+            "better": "lower"
+          },
+          "mean_s": {
+            "value": 0.1129,
+            "n": 5,
+            "definition": "mean end-to-end latency per question (warm)",
+            "better": "lower"
+          },
+          "median_s": {
+            "value": 0.1103,
+            "n": 5,
+            "definition": "median end-to-end latency (warm)",
+            "better": "lower"
+          },
+          "p95_s": {
+            "value": null,
+            "n": 5,
+            "definition": "95th percentile latency (needs >= 20 observations)",
+            "better": "lower"
+          },
+          "generation_mean_s": {
+            "value": 0.0,
+            "n": 5,
+            "definition": "mean Mamba answer scoring time per question where it ran",
+            "better": "lower"
+          },
+          "retrieval_mean_s": {
+            "value": 0.0749,
+            "n": 5,
+            "definition": "mean retrieval (SQLite + FAISS + channels) time per question where it ran",
+            "better": "lower"
+          },
+          "verification_mean_s": {
+            "value": 0.0275,
+            "n": 5,
+            "definition": "mean evidence verification time per question where it ran",
+            "better": "lower"
+          },
+          "model_load_s": {
+            "value": null,
+            "n": 0,
+            "definition": "one-time model loading (cold start); excluded from query latency",
+            "better": "lower"
+          }
+        },
+        "composite": {
+          "components": {
+            "answer_quality": 1.0,
+            "grounding": 1.0,
+            "retrieval": 0.9051,
+            "efficiency": 0.9891
+          },
+          "composite_full": 0.9841,
+          "components_used_full": [
+            "answer_quality",
+            "grounding",
+            "retrieval",
+            "efficiency"
+          ],
+          "composite_shared": 0.9981,
+          "components_used_shared": [
+            "answer_quality",
+            "grounding",
+            "efficiency"
+          ],
+          "weights": {
+            "answer_quality": 0.4,
+            "grounding": 0.3,
+            "retrieval": 0.15,
+            "efficiency": 0.15
+          },
+          "latency_reference_s": 10.0
+        }
+      }
+    }
+  },
+  "table": [
+    {
+      "category": "Answer generation",
+      "metric": "exact_match",
+      "baseline": 0.3333,
+      "agentmamba": 1.0,
+      "difference": 0.6667,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "normalized answer == reference; answerable questions (abstention = miss)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "f1",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "token-level F1 vs reference; answerable questions (abstention scored as empty answer)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "rouge_1",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "unigram-overlap F-measure vs reference; answerable questions (abstention scored as empty answer)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "rouge_l",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "longest-common-subsequence F-measure vs reference; answerable questions (abstention scored as empty answer)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "bleu_1",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "clipped unigram precision x brevity penalty vs reference; answerable questions (abstention scored as empty answer)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "correct_answer_rate",
+      "baseline": 0.4,
+      "agentmamba": 1.0,
+      "difference": 0.6,
+      "better": "higher",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "correct outcomes / all questions (value match, abstain, or conflict as gold says)"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "incorrect_answer_rate",
+      "baseline": 0.6,
+      "agentmamba": 0.0,
+      "difference": -0.6,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "answered but not correct / all questions"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "unsupported_answer_rate",
+      "baseline": 0.75,
+      "agentmamba": 0.0,
+      "difference": -0.75,
+      "better": "lower",
+      "n_baseline": 8,
+      "n_agentmamba": 6,
+      "definition": "answers not grounded in required evidence (or that should not have been given) / answers"
+    },
+    {
+      "category": "Answer generation",
+      "metric": "correct_abstention_rate",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 4,
+      "n_agentmamba": 4,
+      "definition": "abstained / unanswerable questions"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "answer_error_rate",
+      "baseline": 0.6667,
+      "agentmamba": 0.0,
+      "difference": -0.6667,
+      "better": "lower",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "answerable questions not answered correctly (wrong or abstained) / answerable"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "false_answer_rate",
+      "baseline": 0.6667,
+      "agentmamba": 0.0,
+      "difference": -0.6667,
+      "better": "lower",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "answerable questions answered wrongly (non-abstaining) / answerable"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "abstention_error_rate",
+      "baseline": 0.0,
+      "agentmamba": 0.0,
+      "difference": 0.0,
+      "better": "lower",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "answerable questions abstained on / answerable"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "unsupported_claim_rate",
+      "baseline": 0.75,
+      "agentmamba": 0.0,
+      "difference": -0.75,
+      "better": "lower",
+      "n_baseline": 8,
+      "n_agentmamba": 6,
+      "definition": "answers containing an unsupported claim / answers evaluated for grounding"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "retrieval_failure_rate",
+      "baseline": null,
+      "agentmamba": 0.0,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "questions whose required evidence was NOT in the initial context and was not retrieved / such questions"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "evidence_miss_rate",
+      "baseline": 0.5,
+      "agentmamba": 0.0,
+      "difference": -0.5,
+      "better": "lower",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "questions whose required evidence was neither in the context nor retrieved / questions with required evidence"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "brier",
+      "baseline": null,
+      "agentmamba": null,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 8,
+      "n_agentmamba": 0,
+      "definition": "mean squared error of calibrated confidence vs correctness (answers; needs >= 20)"
+    },
+    {
+      "category": "Error analysis",
+      "metric": "ece",
+      "baseline": null,
+      "agentmamba": null,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 8,
+      "n_agentmamba": 0,
+      "definition": "expected calibration error, 10 bins (answers with calibrated confidence)"
+    },
+    {
+      "category": "Evidence",
+      "metric": "grounded_answer_rate",
+      "baseline": 0.3333,
+      "agentmamba": 1.0,
+      "difference": 0.6667,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "answerable questions answered correctly AND citing a required evidence record / answerable"
+    },
+    {
+      "category": "Evidence",
+      "metric": "evidence_coverage",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "required evidence in context or retrieved / questions with required evidence"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "ndcg@10",
+      "baseline": null,
+      "agentmamba": 0.8102,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "binary-relevance NDCG of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "map@10",
+      "baseline": null,
+      "agentmamba": 0.75,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "average precision of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "recall@10",
+      "baseline": null,
+      "agentmamba": 1.0,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "recall of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "recall@1",
+      "baseline": null,
+      "agentmamba": 0.6667,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "recall at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "hit@1",
+      "baseline": null,
+      "agentmamba": 0.6667,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "any required record at rank 1 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "hit@3",
+      "baseline": null,
+      "agentmamba": 0.6667,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "... within top 3 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "hit@10",
+      "baseline": null,
+      "agentmamba": 1.0,
+      "difference": null,
+      "better": "higher",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "... within top 10 of gold evidence IDs in the retrieved list; questions where retrieval ran and gold evidence exists"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "retrieval_trigger_rate",
+      "baseline": null,
+      "agentmamba": 0.7,
+      "difference": null,
+      "better": "info",
+      "n_baseline": 0,
+      "n_agentmamba": 10,
+      "definition": "questions where retrieval ran / all questions"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "unnecessary_retrieval_rate",
+      "baseline": null,
+      "agentmamba": 0.0,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 0,
+      "n_agentmamba": 3,
+      "definition": "retrieved although all required evidence was already in the initial context / such questions"
+    },
+    {
+      "category": "Retrieval",
+      "metric": "required_evidence_coverage",
+      "baseline": 0.5,
+      "agentmamba": 1.0,
+      "difference": 0.5,
+      "better": "higher",
+      "n_baseline": 6,
+      "n_agentmamba": 6,
+      "definition": "required evidence in context or retrieved / questions with required evidence"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "total_s",
+      "baseline": 0.0991,
+      "agentmamba": 0.687,
+      "difference": 0.5879,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "sum of end-to-end query latency (warm model)"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "mean_s",
+      "baseline": 0.0099,
+      "agentmamba": 0.0687,
+      "difference": 0.0588,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "mean end-to-end latency per question (warm)"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "median_s",
+      "baseline": 0.0061,
+      "agentmamba": 0.0532,
+      "difference": 0.0471,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "median end-to-end latency (warm)"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "p95_s",
+      "baseline": null,
+      "agentmamba": null,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "95th percentile latency (needs >= 20 observations)"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "generation_mean_s",
+      "baseline": 0.0,
+      "agentmamba": 0.0,
+      "difference": 0.0,
+      "better": "lower",
+      "n_baseline": 10,
+      "n_agentmamba": 10,
+      "definition": "mean Mamba answer scoring time per question where it ran"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "retrieval_mean_s",
+      "baseline": null,
+      "agentmamba": 0.0649,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 0,
+      "n_agentmamba": 7,
+      "definition": "mean retrieval (SQLite + FAISS + channels) time per question where it ran"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "verification_mean_s",
+      "baseline": null,
+      "agentmamba": 0.0208,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 0,
+      "n_agentmamba": 7,
+      "definition": "mean evidence verification time per question where it ran"
+    },
+    {
+      "category": "Efficiency",
+      "metric": "model_load_s",
+      "baseline": null,
+      "agentmamba": null,
+      "difference": null,
+      "better": "lower",
+      "n_baseline": 0,
+      "n_agentmamba": 0,
+      "definition": "one-time model loading (cold start); excluded from query latency"
+    }
+  ],
+  "retrieval_skip_savings": {
+    "n_skipped": 3,
+    "mean_time_saved_s": 0.0548,
+    "definition": "forced-retrieval latency minus conditional latency, same query and context, for queries where AgentMamba skipped retrieval"
+  },
+  "per_question": [
+    {
+      "stage": 1,
+      "question_id": "CP17-Q1",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "8.4 mm/s",
+      "expected": "8.4 mm/s",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-1f01efbc1f1d"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 844,
+      "total_s": 0.0354,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q1",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "8.4 mm/s",
+      "expected": "8.4 mm/s",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "sufficient",
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-1f01efbc1f1d"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 844,
+      "total_s": 0.0059,
+      "generation_s": 0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": 0.0732
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q2",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "WO-CP17-211",
+      "expected": "WO-CP17-211",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-19b3554e3d46"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 841,
+      "total_s": 0.0061,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q2",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "WO-CP17-211",
+      "expected": "WO-CP17-211",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "sufficient",
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-19b3554e3d46"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 841,
+      "total_s": 0.0083,
+      "generation_s": 0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": 0.0439
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q3",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "8.4 mm/s",
+      "expected": "4.1 mm/s",
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-1f01efbc1f1d"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 844,
+      "total_s": 0.0058,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q3",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "4.1 mm/s",
+      "expected": "4.1 mm/s",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "sufficient",
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-3139f23ccc55"
+      ],
+      "evidence_in_context": true,
+      "evidence_covered": true,
+      "context_tokens": 844,
+      "total_s": 0.0075,
+      "generation_s": 0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": 0.0473
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q4",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "8.4 mm/s",
+      "expected": null,
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-1f01efbc1f1d"
+      ],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 847,
+      "total_s": 0.0047,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q4",
+      "system": "agentmamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 847,
+      "total_s": 0.0532,
+      "generation_s": 0,
+      "retrieval_s": 0.0423,
+      "verification_s": 0.0051,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q5",
+      "system": "baseline_mamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 840,
+      "total_s": 0.0034,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 1,
+      "question_id": "CP17-Q5",
+      "system": "agentmamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 840,
+      "total_s": 0.0475,
+      "generation_s": 0,
+      "retrieval_s": 0.037,
+      "verification_s": 0.0032,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q1",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "ALM-HIST-0276",
+      "expected": "8.4 mm/s",
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-192b902f16f3"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": false,
+      "context_tokens": 1864,
+      "total_s": 0.0083,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q1",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "8.4 mm/s",
+      "expected": "8.4 mm/s",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [
+        "LOG-1f01efbc1f1d"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": true,
+      "context_tokens": 1864,
+      "total_s": 0.103,
+      "generation_s": 0,
+      "retrieval_s": 0.0749,
+      "verification_s": 0.017,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q2",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "WO-HIST-0285",
+      "expected": "WO-CP17-211",
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-edf195d95487"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": false,
+      "context_tokens": 1861,
+      "total_s": 0.0097,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q2",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "WO-CP17-211",
+      "expected": "WO-CP17-211",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [
+        "LOG-19b3554e3d46"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": true,
+      "context_tokens": 1861,
+      "total_s": 0.1103,
+      "generation_s": 0,
+      "retrieval_s": 0.0709,
+      "verification_s": 0.0244,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q3",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "3.2 mm/s",
+      "expected": "4.1 mm/s",
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-3f7e569996bc"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": false,
+      "context_tokens": 1864,
+      "total_s": 0.0151,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q3",
+      "system": "agentmamba",
+      "answer_status": "answered",
+      "answer_value": "4.1 mm/s",
+      "expected": "4.1 mm/s",
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [
+        "LOG-3139f23ccc55"
+      ],
+      "evidence_in_context": false,
+      "evidence_covered": true,
+      "context_tokens": 1864,
+      "total_s": 0.1087,
+      "generation_s": 0,
+      "retrieval_s": 0.0675,
+      "verification_s": 0.0299,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q4",
+      "system": "baseline_mamba",
+      "answer_status": "answered",
+      "answer_value": "ALM-HIST-0276",
+      "expected": null,
+      "correct": false,
+      "grounded_correct": false,
+      "unsupported": true,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [
+        "LOG-192b902f16f3"
+      ],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 1867,
+      "total_s": 0.0083,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q4",
+      "system": "agentmamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 1867,
+      "total_s": 0.1207,
+      "generation_s": 0,
+      "retrieval_s": 0.0785,
+      "verification_s": 0.0341,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q5",
+      "system": "baseline_mamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": null,
+      "retrieval_triggered": false,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 1860,
+      "total_s": 0.0023,
+      "generation_s": 0.0,
+      "retrieval_s": null,
+      "verification_s": null,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    },
+    {
+      "stage": 2,
+      "question_id": "CP17-Q5",
+      "system": "agentmamba",
+      "answer_status": "abstained",
+      "answer_value": null,
+      "expected": null,
+      "correct": true,
+      "grounded_correct": true,
+      "unsupported": false,
+      "sufficiency": "insufficient",
+      "retrieval_triggered": true,
+      "evidence_ids": [],
+      "evidence_in_context": null,
+      "evidence_covered": null,
+      "context_tokens": 1860,
+      "total_s": 0.1219,
+      "generation_s": 0,
+      "retrieval_s": 0.0829,
+      "verification_s": 0.0319,
+      "candidate_share": null,
+      "time_saved_by_skipping_s": null
+    }
+  ]
+}

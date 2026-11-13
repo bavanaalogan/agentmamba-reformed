@@ -1,0 +1,24 @@
+{
+  "benchmark": "logbench-v1",
+  "seed": 2026,
+  "synthetic": true,
+  "splits": {
+    "dev": [
+      "P4",
+      "P7",
+      "P8"
+    ],
+    "test": [
+      "P1",
+      "P2",
+      "P3",
+      "P5",
+      "P6"
+    ]
+  },
+  "n_questions": {
+    "dev": 45,
+    "test": 75
+  },
+  "note": "Fictional data imitating operational log formats. Not plant data."
+}

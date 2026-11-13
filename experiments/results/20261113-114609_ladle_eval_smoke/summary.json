@@ -1,0 +1,642 @@
+{
+  "experiment": "ladle_eval",
+  "answerer": "first_candidate",
+  "window_tokens": 2048,
+  "datasets": {
+    "short": {
+      "final_stage": 1,
+      "by_system": {
+        "baseline_mamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.45,
+          "accuracy_ci95": [
+            0.3167,
+            0.5833
+          ],
+          "answerable_accuracy": 0.675,
+          "correct_abstention_rate": 0.0,
+          "conflict_detection_rate": 0.0,
+          "incorrect_answer_rate": 0.55,
+          "unsupported_claim_rate": 0.55,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 1.0,
+          "retrieval_trigger_rate": 0.0,
+          "latency_total_s_median_all": 0.0052,
+          "latency_total_s_median_cold": null,
+          "n_cold": 0,
+          "prompt_tokens_median": null,
+          "records_available_mean": 20.0
+        },
+        "agentmamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.9333333333333333,
+          "accuracy_ci95": [
+            0.8667,
+            0.9833
+          ],
+          "answerable_accuracy": 0.9,
+          "correct_abstention_rate": 1.0,
+          "conflict_detection_rate": 1.0,
+          "incorrect_answer_rate": 0.0,
+          "unsupported_claim_rate": 0.0,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 1.0,
+          "retrieval_trigger_rate": 0.4,
+          "latency_total_s_median_all": 0.009049999999999999,
+          "latency_total_s_median_cold": null,
+          "n_cold": 0,
+          "prompt_tokens_median": null,
+          "records_available_mean": 20.0
+        }
+      },
+      "by_stage": {
+        "baseline_mamba": {
+          "1": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.45,
+            "accuracy_ci95": [
+              0.3167,
+              0.5833
+            ],
+            "answerable_accuracy": 0.675,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.55,
+            "unsupported_claim_rate": 0.55,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 1.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 0.0052,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 20.0
+          }
+        },
+        "agentmamba": {
+          "1": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 1.0,
+            "retrieval_trigger_rate": 0.4,
+            "latency_total_s_median_all": 0.009049999999999999,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 20.0
+          }
+        }
+      },
+      "by_family": {
+        "baseline_mamba": {
+          "alarm_at_time": 1.0,
+          "alarm_paraphrase": 1.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 0.0,
+          "conflicting_readings": 0.0,
+          "inspection_finding": 0.75,
+          "inspection_paraphrase": 0.75,
+          "maint_action": 1.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 0.5,
+          "rca_paraphrase": 0.75,
+          "rca_undocumented": 0.0,
+          "sensor_at_time": 0.0,
+          "unknown_ladle": 0.0,
+          "wrong_date": 0.0
+        },
+        "agentmamba": {
+          "alarm_at_time": 1.0,
+          "alarm_paraphrase": 1.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 1.0,
+          "conflicting_readings": 1.0,
+          "inspection_finding": 1.0,
+          "inspection_paraphrase": 1.0,
+          "maint_action": 1.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 1.0,
+          "rca_paraphrase": 1.0,
+          "rca_undocumented": 1.0,
+          "sensor_at_time": 1.0,
+          "unknown_ladle": 1.0,
+          "wrong_date": 1.0
+        }
+      },
+      "paired_correct": {
+        "n_pairs": 60,
+        "a": 0.45,
+        "b": 0.9333,
+        "diff_b_minus_a": 0.4833,
+        "relative_change": 1.0741,
+        "diff_ci95": [
+          0.3667,
+          0.6
+        ],
+        "mcnemar_p": 0.0,
+        "a_only": 0,
+        "b_only": 29,
+        "note": "questions within a scenario are not independent; CIs/p-values treat pairs as independent"
+      }
+    },
+    "long": {
+      "final_stage": 4,
+      "by_system": {
+        "baseline_mamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.0,
+          "accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "answerable_accuracy": 0.0,
+          "correct_abstention_rate": 0.0,
+          "conflict_detection_rate": 0.0,
+          "incorrect_answer_rate": 0.7333333333333333,
+          "unsupported_claim_rate": 1.0,
+          "required_evidence_coverage": 0.0,
+          "evidence_in_context_rate": 0.0,
+          "retrieval_trigger_rate": 0.0,
+          "latency_total_s_median_all": 0.0039,
+          "latency_total_s_median_cold": null,
+          "n_cold": 0,
+          "prompt_tokens_median": null,
+          "records_available_mean": 3005.5
+        },
+        "agentmamba": {
+          "n": 60,
+          "n_value": 40,
+          "n_abstain_gold": 16,
+          "n_conflict_gold": 4,
+          "accuracy": 0.9333333333333333,
+          "accuracy_ci95": [
+            0.8667,
+            0.9833
+          ],
+          "answerable_accuracy": 0.9,
+          "correct_abstention_rate": 1.0,
+          "conflict_detection_rate": 1.0,
+          "incorrect_answer_rate": 0.0,
+          "unsupported_claim_rate": 0.0,
+          "required_evidence_coverage": 1.0,
+          "evidence_in_context_rate": 0.0,
+          "retrieval_trigger_rate": 1.0,
+          "latency_total_s_median_all": 0.2283,
+          "latency_total_s_median_cold": null,
+          "n_cold": 0,
+          "prompt_tokens_median": null,
+          "records_available_mean": 3005.5
+        }
+      },
+      "by_stage": {
+        "baseline_mamba": {
+          "2": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.23333333333333334,
+            "accuracy_ci95": [
+              0.1333,
+              0.35
+            ],
+            "answerable_accuracy": 0.2,
+            "correct_abstention_rate": 0.375,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.4666666666666667,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 0.0049,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 333.0
+          },
+          "3": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.06666666666666667,
+            "accuracy_ci95": [
+              0.0167,
+              0.1333
+            ],
+            "answerable_accuracy": 0.1,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.9333333333333333,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 0.0093,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 488.5
+          },
+          "4": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.0,
+            "accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "answerable_accuracy": 0.0,
+            "correct_abstention_rate": 0.0,
+            "conflict_detection_rate": 0.0,
+            "incorrect_answer_rate": 0.7333333333333333,
+            "unsupported_claim_rate": 1.0,
+            "required_evidence_coverage": 0.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 0.0,
+            "latency_total_s_median_all": 0.0039,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 3005.5
+          }
+        },
+        "agentmamba": {
+          "2": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 0.0683,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 333.0
+          },
+          "3": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 0.08205000000000001,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 488.5
+          },
+          "4": {
+            "n": 60,
+            "n_value": 40,
+            "n_abstain_gold": 16,
+            "n_conflict_gold": 4,
+            "accuracy": 0.9333333333333333,
+            "accuracy_ci95": [
+              0.8667,
+              0.9833
+            ],
+            "answerable_accuracy": 0.9,
+            "correct_abstention_rate": 1.0,
+            "conflict_detection_rate": 1.0,
+            "incorrect_answer_rate": 0.0,
+            "unsupported_claim_rate": 0.0,
+            "required_evidence_coverage": 1.0,
+            "evidence_in_context_rate": 0.0,
+            "retrieval_trigger_rate": 1.0,
+            "latency_total_s_median_all": 0.2283,
+            "latency_total_s_median_cold": null,
+            "n_cold": 0,
+            "prompt_tokens_median": null,
+            "records_available_mean": 3005.5
+          }
+        }
+      },
+      "by_family": {
+        "baseline_mamba": {
+          "alarm_at_time": 0.0,
+          "alarm_paraphrase": 0.0,
+          "clearance_documented": 0.0,
+          "clearance_undocumented": 0.0,
+          "conflicting_readings": 0.0,
+          "inspection_finding": 0.0,
+          "inspection_paraphrase": 0.0,
+          "maint_action": 0.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 0.0,
+          "rca_paraphrase": 0.0,
+          "rca_undocumented": 0.0,
+          "sensor_at_time": 0.0,
+          "unknown_ladle": 0.0,
+          "wrong_date": 0.0
+        },
+        "agentmamba": {
+          "alarm_at_time": 1.0,
+          "alarm_paraphrase": 1.0,
+          "clearance_documented": 1.0,
+          "clearance_undocumented": 1.0,
+          "conflicting_readings": 1.0,
+          "inspection_finding": 1.0,
+          "inspection_paraphrase": 1.0,
+          "maint_action": 1.0,
+          "maint_action_paraphrase": 0.0,
+          "rca_documented": 1.0,
+          "rca_paraphrase": 1.0,
+          "rca_undocumented": 1.0,
+          "sensor_at_time": 1.0,
+          "unknown_ladle": 1.0,
+          "wrong_date": 1.0
+        }
+      },
+      "paired_correct": {
+        "n_pairs": 60,
+        "a": 0.0,
+        "b": 0.9333,
+        "diff_b_minus_a": 0.9333,
+        "relative_change": null,
+        "diff_ci95": [
+          0.8667,
+          0.9833
+        ],
+        "mcnemar_p": 0.0,
+        "a_only": 0,
+        "b_only": 56,
+        "note": "questions within a scenario are not independent; CIs/p-values treat pairs as independent"
+      }
+    }
+  },
+  "wall_s": 96.3,
+  "ingestion": [
+    {
+      "dataset": "short",
+      "scenario": "SMS1",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1321,
+      "ingest_s": 5.446
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS2",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1302,
+      "ingest_s": 0.188
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS3",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1317,
+      "ingest_s": 0.202
+    },
+    {
+      "dataset": "short",
+      "scenario": "SMS4",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1310,
+      "ingest_s": 0.205
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1321,
+      "ingest_s": 0.163
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23541,
+      "ingest_s": 1.493
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 3,
+      "received": 162,
+      "written": 162,
+      "duplicates": 0,
+      "records_available": 495,
+      "history_tokens": 37231,
+      "ingest_s": 1.045
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS1",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3012,
+      "history_tokens": 228273,
+      "ingest_s": 12.4
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1302,
+      "ingest_s": 0.199
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23524,
+      "ingest_s": 1.413
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 3,
+      "received": 154,
+      "written": 154,
+      "duplicates": 0,
+      "records_available": 487,
+      "history_tokens": 36502,
+      "ingest_s": 0.89
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS2",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3004,
+      "history_tokens": 227680,
+      "ingest_s": 12.049
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1317,
+      "ingest_s": 0.185
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23526,
+      "ingest_s": 1.505
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 3,
+      "received": 157,
+      "written": 157,
+      "duplicates": 0,
+      "records_available": 490,
+      "history_tokens": 36834,
+      "ingest_s": 0.967
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS3",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 3007,
+      "history_tokens": 228028,
+      "ingest_s": 12.326
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 1,
+      "received": 20,
+      "written": 20,
+      "duplicates": 0,
+      "records_available": 20,
+      "history_tokens": 1310,
+      "ingest_s": 0.181
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 2,
+      "received": 316,
+      "written": 313,
+      "duplicates": 3,
+      "records_available": 333,
+      "history_tokens": 23527,
+      "ingest_s": 1.702
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 3,
+      "received": 149,
+      "written": 149,
+      "duplicates": 0,
+      "records_available": 482,
+      "history_tokens": 36002,
+      "ingest_s": 0.984
+    },
+    {
+      "dataset": "long",
+      "scenario": "SMS4",
+      "stage": 4,
+      "received": 2517,
+      "written": 2517,
+      "duplicates": 0,
+      "records_available": 2999,
+      "history_tokens": 227135,
+      "ingest_s": 12.115
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{"question_id": "UCI851-Q0001", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-01, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0002", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0003", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0004", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0005", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0006", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0007", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0008", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-01-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0009", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0010", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0011", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-01-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0012", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0013", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-13, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0014", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0015", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-01-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0016", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-16, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0017", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-01-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0018", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-18, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0019", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0020", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-20, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0021", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-01-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0022", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0023", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-23, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0024", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-01-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0025", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-01-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0026", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-01-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0027", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-27, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0028", "campaign_id": "UCI851", "split": "train", "text": "On 2018-01-28, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0029", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-01-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0030", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-01-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0031", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-01-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0032", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0033", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0034", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0035", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0036", "campaign_id": "UCI851", "split": "train", "text": "On 2018-02-05, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0037", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-02-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0038", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0039", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0040", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0041", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0042", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0043", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0044", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0045", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-02-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0046", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0047", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0048", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0049", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-02-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0050", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0051", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0052", "campaign_id": "UCI851", "split": "train", "text": "On 2018-02-21, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0053", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0054", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0055", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0056", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0057", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-02-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0058", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-02-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0059", "campaign_id": "UCI851", "split": "train", "text": "On 2018-02-28, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0060", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0061", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0062", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0063", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0064", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-05, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0065", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0066", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-07, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0067", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0068", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-09, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0069", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0070", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-03-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0071", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0072", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0073", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0074", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0075", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-16, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0076", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0077", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-18, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0078", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0079", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0080", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-03-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0081", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0082", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-03-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0083", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0084", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-25, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0085", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-03-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0086", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0087", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-03-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0088", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-03-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0089", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-03-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0090", "campaign_id": "UCI851", "split": "train", "text": "On 2018-03-31, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0091", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0092", "campaign_id": "UCI851", "split": "train", "text": "On 2018-04-02, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0093", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0094", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0095", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0096", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0097", "campaign_id": "UCI851", "split": "train", "text": "On 2018-04-07, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0098", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0099", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0100", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0101", "campaign_id": "UCI851", "split": "train", "text": "On 2018-04-11, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0102", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-04-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0103", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0104", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-04-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0105", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0106", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0107", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0108", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0109", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0110", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0111", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-04-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0112", "campaign_id": "UCI851", "split": "train", "text": "On 2018-04-22, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0113", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0114", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0115", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0116", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-04-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0117", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0118", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0119", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-04-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0120", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-04-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0121", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0122", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0123", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-05-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0124", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0125", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-05-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0126", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-05-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0127", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0128", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-05-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0129", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0130", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0131", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0132", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0133", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0134", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0135", "campaign_id": "UCI851", "split": "train", "text": "On 2018-05-15, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0136", "campaign_id": "UCI851", "split": "train", "text": "On 2018-05-16, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0137", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-05-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0138", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0139", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-05-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0140", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-05-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0141", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0142", "campaign_id": "UCI851", "split": "train", "text": "On 2018-05-22, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0143", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0144", "campaign_id": "UCI851", "split": "train", "text": "On 2018-05-24, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0145", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0146", "campaign_id": "UCI851", "split": "train", "text": "On 2018-05-26, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0147", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0148", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0149", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0150", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-05-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0151", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-05-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0152", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0153", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0154", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0155", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0156", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0157", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0158", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0159", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0160", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0161", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0162", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0163", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-06-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0164", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0165", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0166", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0167", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0168", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0169", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-06-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0170", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0171", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0172", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-06-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0173", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0174", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0175", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-06-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0176", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0177", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-06-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0178", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0179", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-06-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0180", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-06-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0181", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-06-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0182", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0183", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0184", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0185", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0186", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-05, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0187", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-06, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0188", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-07-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0189", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0190", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-07-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0191", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-10, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0192", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0193", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0194", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-07-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0195", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-14, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0196", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-07-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0197", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-07-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0198", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-17, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0199", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-07-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0200", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0201", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0202", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0203", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-07-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0204", "campaign_id": "UCI851", "split": "train", "text": "On 2018-07-23, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0205", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0206", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0207", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0208", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0209", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0210", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-07-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0211", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-07-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0212", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-07-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0213", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0214", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0215", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0216", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0217", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-08-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0218", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0219", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-08-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0220", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0221", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-08-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0222", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0223", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0224", "campaign_id": "UCI851", "split": "train", "text": "On 2018-08-12, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0225", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-08-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0226", "campaign_id": "UCI851", "split": "train", "text": "On 2018-08-14, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0227", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-08-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0228", "campaign_id": "UCI851", "split": "train", "text": "On 2018-08-16, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0229", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0230", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0231", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0232", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0233", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0234", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-08-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0235", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0236", "campaign_id": "UCI851", "split": "train", "text": "On 2018-08-24, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0237", "campaign_id": "UCI851", "split": "train", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-08-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0238", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0239", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0240", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0241", "campaign_id": "UCI851", "split": "train", "text": "On 2018-08-29, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0242", "campaign_id": "UCI851", "split": "train", "text": "What was the dominant load type at UCI851-PLANT on 2018-08-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0243", "campaign_id": "UCI851", "split": "train", "text": "How much energy did UCI851-PLANT use in total on 2018-08-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0244", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0245", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-02, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0246", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0247", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0248", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0249", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0250", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0251", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-09-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0252", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-09, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0253", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-10, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0254", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0255", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0256", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0257", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0258", "campaign_id": "UCI851", "split": "val", "text": "How much energy did UCI851-PLANT use in total on 2018-09-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0259", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0260", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0261", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-09-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0262", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0263", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0264", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-21, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0265", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-22, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0266", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-09-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0267", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0268", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-09-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0269", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0270", "campaign_id": "UCI851", "split": "val", "text": "On 2018-09-27, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0271", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-09-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0272", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0273", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-09-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0274", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-10-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0275", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0276", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0277", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-04, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0278", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0279", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0280", "campaign_id": "UCI851", "split": "val", "text": "How much energy did UCI851-PLANT use in total on 2018-10-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0281", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0282", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0283", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-10, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0284", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0285", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0286", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-10-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0287", "campaign_id": "UCI851", "split": "val", "text": "How much energy did UCI851-PLANT use in total on 2018-10-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0288", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0289", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0290", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-17, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0291", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0292", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-10-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0293", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-20, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0294", "campaign_id": "UCI851", "split": "val", "text": "How much energy did UCI851-PLANT use in total on 2018-10-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0295", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0296", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0297", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-10-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0298", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0299", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0300", "campaign_id": "UCI851", "split": "val", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-10-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0301", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-28, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0302", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0303", "campaign_id": "UCI851", "split": "val", "text": "What was the dominant load type at UCI851-PLANT on 2018-10-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0304", "campaign_id": "UCI851", "split": "val", "text": "On 2018-10-31, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0305", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0306", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0307", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0308", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0309", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-11-05?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0310", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-11-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0311", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0312", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0313", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0314", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-10?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0315", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0316", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-11-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0317", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0318", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0319", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-11-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0320", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-11-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0321", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-11-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0322", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0323", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0324", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0325", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0326", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-11-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0327", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-11-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0328", "campaign_id": "UCI851", "split": "test", "text": "On 2018-11-24, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0329", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0330", "campaign_id": "UCI851", "split": "test", "text": "On 2018-11-26, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0331", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0332", "campaign_id": "UCI851", "split": "test", "text": "On 2018-11-28, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0333", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-11-29?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0334", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-11-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0335", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0336", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-02?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0337", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-12-03?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0338", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-12-04?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0339", "campaign_id": "UCI851", "split": "test", "text": "On 2018-12-05, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0340", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-06?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0341", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-07?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0342", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-12-08?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0343", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-09?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0344", "campaign_id": "UCI851", "split": "test", "text": "On 2018-12-10, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0345", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-11?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0346", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-12?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0347", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-12-13?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0348", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-12-14?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0349", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0350", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-16?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0351", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-12-17?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0352", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-12-18?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0353", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-19?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0354", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-20?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0355", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-21?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0356", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-12-22?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0357", "campaign_id": "UCI851", "split": "test", "text": "What total energy usage was recorded at UCI851-PLANT on 2018-12-23?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0358", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2018-12-24?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0359", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-25?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0360", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-26?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0361", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-27?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0362", "campaign_id": "UCI851", "split": "test", "text": "How much energy did UCI851-PLANT use in total on 2018-12-28?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0363", "campaign_id": "UCI851", "split": "test", "text": "On 2018-12-29, what was the highest 15-minute usage reading at UCI851-PLANT?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0364", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-30?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0365", "campaign_id": "UCI851", "split": "test", "text": "What was the dominant load type at UCI851-PLANT on 2018-12-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0366", "campaign_id": "UCI851", "split": "train", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2019-03-01?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0367", "campaign_id": "UCI851", "split": "val", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2019-06-15?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0368", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2017-12-31?", "initial_context_ids": []}
+{"question_id": "UCI851-Q0369", "campaign_id": "UCI851", "split": "test", "text": "What peak 15-minute energy usage was recorded at UCI851-PLANT on 2019-01-20?", "initial_context_ids": []}

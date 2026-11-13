@@ -1,0 +1,42 @@
+{
+  "model": "state-spaces/mamba-130m-hf",
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "timestamp_utc": "2026-10-25T05:14:48+00:00",
+    "torch": "2.8.0+cpu",
+    "transformers": "5.20.2",
+    "sentence_transformers": "6.1.0",
+    "faiss": "1.15.1",
+    "sklearn": "1.9.1",
+    "numpy": "1.26.4"
+  },
+  "load_seconds": 3.05,
+  "rss_mb_after_load": 546.0,
+  "n_params": 129135360,
+  "architecture": "MambaForCausalLM",
+  "config": {
+    "hidden_size": 768,
+    "num_hidden_layers": 24,
+    "state_size": 16,
+    "vocab_size": 50280
+  },
+  "forward_batch32_seconds": 3.837,
+  "tokens_per_record": 26,
+  "hidden_state_shape": [
+    32,
+    26,
+    768
+  ],
+  "generate_16_tokens_seconds": 2.081,
+  "qa_probe": {
+    "greedy": " Caster C01-CC1 cast heat C01-H0012.\n",
+    "candidate_mean_logprob": {
+      "C01-LD04": -1.0652,
+      "C01-LD02": -1.1256,
+      "C01-CS03": -0.9344
+    }
+  },
+  "rss_mb_peak_delta": 1565.1
+}

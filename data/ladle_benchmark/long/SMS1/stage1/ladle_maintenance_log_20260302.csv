@@ -1,0 +1,4 @@
+timestamp,equipment,work_order,action,technician,status
+2026-03-02T10:15:00,LADLE-03,WO-SMS1-14507,replaced well block,J. Moreau,completed
+2026-03-02T12:30:00,LADLE-12,WO-SMS1-13782,gunned hot spot on the ladle barrel,A. Haddad,completed
+2026-03-02T13:10:00,LADLE-07,WO-SMS1-52265,replaced slide gate plates,S. Lindqvist,completed
